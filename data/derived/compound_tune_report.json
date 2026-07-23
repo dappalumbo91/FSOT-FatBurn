@@ -1,0 +1,565 @@
+{
+  "blend": 0.65,
+  "rows": [
+    {
+      "agent_id": "caffeine",
+      "before": {
+        "lipolytic": 0.45,
+        "alpha2_antagonist": 0.0,
+        "thermogenic": 0.4,
+        "appetite_suppress": 0.15,
+        "diuretic": 0.05,
+        "insulin_sensitizer": 0.0
+      },
+      "after": {
+        "lipolytic": 0.45,
+        "alpha2_antagonist": 0.0,
+        "thermogenic": 0.375625,
+        "appetite_suppress": 0.15,
+        "diuretic": 0.05,
+        "insulin_sensitizer": 0.0
+      },
+      "targets": {
+        "thermogenic": 0.36249999999999993
+      },
+      "anchors": 1
+    },
+    {
+      "agent_id": "egcg",
+      "before": {
+        "lipolytic": 0.25,
+        "alpha2_antagonist": 0.0,
+        "thermogenic": 0.3,
+        "appetite_suppress": 0.05,
+        "diuretic": 0.0,
+        "insulin_sensitizer": 0.1
+      },
+      "after": {
+        "lipolytic": 0.25,
+        "alpha2_antagonist": 0.0,
+        "thermogenic": 0.24475000000000002,
+        "appetite_suppress": 0.05,
+        "diuretic": 0.0,
+        "insulin_sensitizer": 0.1
+      },
+      "targets": {
+        "thermogenic": 0.215
+      },
+      "anchors": 1
+    },
+    {
+      "agent_id": "capsaicin",
+      "before": {
+        "lipolytic": 0.3,
+        "alpha2_antagonist": 0.0,
+        "thermogenic": 0.45,
+        "appetite_suppress": 0.1,
+        "diuretic": 0.0,
+        "insulin_sensitizer": 0.0
+      },
+      "after": {
+        "lipolytic": 0.3,
+        "alpha2_antagonist": 0.0,
+        "thermogenic": 0.33625000000000005,
+        "appetite_suppress": 0.1,
+        "diuretic": 0.0,
+        "insulin_sensitizer": 0.0
+      },
+      "targets": {
+        "thermogenic": 0.275
+      },
+      "anchors": 1
+    },
+    {
+      "agent_id": "yohimbine",
+      "before": {
+        "lipolytic": 0.55,
+        "alpha2_antagonist": 0.85,
+        "thermogenic": 0.15,
+        "appetite_suppress": 0.1,
+        "diuretic": 0.0,
+        "insulin_sensitizer": 0.0
+      },
+      "after": {
+        "lipolytic": 0.485,
+        "alpha2_antagonist": 0.7091666666666667,
+        "thermogenic": 0.15,
+        "appetite_suppress": 0.1,
+        "diuretic": 0.0,
+        "insulin_sensitizer": 0.0
+      },
+      "targets": {
+        "lipolytic": 0.44999999999999996,
+        "alpha2_antagonist": 0.6333333333333333
+      },
+      "anchors": 1
+    },
+    {
+      "agent_id": "synephrine",
+      "before": {
+        "lipolytic": 0.35,
+        "alpha2_antagonist": 0.1,
+        "thermogenic": 0.35,
+        "appetite_suppress": 0.15,
+        "diuretic": 0.0,
+        "insulin_sensitizer": 0.0
+      },
+      "after": {
+        "lipolytic": 0.35,
+        "alpha2_antagonist": 0.1,
+        "thermogenic": 0.335375,
+        "appetite_suppress": 0.15,
+        "diuretic": 0.0,
+        "insulin_sensitizer": 0.0
+      },
+      "targets": {
+        "thermogenic": 0.3275
+      },
+      "anchors": 1
+    },
+    {
+      "agent_id": "forskolin",
+      "before": {
+        "lipolytic": 0.5,
+        "alpha2_antagonist": 0.0,
+        "thermogenic": 0.2,
+        "appetite_suppress": 0.0,
+        "diuretic": 0.0,
+        "insulin_sensitizer": 0.0
+      },
+      "after": {
+        "lipolytic": 0.5433333333333333,
+        "alpha2_antagonist": 0.0,
+        "thermogenic": 0.2,
+        "appetite_suppress": 0.0,
+        "diuretic": 0.0,
+        "insulin_sensitizer": 0.0
+      },
+      "targets": {
+        "lipolytic": 0.5666666666666667
+      },
+      "anchors": 1
+    },
+    {
+      "agent_id": "l_carnitine",
+      "before": {
+        "lipolytic": 0.15,
+        "alpha2_antagonist": 0.0,
+        "thermogenic": 0.05,
+        "appetite_suppress": 0.0,
+        "diuretic": 0.0,
+        "insulin_sensitizer": 0.05
+      },
+      "after": {
+        "lipolytic": 0.106125,
+        "alpha2_antagonist": 0.0,
+        "thermogenic": 0.05,
+        "appetite_suppress": 0.0,
+        "diuretic": 0.0,
+        "insulin_sensitizer": 0.05
+      },
+      "targets": {
+        "lipolytic": 0.0825
+      },
+      "anchors": 1
+    },
+    {
+      "agent_id": "berberine",
+      "before": {
+        "lipolytic": 0.1,
+        "alpha2_antagonist": 0.0,
+        "thermogenic": 0.05,
+        "appetite_suppress": 0.05,
+        "diuretic": 0.0,
+        "insulin_sensitizer": 0.55
+      },
+      "after": {
+        "lipolytic": 0.1,
+        "alpha2_antagonist": 0.0,
+        "thermogenic": 0.05,
+        "appetite_suppress": 0.0825,
+        "diuretic": 0.0,
+        "insulin_sensitizer": 0.411875
+      },
+      "targets": {
+        "insulin_sensitizer": 0.3375,
+        "appetite_suppress": 0.1
+      },
+      "anchors": 1
+    },
+    {
+      "agent_id": "metformin",
+      "before": {
+        "lipolytic": 0.1,
+        "alpha2_antagonist": 0.0,
+        "thermogenic": 0.05,
+        "appetite_suppress": 0.05,
+        "diuretic": 0.0,
+        "insulin_sensitizer": 0.7
+      },
+      "after": {
+        "lipolytic": 0.1,
+        "alpha2_antagonist": 0.0,
+        "thermogenic": 0.05,
+        "appetite_suppress": 0.084125,
+        "diuretic": 0.0,
+        "insulin_sensitizer": 0.46884375
+      },
+      "targets": {
+        "insulin_sensitizer": 0.34437500000000004,
+        "appetite_suppress": 0.10250000000000001
+      },
+      "anchors": 1
+    },
+    {
+      "agent_id": "orlistat",
+      "before": {
+        "lipolytic": 0.05,
+        "alpha2_antagonist": 0.0,
+        "thermogenic": 0.0,
+        "appetite_suppress": 0.0,
+        "diuretic": 0.0,
+        "insulin_sensitizer": 0.0
+      },
+      "after": {
+        "lipolytic": 0.06047222222222223,
+        "alpha2_antagonist": 0.0,
+        "thermogenic": 0.0,
+        "appetite_suppress": 0.058680555555555555,
+        "diuretic": 0.0,
+        "insulin_sensitizer": 0.0
+      },
+      "targets": {
+        "appetite_suppress": 0.09027777777777778,
+        "lipolytic": 0.06611111111111112
+      },
+      "anchors": 1
+    },
+    {
+      "agent_id": "semaglutide",
+      "before": {
+        "lipolytic": 0.05,
+        "alpha2_antagonist": 0.0,
+        "thermogenic": 0.0,
+        "appetite_suppress": 0.95,
+        "diuretic": 0.0,
+        "insulin_sensitizer": 0.15
+      },
+      "after": {
+        "lipolytic": 0.05,
+        "alpha2_antagonist": 0.0,
+        "thermogenic": 0.0,
+        "appetite_suppress": 0.8136805555555555,
+        "diuretic": 0.0,
+        "insulin_sensitizer": 0.15
+      },
+      "targets": {
+        "appetite_suppress": 0.7402777777777778
+      },
+      "anchors": 1
+    },
+    {
+      "agent_id": "tirzepatide",
+      "before": {
+        "lipolytic": 0.05,
+        "alpha2_antagonist": 0.0,
+        "thermogenic": 0.0,
+        "appetite_suppress": 0.98,
+        "diuretic": 0.0,
+        "insulin_sensitizer": 0.2
+      },
+      "after": {
+        "lipolytic": 0.05,
+        "alpha2_antagonist": 0.0,
+        "thermogenic": 0.0,
+        "appetite_suppress": 0.986861111111111,
+        "diuretic": 0.0,
+        "insulin_sensitizer": 0.2
+      },
+      "targets": {
+        "appetite_suppress": 0.9905555555555554
+      },
+      "anchors": 1
+    },
+    {
+      "agent_id": "phentermine",
+      "before": {
+        "lipolytic": 0.25,
+        "alpha2_antagonist": 0.0,
+        "thermogenic": 0.3,
+        "appetite_suppress": 0.8,
+        "diuretic": 0.0,
+        "insulin_sensitizer": 0.0
+      },
+      "after": {
+        "lipolytic": 0.25,
+        "alpha2_antagonist": 0.0,
+        "thermogenic": 0.3,
+        "appetite_suppress": 0.47296874999999994,
+        "diuretic": 0.0,
+        "insulin_sensitizer": 0.0
+      },
+      "targets": {
+        "appetite_suppress": 0.296875
+      },
+      "anchors": 1
+    },
+    {
+      "agent_id": "nicotine",
+      "before": {
+        "lipolytic": 0.2,
+        "alpha2_antagonist": 0.0,
+        "thermogenic": 0.35,
+        "appetite_suppress": 0.4,
+        "diuretic": 0.0,
+        "insulin_sensitizer": 0.0
+      },
+      "after": {
+        "lipolytic": 0.2,
+        "alpha2_antagonist": 0.0,
+        "thermogenic": 0.6425,
+        "appetite_suppress": 0.46499999999999997,
+        "diuretic": 0.0,
+        "insulin_sensitizer": 0.0
+      },
+      "targets": {
+        "thermogenic": 0.7999999999999999,
+        "appetite_suppress": 0.5
+      },
+      "anchors": 1
+    },
+    {
+      "agent_id": "furosemide",
+      "before": {
+        "lipolytic": 0.0,
+        "alpha2_antagonist": 0.0,
+        "thermogenic": 0.0,
+        "appetite_suppress": 0.0,
+        "diuretic": 0.95,
+        "insulin_sensitizer": 0.0
+      },
+      "after": {
+        "lipolytic": 0.0,
+        "alpha2_antagonist": 0.0,
+        "thermogenic": 0.0,
+        "appetite_suppress": 0.0,
+        "diuretic": 0.8443750000000001,
+        "insulin_sensitizer": 0.0
+      },
+      "targets": {
+        "diuretic": 0.7875000000000001
+      },
+      "anchors": 1
+    },
+    {
+      "agent_id": "spironolactone",
+      "before": {
+        "lipolytic": 0.0,
+        "alpha2_antagonist": 0.0,
+        "thermogenic": 0.0,
+        "appetite_suppress": 0.0,
+        "diuretic": 0.7,
+        "insulin_sensitizer": 0.0
+      },
+      "after": {
+        "lipolytic": 0.0,
+        "alpha2_antagonist": 0.0,
+        "thermogenic": 0.0,
+        "appetite_suppress": 0.0,
+        "diuretic": 0.609,
+        "insulin_sensitizer": 0.0
+      },
+      "targets": {
+        "diuretic": 0.56
+      },
+      "anchors": 1
+    },
+    {
+      "agent_id": "dandelion_k",
+      "before": {
+        "lipolytic": 0.0,
+        "alpha2_antagonist": 0.0,
+        "thermogenic": 0.0,
+        "appetite_suppress": 0.0,
+        "diuretic": 0.25,
+        "insulin_sensitizer": 0.0
+      },
+      "after": {
+        "lipolytic": 0.0,
+        "alpha2_antagonist": 0.0,
+        "thermogenic": 0.0,
+        "appetite_suppress": 0.0,
+        "diuretic": 0.367,
+        "insulin_sensitizer": 0.0
+      },
+      "targets": {
+        "diuretic": 0.43
+      },
+      "anchors": 1
+    },
+    {
+      "agent_id": "omega3_epa_dha",
+      "before": {
+        "lipolytic": 0.05,
+        "alpha2_antagonist": 0.0,
+        "thermogenic": 0.0,
+        "appetite_suppress": 0.0,
+        "diuretic": 0.0,
+        "insulin_sensitizer": 0.15
+      },
+      "after": {
+        "lipolytic": 0.05,
+        "alpha2_antagonist": 0.0,
+        "thermogenic": 0.0,
+        "appetite_suppress": 0.040625,
+        "diuretic": 0.0,
+        "insulin_sensitizer": 0.20484375
+      },
+      "targets": {
+        "insulin_sensitizer": 0.234375,
+        "appetite_suppress": 0.0625
+      },
+      "anchors": 1
+    },
+    {
+      "agent_id": "cla",
+      "before": {
+        "lipolytic": 0.15,
+        "alpha2_antagonist": 0.0,
+        "thermogenic": 0.1,
+        "appetite_suppress": 0.0,
+        "diuretic": 0.0,
+        "insulin_sensitizer": 0.0
+      },
+      "after": {
+        "lipolytic": 0.17843749999999997,
+        "alpha2_antagonist": 0.0,
+        "thermogenic": 0.1,
+        "appetite_suppress": 0.0,
+        "diuretic": 0.0,
+        "insulin_sensitizer": 0.0
+      },
+      "targets": {
+        "lipolytic": 0.19374999999999998
+      },
+      "anchors": 1
+    },
+    {
+      "agent_id": "green_coffee_cga",
+      "before": {
+        "lipolytic": 0.15,
+        "alpha2_antagonist": 0.0,
+        "thermogenic": 0.15,
+        "appetite_suppress": 0.05,
+        "diuretic": 0.0,
+        "insulin_sensitizer": 0.1
+      },
+      "after": {
+        "lipolytic": 0.15,
+        "alpha2_antagonist": 0.0,
+        "thermogenic": 0.15,
+        "appetite_suppress": 0.07437500000000001,
+        "diuretic": 0.0,
+        "insulin_sensitizer": 0.17515624999999999
+      },
+      "targets": {
+        "insulin_sensitizer": 0.21562499999999998,
+        "appetite_suppress": 0.08750000000000001
+      },
+      "anchors": 1
+    },
+    {
+      "agent_id": "fucoxanthin",
+      "before": {
+        "lipolytic": 0.2,
+        "alpha2_antagonist": 0.0,
+        "thermogenic": 0.25,
+        "appetite_suppress": 0.0,
+        "diuretic": 0.0,
+        "insulin_sensitizer": 0.0
+      },
+      "after": {
+        "lipolytic": 0.2,
+        "alpha2_antagonist": 0.0,
+        "thermogenic": 0.28250000000000003,
+        "appetite_suppress": 0.0,
+        "diuretic": 0.0,
+        "insulin_sensitizer": 0.0
+      },
+      "targets": {
+        "thermogenic": 0.30000000000000004
+      },
+      "anchors": 1
+    },
+    {
+      "agent_id": "oleoylethanolamide",
+      "before": {
+        "lipolytic": 0.1,
+        "alpha2_antagonist": 0.0,
+        "thermogenic": 0.05,
+        "appetite_suppress": 0.45,
+        "diuretic": 0.0,
+        "insulin_sensitizer": 0.0
+      },
+      "after": {
+        "lipolytic": 0.1,
+        "alpha2_antagonist": 0.0,
+        "thermogenic": 0.05,
+        "appetite_suppress": 0.31390625,
+        "diuretic": 0.0,
+        "insulin_sensitizer": 0.0
+      },
+      "targets": {
+        "appetite_suppress": 0.240625
+      },
+      "anchors": 1
+    },
+    {
+      "agent_id": "acetate_vinegar",
+      "before": {
+        "lipolytic": 0.05,
+        "alpha2_antagonist": 0.0,
+        "thermogenic": 0.05,
+        "appetite_suppress": 0.05,
+        "diuretic": 0.0,
+        "insulin_sensitizer": 0.15
+      },
+      "after": {
+        "lipolytic": 0.05,
+        "alpha2_antagonist": 0.0,
+        "thermogenic": 0.05,
+        "appetite_suppress": 0.0695,
+        "diuretic": 0.0,
+        "insulin_sensitizer": 0.18412499999999998
+      },
+      "targets": {
+        "insulin_sensitizer": 0.20249999999999999,
+        "appetite_suppress": 0.08
+      },
+      "anchors": 1
+    },
+    {
+      "agent_id": "creatine_h2o",
+      "before": {
+        "lipolytic": 0.0,
+        "alpha2_antagonist": 0.0,
+        "thermogenic": 0.0,
+        "appetite_suppress": 0.0,
+        "diuretic": -0.3,
+        "insulin_sensitizer": 0.0
+      },
+      "after": {
+        "lipolytic": 0.0,
+        "alpha2_antagonist": 0.0,
+        "thermogenic": 0.0,
+        "appetite_suppress": 0.0,
+        "diuretic": -0.105,
+        "insulin_sensitizer": 0.0
+      },
+      "targets": {
+        "diuretic": 0.0
+      },
+      "anchors": 1
+    }
+  ]
+}

@@ -1,0 +1,1378 @@
+{
+  "subject": {
+    "sex": "male",
+    "age_y": 35.0,
+    "height_cm": 178.0,
+    "weight_kg": 95.0,
+    "body_fat_pct": 28.0,
+    "activity_factor": 1.35,
+    "steps_per_day": 6000.0,
+    "resistance_sessions_per_week": 2.0,
+    "cardio_minutes_per_week": 60.0
+  },
+  "n_protocols": 15,
+  "ranking": [
+    {
+      "label": "dual_agonist_like",
+      "score": 379.3116878299603,
+      "summary": {
+        "days": 28,
+        "fat_start_kg": 26.6,
+        "fat_end_kg": 22.748827683269255,
+        "fat_lost_kg": 3.8511723167307466,
+        "scale_start_kg": 95.0,
+        "scale_end_kg": 90.91955620819336,
+        "scale_delta_kg": 4.080443791806644,
+        "water_confound_end_kg": 1.0514570498481866,
+        "mean_daily_deficit_kcal": 1059.0723871009548,
+        "mean_fat_burn_index": 0.0755541685518808,
+        "mean_water_retention_index": 0.3110835499248061,
+        "depot_end_kg": {
+          "visceral_omental": 2.727931866325658,
+          "subq_abdominal": 7.155207974994207,
+          "subq_chest": 1.6025557221908415,
+          "subq_back_flanks": 2.962212398604662,
+          "subq_gluteofemoral": 4.844572736324442,
+          "subq_arms": 1.7197214289079858,
+          "subq_face_neck": 0.7119312778141071,
+          "im_ectopic": 1.0246942781073558
+        },
+        "depot_delta_kg": {
+          "visceral_omental": -1.329007635453701,
+          "subq_abdominal": -1.1750411353260795,
+          "subq_chest": -0.2365901852824681,
+          "subq_back_flanks": -0.2833392028188255,
+          "subq_gluteofemoral": -0.22660164089975776,
+          "subq_arms": -0.17351700525571556,
+          "subq_face_neck": -0.09945662254176468,
+          "im_ectopic": -0.32761888915243076
+        },
+        "protocol": {
+          "diet": "moderate_deficit_balanced",
+          "exercise": [
+            "resistance_full_45",
+            "steps_10k"
+          ],
+          "compounds": [
+            "tirzepatide"
+          ]
+        }
+      },
+      "config": {
+        "subject": {
+          "sex": "male",
+          "age_y": 35.0,
+          "height_cm": 178.0,
+          "weight_kg": 90.91955620819336,
+          "body_fat_pct": 25.020830096417924,
+          "activity_factor": 1.35,
+          "steps_per_day": 6000.0,
+          "resistance_sessions_per_week": 2.0,
+          "cardio_minutes_per_week": 60.0
+        },
+        "diet_id": "moderate_deficit_balanced",
+        "exercise_ids": [
+          "resistance_full_45",
+          "steps_10k"
+        ],
+        "compound_ids": [
+          "tirzepatide"
+        ],
+        "days": 28
+      },
+      "rank": 1
+    },
+    {
+      "label": "glp1_like_intake",
+      "score": 374.4852901315569,
+      "summary": {
+        "days": 28,
+        "fat_start_kg": 26.6,
+        "fat_end_kg": 22.798249237478082,
+        "fat_lost_kg": 3.8017507625219196,
+        "scale_start_kg": 95.0,
+        "scale_end_kg": 90.96897776240219,
+        "scale_delta_kg": 4.03102223759781,
+        "water_confound_end_kg": 1.0514570498481866,
+        "mean_daily_deficit_kcal": 1045.4814596935273,
+        "mean_fat_burn_index": 0.07421073177887934,
+        "mean_water_retention_index": 0.3110835499248061,
+        "depot_end_kg": {
+          "visceral_omental": 2.7433663295091844,
+          "subq_abdominal": 7.171021654171596,
+          "subq_chest": 1.6057620785433677,
+          "subq_back_flanks": 2.9661732618375,
+          "subq_gluteofemoral": 4.847866844850005,
+          "subq_arms": 1.7221414753792825,
+          "subq_face_neck": 0.7132837028279425,
+          "im_ectopic": 1.0286338903592038
+        },
+        "depot_delta_kg": {
+          "visceral_omental": -1.313573172270175,
+          "subq_abdominal": -1.1592274561486908,
+          "subq_chest": -0.23338382892994192,
+          "subq_back_flanks": -0.27937833958598723,
+          "subq_gluteofemoral": -0.22330753237419465,
+          "subq_arms": -0.17109695878441888,
+          "subq_face_neck": -0.09810419752792932,
+          "im_ectopic": -0.32367927690058274
+        },
+        "protocol": {
+          "diet": "moderate_deficit_balanced",
+          "exercise": [
+            "resistance_full_45",
+            "steps_10k"
+          ],
+          "compounds": [
+            "semaglutide"
+          ]
+        }
+      },
+      "config": {
+        "subject": {
+          "sex": "male",
+          "age_y": 35.0,
+          "height_cm": 178.0,
+          "weight_kg": 90.96897776240219,
+          "body_fat_pct": 25.06156472047406,
+          "activity_factor": 1.35,
+          "steps_per_day": 6000.0,
+          "resistance_sessions_per_week": 2.0,
+          "cardio_minutes_per_week": 60.0
+        },
+        "diet_id": "moderate_deficit_balanced",
+        "exercise_ids": [
+          "resistance_full_45",
+          "steps_10k"
+        ],
+        "compound_ids": [
+          "semaglutide"
+        ],
+        "days": 28
+      },
+      "rank": 2
+    },
+    {
+      "label": "low_carb_water",
+      "score": 322.884140982582,
+      "summary": {
+        "days": 28,
+        "fat_start_kg": 26.6,
+        "fat_end_kg": 23.40230310327564,
+        "fat_lost_kg": 3.197696896724363,
+        "scale_start_kg": 95.0,
+        "scale_end_kg": 91.38051160825395,
+        "scale_delta_kg": 3.619488391746046,
+        "water_confound_end_kg": 0.6664170099566261,
+        "mean_daily_deficit_kcal": 879.3666465992007,
+        "mean_fat_burn_index": 0.6950993218533049,
+        "mean_water_retention_index": 0.360091420289006,
+        "depot_end_kg": {
+          "visceral_omental": 2.909921224182208,
+          "subq_abdominal": 7.346673408386491,
+          "subq_chest": 1.6515729063863875,
+          "subq_back_flanks": 3.0214576225763783,
+          "subq_gluteofemoral": 4.891938844172842,
+          "subq_arms": 1.7559365803877223,
+          "subq_face_neck": 0.7325922687732307,
+          "im_ectopic": 1.0922102484103766
+        },
+        "depot_delta_kg": {
+          "visceral_omental": -1.1470182775971511,
+          "subq_abdominal": -0.9835757019337956,
+          "subq_chest": -0.1875730010869221,
+          "subq_back_flanks": -0.22409397884710902,
+          "subq_gluteofemoral": -0.1792355330513571,
+          "subq_arms": -0.13730185377597914,
+          "subq_face_neck": -0.07879563158264113,
+          "im_ectopic": -0.26010291884940995
+        },
+        "protocol": {
+          "diet": "high_protein_low_carb",
+          "exercise": [
+            "resistance_full_45",
+            "zone2_bike_40",
+            "steps_10k"
+          ],
+          "compounds": [
+            "caffeine",
+            "berberine"
+          ]
+        }
+      },
+      "config": {
+        "subject": {
+          "sex": "male",
+          "age_y": 35.0,
+          "height_cm": 178.0,
+          "weight_kg": 91.38051160825395,
+          "body_fat_pct": 25.60973088397748,
+          "activity_factor": 1.35,
+          "steps_per_day": 6000.0,
+          "resistance_sessions_per_week": 2.0,
+          "cardio_minutes_per_week": 60.0
+        },
+        "diet_id": "high_protein_low_carb",
+        "exercise_ids": [
+          "resistance_full_45",
+          "zone2_bike_40",
+          "steps_10k"
+        ],
+        "compound_ids": [
+          "caffeine",
+          "berberine"
+        ],
+        "days": 28
+      },
+      "rank": 3
+    },
+    {
+      "label": "hiit_cut",
+      "score": 317.8378782746358,
+      "summary": {
+        "days": 28,
+        "fat_start_kg": 26.6,
+        "fat_end_kg": 23.469882766047437,
+        "fat_lost_kg": 3.1301172339525642,
+        "scale_start_kg": 95.0,
+        "scale_end_kg": 91.42419342855843,
+        "scale_delta_kg": 3.575806571441575,
+        "water_confound_end_kg": 0.6186213250219837,
+        "mean_daily_deficit_kcal": 860.7822393369559,
+        "mean_fat_burn_index": 0.7830174407699177,
+        "mean_water_retention_index": 0.270878192781949,
+        "depot_end_kg": {
+          "visceral_omental": 2.8988463484005016,
+          "subq_abdominal": 7.368196364884797,
+          "subq_chest": 1.6618396828818325,
+          "subq_back_flanks": 3.034468892147979,
+          "subq_gluteofemoral": 4.903402646219085,
+          "subq_arms": 1.7638948731117854,
+          "subq_face_neck": 0.7369159631927102,
+          "im_ectopic": 1.1023179952087454
+        },
+        "depot_delta_kg": {
+          "visceral_omental": -1.1580931533788577,
+          "subq_abdominal": -0.9620527454354892,
+          "subq_chest": -0.17730622459147716,
+          "subq_back_flanks": -0.21108270927550832,
+          "subq_gluteofemoral": -0.16777173100511433,
+          "subq_arms": -0.12934356105191602,
+          "subq_face_neck": -0.07447193716316158,
+          "im_ectopic": -0.24999517205104116
+        },
+        "protocol": {
+          "diet": "moderate_deficit_balanced",
+          "exercise": [
+            "resistance_full_45",
+            "hiit_20",
+            "steps_10k"
+          ],
+          "compounds": [
+            "caffeine",
+            "egcg"
+          ]
+        }
+      },
+      "config": {
+        "subject": {
+          "sex": "male",
+          "age_y": 35.0,
+          "height_cm": 178.0,
+          "weight_kg": 91.42419342855843,
+          "body_fat_pct": 25.67141353496052,
+          "activity_factor": 1.35,
+          "steps_per_day": 6000.0,
+          "resistance_sessions_per_week": 2.0,
+          "cardio_minutes_per_week": 60.0
+        },
+        "diet_id": "moderate_deficit_balanced",
+        "exercise_ids": [
+          "resistance_full_45",
+          "hiit_20",
+          "steps_10k"
+        ],
+        "compound_ids": [
+          "caffeine",
+          "egcg"
+        ],
+        "days": 28
+      },
+      "rank": 4
+    },
+    {
+      "label": "sprint_sympathetic",
+      "score": 315.99869923464587,
+      "summary": {
+        "days": 28,
+        "fat_start_kg": 26.6,
+        "fat_end_kg": 23.51485831680142,
+        "fat_lost_kg": 3.0851416831985823,
+        "scale_start_kg": 95.0,
+        "scale_end_kg": 91.46692755211744,
+        "scale_delta_kg": 3.53307244788256,
+        "water_confound_end_kg": 0.6141384706320232,
+        "mean_daily_deficit_kcal": 848.4139628796092,
+        "mean_fat_burn_index": 0.9553591340984043,
+        "mean_water_retention_index": 0.27648176421052023,
+        "depot_end_kg": {
+          "visceral_omental": 2.877883646686259,
+          "subq_abdominal": 7.452493408679791,
+          "subq_chest": 1.662726489593439,
+          "subq_back_flanks": 3.0355942213901552,
+          "subq_gluteofemoral": 4.904397165141546,
+          "subq_arms": 1.7645832561541674,
+          "subq_face_neck": 0.7372893681407287,
+          "im_ectopic": 1.079890761015333
+        },
+        "depot_delta_kg": {
+          "visceral_omental": -1.1790558550931003,
+          "subq_abdominal": -0.8777557016404955,
+          "subq_chest": -0.1764194178798706,
+          "subq_back_flanks": -0.20995738003333209,
+          "subq_gluteofemoral": -0.1667772120826534,
+          "subq_arms": -0.12865517800953397,
+          "subq_face_neck": -0.07409853221514318,
+          "im_ectopic": -0.2724224062444536
+        },
+        "protocol": {
+          "diet": "moderate_deficit_balanced",
+          "exercise": [
+            "sprint_10",
+            "resistance_full_45",
+            "steps_10k"
+          ],
+          "compounds": [
+            "caffeine",
+            "synephrine"
+          ]
+        }
+      },
+      "config": {
+        "subject": {
+          "sex": "male",
+          "age_y": 35.0,
+          "height_cm": 178.0,
+          "weight_kg": 91.46692755211744,
+          "body_fat_pct": 25.708591013295774,
+          "activity_factor": 1.35,
+          "steps_per_day": 6000.0,
+          "resistance_sessions_per_week": 2.0,
+          "cardio_minutes_per_week": 60.0
+        },
+        "diet_id": "moderate_deficit_balanced",
+        "exercise_ids": [
+          "sprint_10",
+          "resistance_full_45",
+          "steps_10k"
+        ],
+        "compound_ids": [
+          "caffeine",
+          "synephrine"
+        ],
+        "days": 28
+      },
+      "rank": 5
+    },
+    {
+      "label": "cold_thermogenic",
+      "score": 314.82744270184025,
+      "summary": {
+        "days": 28,
+        "fat_start_kg": 26.6,
+        "fat_end_kg": 23.53390020254003,
+        "fat_lost_kg": 3.066099797459973,
+        "scale_start_kg": 95.0,
+        "scale_end_kg": 91.48895336459506,
+        "scale_delta_kg": 3.511046635404938,
+        "water_confound_end_kg": 0.6201063241100537,
+        "mean_daily_deficit_kcal": 843.1774443014926,
+        "mean_fat_burn_index": 0.9962543661478155,
+        "mean_water_retention_index": 0.2690219427819489,
+        "depot_end_kg": {
+          "visceral_omental": 2.95069803562732,
+          "subq_abdominal": 7.416593285379744,
+          "subq_chest": 1.6554720470071718,
+          "subq_back_flanks": 3.026755797718648,
+          "subq_gluteofemoral": 4.897167304912407,
+          "subq_arms": 1.7591769819454264,
+          "subq_face_neck": 0.7342344838743676,
+          "im_ectopic": 1.0938022660749456
+        },
+        "depot_delta_kg": {
+          "visceral_omental": -1.1062414661520394,
+          "subq_abdominal": -0.9136558249405429,
+          "subq_chest": -0.18367386046613787,
+          "subq_back_flanks": -0.2187958037048392,
+          "subq_gluteofemoral": -0.17400707231179258,
+          "subq_arms": -0.13406145221827503,
+          "subq_face_neck": -0.0771534164815042,
+          "im_ectopic": -0.258510901184841
+        },
+        "protocol": {
+          "diet": "moderate_deficit_balanced",
+          "exercise": [
+            "resistance_full_45",
+            "cold_shower_exposure",
+            "steps_10k"
+          ],
+          "compounds": [
+            "capsaicin",
+            "egcg",
+            "caffeine"
+          ]
+        }
+      },
+      "config": {
+        "subject": {
+          "sex": "male",
+          "age_y": 35.0,
+          "height_cm": 178.0,
+          "weight_kg": 91.48895336459506,
+          "body_fat_pct": 25.72321502985662,
+          "activity_factor": 1.35,
+          "steps_per_day": 6000.0,
+          "resistance_sessions_per_week": 2.0,
+          "cardio_minutes_per_week": 60.0
+        },
+        "diet_id": "moderate_deficit_balanced",
+        "exercise_ids": [
+          "resistance_full_45",
+          "cold_shower_exposure",
+          "steps_10k"
+        ],
+        "compound_ids": [
+          "capsaicin",
+          "egcg",
+          "caffeine"
+        ],
+        "days": 28
+      },
+      "rank": 6
+    },
+    {
+      "label": "classic_cut",
+      "score": 314.37070326772243,
+      "summary": {
+        "days": 28,
+        "fat_start_kg": 26.6,
+        "fat_end_kg": 23.48093560965869,
+        "fat_lost_kg": 3.119064390341311,
+        "scale_start_kg": 95.0,
+        "scale_end_kg": 91.42956413280191,
+        "scale_delta_kg": 3.5704358671980856,
+        "water_confound_end_kg": 0.6072570462864402,
+        "mean_daily_deficit_kcal": 857.7427073438596,
+        "mean_fat_burn_index": 0.6320549216814463,
+        "mean_water_retention_index": 0.28508354992480617,
+        "depot_end_kg": {
+          "visceral_omental": 2.931318904139824,
+          "subq_abdominal": 7.374671544666588,
+          "subq_chest": 1.656958533597839,
+          "subq_back_flanks": 3.0286107866543275,
+          "subq_gluteofemoral": 4.898755849997626,
+          "subq_arms": 1.7603115733508725,
+          "subq_face_neck": 0.7348605038491449,
+          "im_ectopic": 1.0954479134024704
+        },
+        "depot_delta_kg": {
+          "visceral_omental": -1.1256205976395353,
+          "subq_abdominal": -0.9555775656536989,
+          "subq_chest": -0.18218737387547068,
+          "subq_back_flanks": -0.21694081476915983,
+          "subq_gluteofemoral": -0.17241852722657391,
+          "subq_arms": -0.1329268608128289,
+          "subq_face_neck": -0.07652739650672691,
+          "im_ectopic": -0.2568652538573162
+        },
+        "protocol": {
+          "diet": "moderate_deficit_balanced",
+          "exercise": [
+            "resistance_full_45",
+            "zone2_bike_40",
+            "steps_10k"
+          ],
+          "compounds": [
+            "caffeine"
+          ]
+        }
+      },
+      "config": {
+        "subject": {
+          "sex": "male",
+          "age_y": 35.0,
+          "height_cm": 178.0,
+          "weight_kg": 91.42956413280191,
+          "body_fat_pct": 25.681994475608033,
+          "activity_factor": 1.35,
+          "steps_per_day": 6000.0,
+          "resistance_sessions_per_week": 2.0,
+          "cardio_minutes_per_week": 60.0
+        },
+        "diet_id": "moderate_deficit_balanced",
+        "exercise_ids": [
+          "resistance_full_45",
+          "zone2_bike_40",
+          "steps_10k"
+        ],
+        "compound_ids": [
+          "caffeine"
+        ],
+        "days": 28
+      },
+      "rank": 7
+    },
+    {
+      "label": "low_sodium_cut",
+      "score": 313.9403865553761,
+      "summary": {
+        "days": 28,
+        "fat_start_kg": 26.6,
+        "fat_end_kg": 23.482173006347253,
+        "fat_lost_kg": 3.1178269936527485,
+        "scale_start_kg": 95.0,
+        "scale_end_kg": 91.28455161930175,
+        "scale_delta_kg": 3.7154483806982483,
+        "water_confound_end_kg": 0.31475722590899985,
+        "mean_daily_deficit_kcal": 857.4024232545044,
+        "mean_fat_burn_index": 0.6133195685977552,
+        "mean_water_retention_index": -0.0016263528270027833,
+        "depot_end_kg": {
+          "visceral_omental": 2.931735817482329,
+          "subq_abdominal": 7.375063323635565,
+          "subq_chest": 1.6570338743704969,
+          "subq_back_flanks": 3.0287020531822373,
+          "subq_gluteofemoral": 4.898829615476276,
+          "subq_arms": 1.7603673968868894,
+          "subq_face_neck": 0.734892232121689,
+          "im_ectopic": 1.0955486931917746
+        },
+        "depot_delta_kg": {
+          "visceral_omental": -1.12520368429703,
+          "subq_abdominal": -0.9551857866847211,
+          "subq_chest": -0.18211203310281276,
+          "subq_back_flanks": -0.21684954824125002,
+          "subq_gluteofemoral": -0.17234476174792324,
+          "subq_arms": -0.13287103727681204,
+          "subq_face_neck": -0.07649566823418286,
+          "im_ectopic": -0.25676447406801195
+        },
+        "protocol": {
+          "diet": "low_sodium_cut",
+          "exercise": [
+            "resistance_full_45",
+            "zone2_bike_40",
+            "steps_10k"
+          ],
+          "compounds": [
+            "caffeine"
+          ]
+        }
+      },
+      "config": {
+        "subject": {
+          "sex": "male",
+          "age_y": 35.0,
+          "height_cm": 178.0,
+          "weight_kg": 91.28455161930175,
+          "body_fat_pct": 25.724147832021604,
+          "activity_factor": 1.35,
+          "steps_per_day": 6000.0,
+          "resistance_sessions_per_week": 2.0,
+          "cardio_minutes_per_week": 60.0
+        },
+        "diet_id": "low_sodium_cut",
+        "exercise_ids": [
+          "resistance_full_45",
+          "zone2_bike_40",
+          "steps_10k"
+        ],
+        "compound_ids": [
+          "caffeine"
+        ],
+        "days": 28
+      },
+      "rank": 8
+    },
+    {
+      "label": "stubborn_alpha2",
+      "score": 310.6334842271684,
+      "summary": {
+        "days": 28,
+        "fat_start_kg": 26.6,
+        "fat_end_kg": 23.62343292160681,
+        "fat_lost_kg": 2.9765670783931917,
+        "scale_start_kg": 95.0,
+        "scale_end_kg": 91.57501930007649,
+        "scale_delta_kg": 3.424980699923509,
+        "water_confound_end_kg": 0.6131727569393486,
+        "mean_daily_deficit_kcal": 818.555946558128,
+        "mean_fat_burn_index": 1.302327773604801,
+        "mean_water_retention_index": 0.2776889070676632,
+        "depot_end_kg": {
+          "visceral_omental": 3.159923607760568,
+          "subq_abdominal": 7.350398238868329,
+          "subq_chest": 1.6554596689786307,
+          "subq_back_flanks": 3.0003319127351364,
+          "subq_gluteofemoral": 4.864310259950228,
+          "subq_arms": 1.7585468163225613,
+          "subq_face_neck": 0.7342292647394433,
+          "im_ectopic": 1.1002331522519133
+        },
+        "depot_delta_kg": {
+          "visceral_omental": -0.8970158940187911,
+          "subq_abdominal": -0.9798508714519576,
+          "subq_chest": -0.1836862384946789,
+          "subq_back_flanks": -0.24521968868835087,
+          "subq_gluteofemoral": -0.20686411727397136,
+          "subq_arms": -0.13469161784114014,
+          "subq_face_neck": -0.07715863561642855,
+          "im_ectopic": -0.25208001500787325
+        },
+        "protocol": {
+          "diet": "if_16_8",
+          "exercise": [
+            "fasted_liss_yohimbine_window",
+            "resistance_full_45",
+            "steps_10k"
+          ],
+          "compounds": [
+            "yohimbine",
+            "caffeine"
+          ]
+        }
+      },
+      "config": {
+        "subject": {
+          "sex": "male",
+          "age_y": 35.0,
+          "height_cm": 178.0,
+          "weight_kg": 91.57501930007649,
+          "body_fat_pct": 25.796809110349898,
+          "activity_factor": 1.35,
+          "steps_per_day": 6000.0,
+          "resistance_sessions_per_week": 2.0,
+          "cardio_minutes_per_week": 60.0
+        },
+        "diet_id": "if_16_8",
+        "exercise_ids": [
+          "fasted_liss_yohimbine_window",
+          "resistance_full_45",
+          "steps_10k"
+        ],
+        "compound_ids": [
+          "yohimbine",
+          "caffeine"
+        ],
+        "days": 28
+      },
+      "rank": 9
+    },
+    {
+      "label": "keto_drop",
+      "score": 277.23082012750154,
+      "summary": {
+        "days": 28,
+        "fat_start_kg": 26.6,
+        "fat_end_kg": 23.84726633029988,
+        "fat_lost_kg": 2.7527336697001203,
+        "scale_start_kg": 95.0,
+        "scale_end_kg": 91.80278770635309,
+        "scale_delta_kg": 3.1972122936469134,
+        "water_confound_end_kg": 0.621042752106427,
+        "mean_daily_deficit_kcal": 757.0017591675335,
+        "mean_fat_burn_index": 0.6108219390677664,
+        "mean_water_retention_index": 0.5380144194767472,
+        "depot_end_kg": {
+          "visceral_omental": 3.1068791908388946,
+          "subq_abdominal": 7.471862841085827,
+          "subq_chest": 1.6741987830346472,
+          "subq_back_flanks": 3.0484985541501772,
+          "subq_gluteofemoral": 4.906406804616159,
+          "subq_arms": 1.7724779992732878,
+          "subq_face_neck": 0.7421190789393823,
+          "im_ectopic": 1.1248230783615059
+        },
+        "depot_delta_kg": {
+          "visceral_omental": -0.9500603109404646,
+          "subq_abdominal": -0.858386269234459,
+          "subq_chest": -0.16494712443866244,
+          "subq_back_flanks": -0.19705304727331008,
+          "subq_gluteofemoral": -0.16476757260804042,
+          "subq_arms": -0.12076043489041366,
+          "subq_face_neck": -0.06926882141648949,
+          "im_ectopic": -0.2274900888982807
+        },
+        "protocol": {
+          "diet": "ketogenic",
+          "exercise": [
+            "resistance_full_45",
+            "liss_walk_45",
+            "steps_10k"
+          ],
+          "compounds": [
+            "caffeine"
+          ]
+        }
+      },
+      "config": {
+        "subject": {
+          "sex": "male",
+          "age_y": 35.0,
+          "height_cm": 178.0,
+          "weight_kg": 91.80278770635309,
+          "body_fat_pct": 25.976625466515724,
+          "activity_factor": 1.35,
+          "steps_per_day": 6000.0,
+          "resistance_sessions_per_week": 2.0,
+          "cardio_minutes_per_week": 60.0
+        },
+        "diet_id": "ketogenic",
+        "exercise_ids": [
+          "resistance_full_45",
+          "liss_walk_45",
+          "steps_10k"
+        ],
+        "compound_ids": [
+          "caffeine"
+        ],
+        "days": 28
+      },
+      "rank": 10
+    },
+    {
+      "label": "orlistat_intake_block",
+      "score": 263.10739385283307,
+      "summary": {
+        "days": 28,
+        "fat_start_kg": 26.6,
+        "fat_end_kg": 24.007042912331354,
+        "fat_lost_kg": 2.5929570876686476,
+        "scale_start_kg": 95.0,
+        "scale_end_kg": 91.86783648941355,
+        "scale_delta_kg": 3.1321635105864516,
+        "water_confound_end_kg": 0.431587154164372,
+        "mean_daily_deficit_kcal": 713.0631991088768,
+        "mean_fat_burn_index": 0.7151403043180266,
+        "mean_water_retention_index": 0.30467104992480626,
+        "depot_end_kg": {
+          "visceral_omental": 3.1380772939542214,
+          "subq_abdominal": 7.549609747673498,
+          "subq_chest": 1.6823350981731287,
+          "subq_back_flanks": 3.0592759988618754,
+          "subq_gluteofemoral": 4.923480944152982,
+          "subq_arms": 1.7790728184131133,
+          "subq_face_neck": 0.7455434088180981,
+          "im_ectopic": 1.1296476022844384
+        },
+        "depot_delta_kg": {
+          "visceral_omental": -0.9188622078251378,
+          "subq_abdominal": -0.7806393626467889,
+          "subq_chest": -0.156810809300181,
+          "subq_back_flanks": -0.1862756025616119,
+          "subq_gluteofemoral": -0.1476934330712174,
+          "subq_arms": -0.11416561575058815,
+          "subq_face_neck": -0.06584449153777372,
+          "im_ectopic": -0.22266556497534817
+        },
+        "protocol": {
+          "diet": "moderate_deficit_balanced",
+          "exercise": [
+            "resistance_full_45",
+            "steps_10k"
+          ],
+          "compounds": [
+            "orlistat",
+            "caffeine"
+          ]
+        }
+      },
+      "config": {
+        "subject": {
+          "sex": "male",
+          "age_y": 35.0,
+          "height_cm": 178.0,
+          "weight_kg": 91.86783648941355,
+          "body_fat_pct": 26.132152263211097,
+          "activity_factor": 1.35,
+          "steps_per_day": 6000.0,
+          "resistance_sessions_per_week": 2.0,
+          "cardio_minutes_per_week": 60.0
+        },
+        "diet_id": "moderate_deficit_balanced",
+        "exercise_ids": [
+          "resistance_full_45",
+          "steps_10k"
+        ],
+        "compound_ids": [
+          "orlistat",
+          "caffeine"
+        ],
+        "days": 28
+      },
+      "rank": 11
+    },
+    {
+      "label": "aggressive_minicut",
+      "score": 223.09470780656045,
+      "summary": {
+        "days": 14,
+        "fat_start_kg": 26.6,
+        "fat_end_kg": 24.44490803377531,
+        "fat_lost_kg": 2.155091966224692,
+        "scale_start_kg": 95.0,
+        "scale_end_kg": 92.58481888359071,
+        "scale_delta_kg": 2.4151811164092862,
+        "water_confound_end_kg": 0.9898216996308048,
+        "mean_daily_deficit_kcal": 1185.300581423581,
+        "mean_fat_burn_index": 1.0450670220262719,
+        "mean_water_retention_index": 0.22731936604420774,
+        "depot_end_kg": {
+          "visceral_omental": 3.2821459053141324,
+          "subq_abdominal": 7.67867561528444,
+          "subq_chest": 1.7060808344243759,
+          "subq_back_flanks": 3.090404770372231,
+          "subq_gluteofemoral": 4.945967201596548,
+          "subq_arms": 1.7956375109127605,
+          "subq_face_neck": 0.7565015679975742,
+          "im_ectopic": 1.1894946278732463
+        },
+        "depot_delta_kg": {
+          "visceral_omental": -0.7747935964652268,
+          "subq_abdominal": -0.651573495035846,
+          "subq_chest": -0.13306507304893378,
+          "subq_back_flanks": -0.15514683105125648,
+          "subq_gluteofemoral": -0.1252071756276516,
+          "subq_arms": -0.09760092325094094,
+          "subq_face_neck": -0.05488633235829765,
+          "im_ectopic": -0.16281853938654023
+        },
+        "protocol": {
+          "diet": "psmf_aggressive",
+          "exercise": [
+            "resistance_hypertrophy_60",
+            "steps_10k"
+          ],
+          "compounds": [
+            "caffeine",
+            "egcg",
+            "capsaicin"
+          ]
+        }
+      },
+      "config": {
+        "subject": {
+          "sex": "male",
+          "age_y": 35.0,
+          "height_cm": 178.0,
+          "weight_kg": 92.58481888359071,
+          "body_fat_pct": 26.40271734452548,
+          "activity_factor": 1.35,
+          "steps_per_day": 6000.0,
+          "resistance_sessions_per_week": 2.0,
+          "cardio_minutes_per_week": 60.0
+        },
+        "diet_id": "psmf_aggressive",
+        "exercise_ids": [
+          "resistance_hypertrophy_60",
+          "steps_10k"
+        ],
+        "compound_ids": [
+          "caffeine",
+          "egcg",
+          "capsaicin"
+        ],
+        "days": 14
+      },
+      "rank": 12
+    },
+    {
+      "label": "neat_only_deficit",
+      "score": 188.57601217287979,
+      "summary": {
+        "days": 28,
+        "fat_start_kg": 26.6,
+        "fat_end_kg": 24.68335490984882,
+        "fat_lost_kg": 1.9166450901511816,
+        "scale_start_kg": 95.0,
+        "scale_end_kg": 93.31902491240288,
+        "scale_delta_kg": 1.680975087597119,
+        "water_confound_end_kg": 1.9820000171946384,
+        "mean_daily_deficit_kcal": 527.077399791575,
+        "mean_fat_burn_index": 0.06301520505222853,
+        "mean_water_retention_index": 0.3354049784962346,
+        "depot_end_kg": {
+          "visceral_omental": 3.3515001296806406,
+          "subq_abdominal": 7.741940628266286,
+          "subq_chest": 1.7315229275445492,
+          "subq_back_flanks": 3.10583249125753,
+          "subq_gluteofemoral": 4.970381000671758,
+          "subq_arms": 1.8165709533821524,
+          "subq_face_neck": 0.7618478061274052,
+          "im_ectopic": 1.203758972918498
+        },
+        "depot_delta_kg": {
+          "visceral_omental": -0.7054393720987187,
+          "subq_abdominal": -0.5883084820540008,
+          "subq_chest": -0.10762297992876046,
+          "subq_back_flanks": -0.13971911016595717,
+          "subq_gluteofemoral": -0.10079337655244114,
+          "subq_arms": -0.07666748078154906,
+          "subq_face_neck": -0.049540094228466613,
+          "im_ectopic": -0.14855419434128847
+        },
+        "protocol": {
+          "diet": "moderate_deficit_balanced",
+          "exercise": [
+            "steps_10k"
+          ],
+          "compounds": []
+        }
+      },
+      "config": {
+        "subject": {
+          "sex": "male",
+          "age_y": 35.0,
+          "height_cm": 178.0,
+          "weight_kg": 93.31902491240288,
+          "body_fat_pct": 26.450506671087386,
+          "activity_factor": 1.35,
+          "steps_per_day": 6000.0,
+          "resistance_sessions_per_week": 2.0,
+          "cardio_minutes_per_week": 60.0
+        },
+        "diet_id": "moderate_deficit_balanced",
+        "exercise_ids": [
+          "steps_10k"
+        ],
+        "compound_ids": [],
+        "days": 28
+      },
+      "rank": 13
+    },
+    {
+      "label": "forskolin_stack",
+      "score": 183.5896654144341,
+      "summary": {
+        "days": 28,
+        "fat_start_kg": 26.6,
+        "fat_end_kg": 24.902613113882506,
+        "fat_lost_kg": 1.6973868861174957,
+        "scale_start_kg": 95.0,
+        "scale_end_kg": 92.76894204470833,
+        "scale_delta_kg": 2.231057955291675,
+        "water_confound_end_kg": 0.44265786165162463,
+        "mean_daily_deficit_kcal": 466.78139368231115,
+        "mean_fat_burn_index": 1.376123385317642,
+        "mean_water_retention_index": 0.2908326570676633,
+        "depot_end_kg": {
+          "visceral_omental": 3.5285684777969255,
+          "subq_abdominal": 7.786928438725057,
+          "subq_chest": 1.7340790685443561,
+          "subq_back_flanks": 3.106061929176998,
+          "subq_gluteofemoral": 4.957855531919793,
+          "subq_arms": 1.8166970131404696,
+          "subq_face_neck": 0.7673022228833806,
+          "im_ectopic": 1.2051204316955255
+        },
+        "depot_delta_kg": {
+          "visceral_omental": -0.5283710239824337,
+          "subq_abdominal": -0.5433206715952297,
+          "subq_chest": -0.10506683892895352,
+          "subq_back_flanks": -0.13948967224648934,
+          "subq_gluteofemoral": -0.1133188453044065,
+          "subq_arms": -0.0765414210232318,
+          "subq_face_neck": -0.04408567747249126,
+          "im_ectopic": -0.14719273556426105
+        },
+        "protocol": {
+          "diet": "if_16_8",
+          "exercise": [
+            "fasted_liss_yohimbine_window",
+            "resistance_full_45"
+          ],
+          "compounds": [
+            "forskolin",
+            "caffeine",
+            "yohimbine"
+          ]
+        }
+      },
+      "config": {
+        "subject": {
+          "sex": "male",
+          "age_y": 35.0,
+          "height_cm": 178.0,
+          "weight_kg": 92.76894204470833,
+          "body_fat_pct": 26.84369635462819,
+          "activity_factor": 1.35,
+          "steps_per_day": 6000.0,
+          "resistance_sessions_per_week": 2.0,
+          "cardio_minutes_per_week": 60.0
+        },
+        "diet_id": "if_16_8",
+        "exercise_ids": [
+          "fasted_liss_yohimbine_window",
+          "resistance_full_45"
+        ],
+        "compound_ids": [
+          "forskolin",
+          "caffeine",
+          "yohimbine"
+        ],
+        "days": 28
+      },
+      "rank": 14
+    },
+    {
+      "label": "control_maintenance",
+      "score": 24.884946121051712,
+      "summary": {
+        "days": 28,
+        "fat_start_kg": 26.6,
+        "fat_end_kg": 26.319572880764458,
+        "fat_lost_kg": 0.28042711923554364,
+        "scale_start_kg": 95.0,
+        "scale_end_kg": 94.95552460571201,
+        "scale_delta_kg": 0.04447539428798564,
+        "water_confound_end_kg": 1.9820000171946384,
+        "mean_daily_deficit_kcal": 77.11745778977556,
+        "mean_fat_burn_index": 0.058585089296940195,
+        "mean_water_retention_index": 0.3354049784962346,
+        "depot_end_kg": {
+          "visceral_omental": 3.950367331053228,
+          "subq_abdominal": 8.245605410501327,
+          "subq_chest": 1.8237433432018526,
+          "subq_back_flanks": 3.225697063905514,
+          "subq_gluteofemoral": 5.057003765860453,
+          "subq_arms": 1.8823556783170445,
+          "subq_face_neck": 0.8042900732861985,
+          "im_ectopic": 1.3305102146388383
+        },
+        "depot_delta_kg": {
+          "visceral_omental": -0.10657217072613134,
+          "subq_abdominal": -0.08464369981895992,
+          "subq_chest": -0.015402564271457031,
+          "subq_back_flanks": -0.01985453751797328,
+          "subq_gluteofemoral": -0.01417061136374631,
+          "subq_arms": -0.010882755846656877,
+          "subq_face_neck": -0.007097827069673324,
+          "im_ectopic": -0.021802952620948224
+        },
+        "protocol": {
+          "diet": "maintenance_control",
+          "exercise": [
+            "steps_10k"
+          ],
+          "compounds": []
+        }
+      },
+      "config": {
+        "subject": {
+          "sex": "male",
+          "age_y": 35.0,
+          "height_cm": 178.0,
+          "weight_kg": 94.95552460571201,
+          "body_fat_pct": 27.717789975941237,
+          "activity_factor": 1.35,
+          "steps_per_day": 6000.0,
+          "resistance_sessions_per_week": 2.0,
+          "cardio_minutes_per_week": 60.0
+        },
+        "diet_id": "maintenance_control",
+        "exercise_ids": [
+          "steps_10k"
+        ],
+        "compound_ids": [],
+        "days": 28
+      },
+      "rank": 15
+    }
+  ],
+  "winner": {
+    "label": "dual_agonist_like",
+    "score": 379.3116878299603,
+    "summary": {
+      "days": 28,
+      "fat_start_kg": 26.6,
+      "fat_end_kg": 22.748827683269255,
+      "fat_lost_kg": 3.8511723167307466,
+      "scale_start_kg": 95.0,
+      "scale_end_kg": 90.91955620819336,
+      "scale_delta_kg": 4.080443791806644,
+      "water_confound_end_kg": 1.0514570498481866,
+      "mean_daily_deficit_kcal": 1059.0723871009548,
+      "mean_fat_burn_index": 0.0755541685518808,
+      "mean_water_retention_index": 0.3110835499248061,
+      "depot_end_kg": {
+        "visceral_omental": 2.727931866325658,
+        "subq_abdominal": 7.155207974994207,
+        "subq_chest": 1.6025557221908415,
+        "subq_back_flanks": 2.962212398604662,
+        "subq_gluteofemoral": 4.844572736324442,
+        "subq_arms": 1.7197214289079858,
+        "subq_face_neck": 0.7119312778141071,
+        "im_ectopic": 1.0246942781073558
+      },
+      "depot_delta_kg": {
+        "visceral_omental": -1.329007635453701,
+        "subq_abdominal": -1.1750411353260795,
+        "subq_chest": -0.2365901852824681,
+        "subq_back_flanks": -0.2833392028188255,
+        "subq_gluteofemoral": -0.22660164089975776,
+        "subq_arms": -0.17351700525571556,
+        "subq_face_neck": -0.09945662254176468,
+        "im_ectopic": -0.32761888915243076
+      },
+      "protocol": {
+        "diet": "moderate_deficit_balanced",
+        "exercise": [
+          "resistance_full_45",
+          "steps_10k"
+        ],
+        "compounds": [
+          "tirzepatide"
+        ]
+      }
+    },
+    "config": {
+      "subject": {
+        "sex": "male",
+        "age_y": 35.0,
+        "height_cm": 178.0,
+        "weight_kg": 90.91955620819336,
+        "body_fat_pct": 25.020830096417924,
+        "activity_factor": 1.35,
+        "steps_per_day": 6000.0,
+        "resistance_sessions_per_week": 2.0,
+        "cardio_minutes_per_week": 60.0
+      },
+      "diet_id": "moderate_deficit_balanced",
+      "exercise_ids": [
+        "resistance_full_45",
+        "steps_10k"
+      ],
+      "compound_ids": [
+        "tirzepatide"
+      ],
+      "days": 28
+    },
+    "rank": 1
+  },
+  "top3": [
+    {
+      "label": "dual_agonist_like",
+      "score": 379.3116878299603,
+      "summary": {
+        "days": 28,
+        "fat_start_kg": 26.6,
+        "fat_end_kg": 22.748827683269255,
+        "fat_lost_kg": 3.8511723167307466,
+        "scale_start_kg": 95.0,
+        "scale_end_kg": 90.91955620819336,
+        "scale_delta_kg": 4.080443791806644,
+        "water_confound_end_kg": 1.0514570498481866,
+        "mean_daily_deficit_kcal": 1059.0723871009548,
+        "mean_fat_burn_index": 0.0755541685518808,
+        "mean_water_retention_index": 0.3110835499248061,
+        "depot_end_kg": {
+          "visceral_omental": 2.727931866325658,
+          "subq_abdominal": 7.155207974994207,
+          "subq_chest": 1.6025557221908415,
+          "subq_back_flanks": 2.962212398604662,
+          "subq_gluteofemoral": 4.844572736324442,
+          "subq_arms": 1.7197214289079858,
+          "subq_face_neck": 0.7119312778141071,
+          "im_ectopic": 1.0246942781073558
+        },
+        "depot_delta_kg": {
+          "visceral_omental": -1.329007635453701,
+          "subq_abdominal": -1.1750411353260795,
+          "subq_chest": -0.2365901852824681,
+          "subq_back_flanks": -0.2833392028188255,
+          "subq_gluteofemoral": -0.22660164089975776,
+          "subq_arms": -0.17351700525571556,
+          "subq_face_neck": -0.09945662254176468,
+          "im_ectopic": -0.32761888915243076
+        },
+        "protocol": {
+          "diet": "moderate_deficit_balanced",
+          "exercise": [
+            "resistance_full_45",
+            "steps_10k"
+          ],
+          "compounds": [
+            "tirzepatide"
+          ]
+        }
+      },
+      "config": {
+        "subject": {
+          "sex": "male",
+          "age_y": 35.0,
+          "height_cm": 178.0,
+          "weight_kg": 90.91955620819336,
+          "body_fat_pct": 25.020830096417924,
+          "activity_factor": 1.35,
+          "steps_per_day": 6000.0,
+          "resistance_sessions_per_week": 2.0,
+          "cardio_minutes_per_week": 60.0
+        },
+        "diet_id": "moderate_deficit_balanced",
+        "exercise_ids": [
+          "resistance_full_45",
+          "steps_10k"
+        ],
+        "compound_ids": [
+          "tirzepatide"
+        ],
+        "days": 28
+      },
+      "rank": 1
+    },
+    {
+      "label": "glp1_like_intake",
+      "score": 374.4852901315569,
+      "summary": {
+        "days": 28,
+        "fat_start_kg": 26.6,
+        "fat_end_kg": 22.798249237478082,
+        "fat_lost_kg": 3.8017507625219196,
+        "scale_start_kg": 95.0,
+        "scale_end_kg": 90.96897776240219,
+        "scale_delta_kg": 4.03102223759781,
+        "water_confound_end_kg": 1.0514570498481866,
+        "mean_daily_deficit_kcal": 1045.4814596935273,
+        "mean_fat_burn_index": 0.07421073177887934,
+        "mean_water_retention_index": 0.3110835499248061,
+        "depot_end_kg": {
+          "visceral_omental": 2.7433663295091844,
+          "subq_abdominal": 7.171021654171596,
+          "subq_chest": 1.6057620785433677,
+          "subq_back_flanks": 2.9661732618375,
+          "subq_gluteofemoral": 4.847866844850005,
+          "subq_arms": 1.7221414753792825,
+          "subq_face_neck": 0.7132837028279425,
+          "im_ectopic": 1.0286338903592038
+        },
+        "depot_delta_kg": {
+          "visceral_omental": -1.313573172270175,
+          "subq_abdominal": -1.1592274561486908,
+          "subq_chest": -0.23338382892994192,
+          "subq_back_flanks": -0.27937833958598723,
+          "subq_gluteofemoral": -0.22330753237419465,
+          "subq_arms": -0.17109695878441888,
+          "subq_face_neck": -0.09810419752792932,
+          "im_ectopic": -0.32367927690058274
+        },
+        "protocol": {
+          "diet": "moderate_deficit_balanced",
+          "exercise": [
+            "resistance_full_45",
+            "steps_10k"
+          ],
+          "compounds": [
+            "semaglutide"
+          ]
+        }
+      },
+      "config": {
+        "subject": {
+          "sex": "male",
+          "age_y": 35.0,
+          "height_cm": 178.0,
+          "weight_kg": 90.96897776240219,
+          "body_fat_pct": 25.06156472047406,
+          "activity_factor": 1.35,
+          "steps_per_day": 6000.0,
+          "resistance_sessions_per_week": 2.0,
+          "cardio_minutes_per_week": 60.0
+        },
+        "diet_id": "moderate_deficit_balanced",
+        "exercise_ids": [
+          "resistance_full_45",
+          "steps_10k"
+        ],
+        "compound_ids": [
+          "semaglutide"
+        ],
+        "days": 28
+      },
+      "rank": 2
+    },
+    {
+      "label": "low_carb_water",
+      "score": 322.884140982582,
+      "summary": {
+        "days": 28,
+        "fat_start_kg": 26.6,
+        "fat_end_kg": 23.40230310327564,
+        "fat_lost_kg": 3.197696896724363,
+        "scale_start_kg": 95.0,
+        "scale_end_kg": 91.38051160825395,
+        "scale_delta_kg": 3.619488391746046,
+        "water_confound_end_kg": 0.6664170099566261,
+        "mean_daily_deficit_kcal": 879.3666465992007,
+        "mean_fat_burn_index": 0.6950993218533049,
+        "mean_water_retention_index": 0.360091420289006,
+        "depot_end_kg": {
+          "visceral_omental": 2.909921224182208,
+          "subq_abdominal": 7.346673408386491,
+          "subq_chest": 1.6515729063863875,
+          "subq_back_flanks": 3.0214576225763783,
+          "subq_gluteofemoral": 4.891938844172842,
+          "subq_arms": 1.7559365803877223,
+          "subq_face_neck": 0.7325922687732307,
+          "im_ectopic": 1.0922102484103766
+        },
+        "depot_delta_kg": {
+          "visceral_omental": -1.1470182775971511,
+          "subq_abdominal": -0.9835757019337956,
+          "subq_chest": -0.1875730010869221,
+          "subq_back_flanks": -0.22409397884710902,
+          "subq_gluteofemoral": -0.1792355330513571,
+          "subq_arms": -0.13730185377597914,
+          "subq_face_neck": -0.07879563158264113,
+          "im_ectopic": -0.26010291884940995
+        },
+        "protocol": {
+          "diet": "high_protein_low_carb",
+          "exercise": [
+            "resistance_full_45",
+            "zone2_bike_40",
+            "steps_10k"
+          ],
+          "compounds": [
+            "caffeine",
+            "berberine"
+          ]
+        }
+      },
+      "config": {
+        "subject": {
+          "sex": "male",
+          "age_y": 35.0,
+          "height_cm": 178.0,
+          "weight_kg": 91.38051160825395,
+          "body_fat_pct": 25.60973088397748,
+          "activity_factor": 1.35,
+          "steps_per_day": 6000.0,
+          "resistance_sessions_per_week": 2.0,
+          "cardio_minutes_per_week": 60.0
+        },
+        "diet_id": "high_protein_low_carb",
+        "exercise_ids": [
+          "resistance_full_45",
+          "zone2_bike_40",
+          "steps_10k"
+        ],
+        "compound_ids": [
+          "caffeine",
+          "berberine"
+        ],
+        "days": 28
+      },
+      "rank": 3
+    }
+  ]
+}

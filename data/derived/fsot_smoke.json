@@ -1,0 +1,144 @@
+{
+  "seeds": {
+    "pi": 3.141592653589793,
+    "e": 2.718281828459045,
+    "phi": 1.618033988749895,
+    "gamma": 0.5772156649015329,
+    "G_catalan": 0.915965594177219,
+    "poof": 0.1534822148944508,
+    "p_new": 0.30030227667037146,
+    "c_eff": 0.9577022026205613,
+    "consciousness_factor": 0.28760015181918397,
+    "K": 0.4202216641606967,
+    "alpha": 0.0008082937414140405,
+    "psi_con": 0.6321205588285577,
+    "eta_eff": 0.46694220692425986
+  },
+  "regimes": {
+    "adipocyte_white": {
+      "domain": "Biology",
+      "D_eff": 12,
+      "delta_psi": 0.08,
+      "recent_hits": 0,
+      "observed": false,
+      "raw_S": 0.4447250077038458,
+      "scaled_S": 0.4447250077038458,
+      "poof": 0.1534822148944508,
+      "p_new": 0.30030227667037146,
+      "c_eff": 0.9577022026205613,
+      "consciousness_factor": 0.28760015181918397,
+      "interpretation": "emergence"
+    },
+    "adipocyte_brown": {
+      "domain": "Biology",
+      "D_eff": 12,
+      "delta_psi": 0.15,
+      "recent_hits": 1,
+      "observed": true,
+      "raw_S": 0.38560837095276884,
+      "scaled_S": 0.38560837095276884,
+      "poof": 0.1534822148944508,
+      "p_new": 0.30030227667037146,
+      "c_eff": 0.9577022026205613,
+      "consciousness_factor": 0.28760015181918397,
+      "interpretation": "emergence"
+    },
+    "lipolysis_enzyme": {
+      "domain": "Biochemistry",
+      "D_eff": 13,
+      "delta_psi": 0.35,
+      "recent_hits": 1,
+      "observed": true,
+      "raw_S": 0.3062212293865662,
+      "scaled_S": 0.3062212293865662,
+      "poof": 0.1534822148944508,
+      "p_new": 0.30030227667037146,
+      "c_eff": 0.9577022026205613,
+      "consciousness_factor": 0.28760015181918397,
+      "interpretation": "emergence"
+    },
+    "thermogenesis": {
+      "domain": "Thermodynamics",
+      "D_eff": 15,
+      "delta_psi": 0.9,
+      "recent_hits": 1,
+      "observed": true,
+      "raw_S": 0.7869745016115728,
+      "scaled_S": 0.7869745016115728,
+      "poof": 0.1534822148944508,
+      "p_new": 0.30030227667037146,
+      "c_eff": 0.9577022026205613,
+      "consciousness_factor": 0.28760015181918397,
+      "interpretation": "emergence"
+    },
+    "fluid_water": {
+      "domain": "Fluid_Dynamics",
+      "D_eff": 15,
+      "delta_psi": 0.9,
+      "recent_hits": 1,
+      "observed": false,
+      "raw_S": -0.562733806256851,
+      "scaled_S": -0.562733806256851,
+      "poof": 0.1534822148944508,
+      "p_new": 0.30030227667037146,
+      "c_eff": 0.9577022026205613,
+      "consciousness_factor": 0.28760015181918397,
+      "interpretation": "dispersal"
+    },
+    "exercise_mech": {
+      "domain": "Biology",
+      "D_eff": 12,
+      "delta_psi": 0.2,
+      "recent_hits": 1,
+      "observed": true,
+      "raw_S": 0.35498709962311015,
+      "scaled_S": 0.35498709962311015,
+      "poof": 0.1534822148944508,
+      "p_new": 0.30030227667037146,
+      "c_eff": 0.9577022026205613,
+      "consciousness_factor": 0.28760015181918397,
+      "interpretation": "emergence"
+    }
+  },
+  "demo_intervention": {
+    "inputs": {
+      "N": 1.0,
+      "P": 2.2862125619267064,
+      "delta_psi": -0.04499999999999996,
+      "observed": true,
+      "amplitude": 1.1050671421266165,
+      "trend_bias": -0.15,
+      "recent_hits": 2,
+      "catecholamine_index": 0.7,
+      "insulin_index": 0.2,
+      "deficit_kcal_day": 500,
+      "cold_or_brown_drive": 0.3,
+      "compound_lipolytic": 0.4,
+      "fluid_sodium_load": 0.3
+    },
+    "scalars": {
+      "S_biology_adipose": 0.6765824716460314,
+      "S_thermogenesis": 0.9047082788496533,
+      "S_fluid_retention": -0.3746168637234306
+    },
+    "indices": {
+      "fat_burn_index": 0.5184563977698645,
+      "water_retention_index": 0.04079333290153782
+    },
+    "seeds": {
+      "pi": 3.141592653589793,
+      "e": 2.718281828459045,
+      "phi": 1.618033988749895,
+      "gamma": 0.5772156649015329,
+      "G_catalan": 0.915965594177219,
+      "poof": 0.1534822148944508,
+      "p_new": 0.30030227667037146,
+      "c_eff": 0.9577022026205613,
+      "consciousness_factor": 0.28760015181918397,
+      "K": 0.4202216641606967,
+      "alpha": 0.0008082937414140405,
+      "psi_con": 0.6321205588285577,
+      "eta_eff": 0.46694220692425986
+    }
+  }
+}

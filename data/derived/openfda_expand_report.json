@@ -1,0 +1,29 @@
+{
+  "existing_count": 37,
+  "final_count": 37,
+  "added_ids": [],
+  "updated_openfda_meta": [
+    "phentermine",
+    "liraglutide",
+    "bupropion",
+    "naltrexone",
+    "metformin",
+    "cholestyramine",
+    "semaglutide",
+    "orlistat",
+    "topiramate",
+    "phentermine_topiramate",
+    "tirzepatide",
+    "megestrol",
+    "omega3_epa_dha",
+    "amphetamine",
+    "insulin_degludec",
+    "insulin_degludec_liraglutide",
+    "naltrexone_bupropion",
+    "sitagliptin",
+    "glipizide"
+  ],
+  "pubchem_resolved": 0,
+  "openfda_index_size": 19,
+  "catalog_path": "I:\\fsot fat burn\\data\\derived\\compounds_catalog_full.json"
+}

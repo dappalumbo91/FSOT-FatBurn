@@ -1,0 +1,92 @@
+{
+  "version": "0.1.0",
+  "description": "Sheldon-class somatotype priors for metabolic rate and fat patterning. Scaffold physiology mapped onto FSOT Biology fold.",
+  "types": {
+    "ectomorph": {
+      "id": "ectomorph",
+      "name": "Ectomorph",
+      "description": "Linear frame; high relative EE; hard gainer; lower spontaneous fat storage.",
+      "bmr_multiplier": 1.08,
+      "neat_multiplier": 1.15,
+      "insulin_sensitivity_multiplier": 1.10,
+      "insulin_response_multiplier": 0.85,
+      "fat_storage_drive": 0.75,
+      "muscle_gain_ease": 0.70,
+      "default_body_fat_pct_male": 12.0,
+      "default_body_fat_pct_female": 20.0,
+      "activity_factor_bias": 0.05,
+      "depot_mass_bias": {
+        "visceral_omental": 0.85,
+        "subq_abdominal": 0.90,
+        "subq_gluteofemoral": 0.95,
+        "im_ectopic": 0.90
+      },
+      "fsot_delta_psi_bias": -0.03,
+      "notes": "Higher baseline dispersal tendency of energy; protect against over-deficit."
+    },
+    "mesomorph": {
+      "id": "mesomorph",
+      "name": "Mesomorph",
+      "description": "Athletic frame; balanced EE; high training response and muscle retention.",
+      "bmr_multiplier": 1.03,
+      "neat_multiplier": 1.05,
+      "insulin_sensitivity_multiplier": 1.05,
+      "insulin_response_multiplier": 0.95,
+      "fat_storage_drive": 0.95,
+      "muscle_gain_ease": 1.20,
+      "default_body_fat_pct_male": 15.0,
+      "default_body_fat_pct_female": 22.0,
+      "activity_factor_bias": 0.08,
+      "depot_mass_bias": {
+        "visceral_omental": 0.95,
+        "subq_abdominal": 1.00,
+        "im_ectopic": 1.10,
+        "subq_arms": 1.05,
+        "subq_chest": 1.05
+      },
+      "fsot_delta_psi_bias": 0.0,
+      "notes": "Best responder to resistance + moderate deficit recomp protocols."
+    },
+    "endomorph": {
+      "id": "endomorph",
+      "name": "Endomorph",
+      "description": "Stockier frame; lower relative EE; efficient energy storage; higher insulin response.",
+      "bmr_multiplier": 0.94,
+      "neat_multiplier": 0.88,
+      "insulin_sensitivity_multiplier": 0.85,
+      "insulin_response_multiplier": 1.20,
+      "fat_storage_drive": 1.25,
+      "muscle_gain_ease": 1.05,
+      "default_body_fat_pct_male": 28.0,
+      "default_body_fat_pct_female": 35.0,
+      "activity_factor_bias": -0.05,
+      "depot_mass_bias": {
+        "visceral_omental": 1.20,
+        "subq_abdominal": 1.15,
+        "subq_gluteofemoral": 1.20,
+        "subq_back_flanks": 1.15,
+        "subq_face_neck": 1.10
+      },
+      "fsot_delta_psi_bias": 0.06,
+      "notes": "Prioritize protein, steps/NEAT, resistance, insulin management; α2-stubborn depots matter more."
+    },
+    "ecto_meso": {
+      "id": "ecto_meso",
+      "name": "Ecto-mesomorph hybrid",
+      "description": "Blend 60% ecto / 40% meso.",
+      "blend": {"ectomorph": 0.6, "mesomorph": 0.4}
+    },
+    "meso_endo": {
+      "id": "meso_endo",
+      "name": "Meso-endomorph hybrid",
+      "description": "Blend 55% meso / 45% endo — common trained soft look.",
+      "blend": {"mesomorph": 0.55, "endomorph": 0.45}
+    },
+    "ecto_endo": {
+      "id": "ecto_endo",
+      "name": "Ecto-endomorph hybrid (skinny-fat pattern)",
+      "description": "Low muscle, elevated central fat tendency.",
+      "blend": {"ectomorph": 0.45, "endomorph": 0.55}
+    }
+  }
+}

@@ -1,0 +1,16 @@
+domain: Adipose_Lipolysis_Live_Panel
+project: I:/fsot fat burn
+benchmark_data: data/adipose_lipolysis_panel_benchmark.json
+lean_module: FSOT.Formal.AdiposeLipolysisPanelPriors
+D_eff: 12
+delta_psi: 0.08
+maps_to_lean:
+- medical
+- biological
+- chemical
+export_script: I:/fsot fat burn/scripts/export_adipose_panel.py
+generated_at: '2026-07-23T13:56:22.695620+00:00'
+record_count: 63
+pooled_median_error_pct: 0.0
+note: Fat-cell / lipolysis / somatotype / meal-insulin application panel from FSOT
+  Fat Burn.

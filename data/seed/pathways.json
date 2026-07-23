@@ -1,0 +1,46 @@
+{
+  "version": "0.1.0",
+  "description": "Coarse pathway map for adipose TAG turnover (simulation ontology)",
+  "pathways": [
+    {
+      "id": "lipolysis_atgl_hsl",
+      "name": "Neutral lipolysis (ATGL → HSL → MGL)",
+      "direction": "TAG → glycerol + FFA",
+      "drivers": ["cAMP", "PKA", "catecholamines", "forskolin", "natriuretic peptides"],
+      "inhibitors": ["insulin", "PDE3B", "α2-adrenergic Gi"],
+      "fsot_link": "dispersal regime; Spin_Down / Poof-linked mobilization"
+    },
+    {
+      "id": "lipogenesis_dnl",
+      "name": "De novo lipogenesis + re-esterification",
+      "direction": "glucose/acetate → FA → TAG",
+      "drivers": ["insulin", "ChREBP", "SREBP-1c", "surplus energy"],
+      "inhibitors": ["AMPK", "glucagon", "catecholamines"],
+      "fsot_link": "emergence regime; Spin_Up / P_new storage resonance"
+    },
+    {
+      "id": "thermogenesis_ucp1",
+      "name": "Uncoupling protein-1 brown/beige heat",
+      "direction": "FA oxidation → heat (non-shivering)",
+      "drivers": ["cold", "β3-adrenergic", "capsaicinoids", "exercise browning signals"],
+      "inhibitors": ["warmth", "high insulin chronic"],
+      "fsot_link": "Thermodynamics domain D_eff=15"
+    },
+    {
+      "id": "appetite_cns",
+      "name": "Central appetite / intake control",
+      "direction": "kcal intake modulation",
+      "drivers": ["GLP-1", "PYY", "leptin (when sensitive)", "protein", "fiber"],
+      "inhibitors": ["ghrelin", "ultra-processed hyperpalatability", "sleep debt"],
+      "fsot_link": "largest real-world lever via term2 energy environment"
+    },
+    {
+      "id": "water_ecf_glycogen",
+      "name": "ECF sodium + glycogen-bound water",
+      "direction": "scale weight without TAG change",
+      "drivers": ["Na+ intake", "glycogen supercompensation", "cortisol", "luteal phase"],
+      "inhibitors": ["Na+ restriction", "glycogen depletion", "loop diuretics (water only)"],
+      "fsot_link": "Fluid_Dynamics fold; must not be scored as fat loss"
+    }
+  ]
+}

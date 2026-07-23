@@ -1,0 +1,58 @@
+# FSOT Fat Burn — project configuration
+# Canonical FSOT hub is the physical archive on I:
+
+project:
+  name: FSOT Fat Burn
+  root: "I:/fsot fat burn"
+  version: "0.1.0"
+  epistemic_tier: scaffold_to_measured  # numeric claims re-verify against archive gates
+
+fsot:
+  archive_root: "I:/FSOT-Physical-Archive"
+  lean_hub: "I:/FSOT-Physical-Archive/02_FSOT-2.1-Lean-Full"
+  compute_module: "I:/FSOT-Physical-Archive/02_FSOT-2.1-Lean-Full/vendor/fsot_compute.py"
+  public_data: "I:/FSOT-Physical-Archive/03_FSOT-PublicData"
+  smiles_dataset: "I:/FSOT-Physical-Archive/02_FSOT-2.1-Lean-Full/vendor/smiles/FSOT_SMILES_Lab_Dataset.json"
+  pubchem_cache: "I:/FSOT-Physical-Archive/03_FSOT-PublicData/pubchem/pubchem_cache.json"
+  chembl_cache: "I:/FSOT-Physical-Archive/02_FSOT-2.1-Lean-Full/data/pharmacology_chembl_cache.json"
+  # Domain folds from FSOT 2.1 (Biology / Biochemistry / Thermodynamics)
+  domains:
+    adipocyte_white: { D_eff: 12, delta_psi: 0.08, recent_hits: 0, observed: false, name: Biology }
+    adipocyte_brown: { D_eff: 12, delta_psi: 0.15, recent_hits: 1, observed: true, name: Biology }
+    lipolysis_enzyme: { D_eff: 13, delta_psi: 0.35, recent_hits: 1, observed: true, name: Biochemistry }
+    thermogenesis: { D_eff: 15, delta_psi: 0.9, recent_hits: 1, observed: true, name: Thermodynamics }
+    fluid_water: { D_eff: 15, delta_psi: 0.9, recent_hits: 1, observed: false, name: Fluid_Dynamics }
+    exercise_mech: { D_eff: 12, delta_psi: 0.2, recent_hits: 1, observed: true, name: Biology }
+
+apis:
+  pubchem_pug: "https://pubchem.ncbi.nlm.nih.gov/rest/pug"
+  chembl: "https://www.ebi.ac.uk/chembl/api/data"
+  openfda: "https://api.fda.gov/drug"
+  rxnav: "https://rxnav.nlm.nih.gov/REST"
+  clinicaltrials: "https://clinicaltrials.gov/api/v2"
+  openfoodfacts: "https://world.openfoodfacts.org"
+  usda_fdc: "https://api.nal.usda.gov/fdc/v1"  # needs FDC_API_KEY env if used live
+  user_agent: "FSOT-FatBurn/0.1 (research simulator; local archive primary)"
+
+somatotypes:
+  default: meso_endo
+  pure: [ectomorph, mesomorph, endomorph]
+  hybrids: [ecto_meso, meso_endo, ecto_endo]
+
+panel_export:
+  domain: Adipose_Lipolysis_Live_Panel
+  lean_module: FSOT.Formal.AdiposeLipolysisPanelPriors
+  benchmark: data/adipose_lipolysis_panel_benchmark.json
+
+simulation:
+  dt_hours: 1.0
+  default_days: 28
+  kcal_per_kg_fat: 7700.0
+  glycogen_water_ratio: 3.0   # g water bound per g glycogen (order-of-magnitude physiology)
+  seed_rng: 42
+
+paths:
+  seed: "data/seed"
+  cache: "data/cache"
+  derived: "data/derived"
+  reports: "reports"

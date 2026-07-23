@@ -1,0 +1,378 @@
+{
+  "version": "0.1.0",
+  "description": "Population-scale waist/hip/neck/height/weight archetypes from literature cutoffs and clinical extremes — not one person. Users select nearest archetype and critique deltas toward their own measures.",
+  "units": "cm, kg, years",
+  "references": [
+    "WHO waist action levels: men 94/102 cm, women 80/88 cm (cardiometabolic risk)",
+    "NCEP/ATP III metabolic syndrome waist: men >102 cm, women >88 cm",
+    "WHR risk often cited: men >0.90, women >0.85 (WHO-class guidance)",
+    "US Navy circumference BF method (Hodgdon & Beckett) — used as composition estimator",
+    "NHANES adult waist distribution class (approx): ~P5–P95 roughly 70–130+ cm depending on sex/era",
+    "Clinical super-obesity case series: waist circumferences reported >150–180 cm (rare tails)",
+    "Athletic lean / physique ranges: male waist often ~70–85 cm; contest extremes lower",
+    "Neck circumference obesity screening literature: men ~≥37–39 cm, women ~≥34–35 cm elevated risk class"
+  ],
+  "measurement_axes": {
+    "waist_cm": {
+      "male_approx": {"very_lean": 70, "lean": 80, "average": 94, "elevated": 102, "high": 120, "severe": 140, "extreme_tail": 165},
+      "female_approx": {"very_lean": 60, "lean": 70, "average": 80, "elevated": 88, "high": 105, "severe": 125, "extreme_tail": 150}
+    },
+    "hip_cm": {
+      "note": "Hip co-varies with sex and gynoid vs android pattern; pear = hip >> waist; apple = waist ≥ hip"
+    },
+    "neck_cm": {
+      "male_approx": {"small": 34, "average": 38, "large": 42, "very_large": 48},
+      "female_approx": {"small": 30, "average": 33, "large": 36, "very_large": 40}
+    },
+    "height_cm": {
+      "male": {"short": 165, "average": 178, "tall": 193},
+      "female": {"short": 155, "average": 163, "tall": 178}
+    }
+  },
+  "archetypes": [
+    {
+      "id": "M_lean_ectomorph_short",
+      "label": "Male · short · very lean linear",
+      "sex": "male", "age_y": 28, "height_cm": 165, "weight_kg": 55,
+      "waist_cm": 70, "hip_cm": 86, "neck_cm": 34,
+      "shape": "linear", "scale": "small", "adiposity_band": "very_lean",
+      "literature_anchor": "Athletic lean / low-BMI adult male tail"
+    },
+    {
+      "id": "M_lean_mesomorph_avg",
+      "label": "Male · average height · lean athletic",
+      "sex": "male", "age_y": 30, "height_cm": 178, "weight_kg": 75,
+      "waist_cm": 78, "hip_cm": 95, "neck_cm": 38,
+      "shape": "athletic", "scale": "medium", "adiposity_band": "lean",
+      "literature_anchor": "Trained male mid-range; waist well below WHO 94"
+    },
+    {
+      "id": "M_lean_tall",
+      "label": "Male · tall · lean",
+      "sex": "male", "age_y": 32, "height_cm": 193, "weight_kg": 82,
+      "waist_cm": 80, "hip_cm": 98, "neck_cm": 37,
+      "shape": "linear", "scale": "large_frame", "adiposity_band": "lean",
+      "literature_anchor": "Tall lean adult male"
+    },
+    {
+      "id": "M_contest_lean_extreme",
+      "label": "Male · contest-lean extreme (low waist)",
+      "sex": "male", "age_y": 27, "height_cm": 175, "weight_kg": 72,
+      "waist_cm": 68, "hip_cm": 92, "neck_cm": 39,
+      "shape": "athletic_extreme", "scale": "medium", "adiposity_band": "extreme_lean",
+      "literature_anchor": "Physique contest peak-week waist extremes (lower population tail)"
+    },
+    {
+      "id": "M_who_action1",
+      "label": "Male · WHO waist action level 1 (94 cm)",
+      "sex": "male", "age_y": 40, "height_cm": 178, "weight_kg": 88,
+      "waist_cm": 94, "hip_cm": 102, "neck_cm": 39,
+      "shape": "android_mild", "scale": "medium", "adiposity_band": "borderline",
+      "literature_anchor": "WHO waist 94 cm action level (men)"
+    },
+    {
+      "id": "M_atp3_102",
+      "label": "Male · ATP-III waist 102 cm",
+      "sex": "male", "age_y": 45, "height_cm": 178, "weight_kg": 98,
+      "waist_cm": 102, "hip_cm": 106, "neck_cm": 41,
+      "shape": "android", "scale": "medium", "adiposity_band": "elevated",
+      "literature_anchor": "NCEP/ATP III metabolic syndrome waist cut-point men >102 cm"
+    },
+    {
+      "id": "M_avg_nhanes_class",
+      "label": "Male · mid-population abdominal (≈110 cm waist class)",
+      "sex": "male", "age_y": 42, "height_cm": 176, "weight_kg": 105,
+      "waist_cm": 110, "hip_cm": 112, "neck_cm": 42,
+      "shape": "android", "scale": "medium_heavy", "adiposity_band": "high",
+      "literature_anchor": "NHANES-era elevated male waist class (not a single percentile claim)"
+    },
+    {
+      "id": "M_high_120",
+      "label": "Male · high waist 120 cm",
+      "sex": "male", "age_y": 48, "height_cm": 175, "weight_kg": 118,
+      "waist_cm": 120, "hip_cm": 118, "neck_cm": 44,
+      "shape": "apple", "scale": "heavy", "adiposity_band": "high",
+      "literature_anchor": "Class II obesity abdominal pattern"
+    },
+    {
+      "id": "M_severe_140",
+      "label": "Male · severe abdominal 140 cm",
+      "sex": "male", "age_y": 50, "height_cm": 178, "weight_kg": 140,
+      "waist_cm": 140, "hip_cm": 135, "neck_cm": 46,
+      "shape": "apple", "scale": "very_heavy", "adiposity_band": "severe",
+      "literature_anchor": "Severe obesity; waist well into clinical high range"
+    },
+    {
+      "id": "M_extreme_165",
+      "label": "Male · extreme waist tail ~165 cm",
+      "sex": "male", "age_y": 45, "height_cm": 180, "weight_kg": 180,
+      "waist_cm": 165, "hip_cm": 155, "neck_cm": 50,
+      "shape": "apple_extreme", "scale": "extreme", "adiposity_band": "extreme",
+      "literature_anchor": "Super-obesity / case-series waist tails (rare)"
+    },
+    {
+      "id": "M_extreme_180_tail",
+      "label": "Male · ultra-extreme waist tail ~180 cm",
+      "sex": "male", "age_y": 42, "height_cm": 178, "weight_kg": 210,
+      "waist_cm": 180, "hip_cm": 170, "neck_cm": 52,
+      "shape": "apple_ultra", "scale": "ultra_extreme", "adiposity_band": "ultra_extreme",
+      "literature_anchor": "Documented clinical extreme circumference class (selection bound)"
+    },
+    {
+      "id": "M_pear_soft",
+      "label": "Male · softer lower-body bias (lower WHR)",
+      "sex": "male", "age_y": 35, "height_cm": 178, "weight_kg": 95,
+      "waist_cm": 92, "hip_cm": 110, "neck_cm": 38,
+      "shape": "gynoid_bias", "scale": "medium", "adiposity_band": "moderate",
+      "literature_anchor": "Lower WHR male pattern (less common android default)"
+    },
+    {
+      "id": "M_apple_hard",
+      "label": "Male · hard apple (waist ≥ hip)",
+      "sex": "male", "age_y": 44, "height_cm": 175, "weight_kg": 110,
+      "waist_cm": 118, "hip_cm": 112, "neck_cm": 43,
+      "shape": "apple", "scale": "heavy", "adiposity_band": "high",
+      "literature_anchor": "Classic male android: waist exceeds hip"
+    },
+    {
+      "id": "M_short_stocky",
+      "label": "Male · short stocky endomorph",
+      "sex": "male", "age_y": 38, "height_cm": 165, "weight_kg": 100,
+      "waist_cm": 108, "hip_cm": 108, "neck_cm": 42,
+      "shape": "stocky", "scale": "compact_heavy", "adiposity_band": "high",
+      "literature_anchor": "Short stature high BMI pattern"
+    },
+    {
+      "id": "M_tall_heavy",
+      "label": "Male · tall heavy",
+      "sex": "male", "age_y": 36, "height_cm": 193, "weight_kg": 130,
+      "waist_cm": 112, "hip_cm": 115, "neck_cm": 43,
+      "shape": "android", "scale": "large_heavy", "adiposity_band": "high",
+      "literature_anchor": "Tall large-frame elevated waist"
+    },
+    {
+      "id": "M_skinny_fat",
+      "label": "Male · normal-BMI high waist (skinny-fat class)",
+      "sex": "male", "age_y": 34, "height_cm": 178, "weight_kg": 78,
+      "waist_cm": 96, "hip_cm": 98, "neck_cm": 37,
+      "shape": "central_normalweight", "scale": "medium", "adiposity_band": "central_lean_mass_low",
+      "literature_anchor": "Normal-weight obesity / high waist-to-height class"
+    },
+    {
+      "id": "M_thick_neck_power",
+      "label": "Male · power athlete thick neck lower waist",
+      "sex": "male", "age_y": 29, "height_cm": 180, "weight_kg": 100,
+      "waist_cm": 88, "hip_cm": 104, "neck_cm": 46,
+      "shape": "mesomorph_power", "scale": "heavy_leanish", "adiposity_band": "moderate_lean_mass_high",
+      "literature_anchor": "High neck circumference with relatively controlled waist (muscle mass)"
+    },
+    {
+      "id": "M_elderly_central",
+      "label": "Male · older adult central adiposity",
+      "sex": "male", "age_y": 68, "height_cm": 173, "weight_kg": 92,
+      "waist_cm": 108, "hip_cm": 106, "neck_cm": 40,
+      "shape": "android_age", "scale": "medium", "adiposity_band": "elevated",
+      "literature_anchor": "Age-related central fat redistribution pattern"
+    },
+    {
+      "id": "F_lean_ectomorph",
+      "label": "Female · lean linear",
+      "sex": "female", "age_y": 26, "height_cm": 168, "weight_kg": 52,
+      "waist_cm": 62, "hip_cm": 88, "neck_cm": 30,
+      "shape": "linear", "scale": "small", "adiposity_band": "very_lean",
+      "literature_anchor": "Lean young adult female"
+    },
+    {
+      "id": "F_lean_athletic",
+      "label": "Female · athletic lean",
+      "sex": "female", "age_y": 28, "height_cm": 170, "weight_kg": 62,
+      "waist_cm": 68, "hip_cm": 94, "neck_cm": 32,
+      "shape": "athletic", "scale": "medium", "adiposity_band": "lean",
+      "literature_anchor": "Trained female; waist below WHO 80"
+    },
+    {
+      "id": "F_contest_lean_extreme",
+      "label": "Female · contest-lean extreme",
+      "sex": "female", "age_y": 27, "height_cm": 165, "weight_kg": 55,
+      "waist_cm": 58, "hip_cm": 86, "neck_cm": 31,
+      "shape": "athletic_extreme", "scale": "small_medium", "adiposity_band": "extreme_lean",
+      "literature_anchor": "Physique peak-week female waist tail"
+    },
+    {
+      "id": "F_who_action1",
+      "label": "Female · WHO waist action level 1 (80 cm)",
+      "sex": "female", "age_y": 38, "height_cm": 163, "weight_kg": 70,
+      "waist_cm": 80, "hip_cm": 100, "neck_cm": 33,
+      "shape": "balanced", "scale": "medium", "adiposity_band": "borderline",
+      "literature_anchor": "WHO waist 80 cm action level (women)"
+    },
+    {
+      "id": "F_atp3_88",
+      "label": "Female · ATP-III waist 88 cm",
+      "sex": "female", "age_y": 42, "height_cm": 163, "weight_kg": 78,
+      "waist_cm": 88, "hip_cm": 106, "neck_cm": 34,
+      "shape": "android_mild", "scale": "medium", "adiposity_band": "elevated",
+      "literature_anchor": "NCEP/ATP III metabolic syndrome waist cut-point women >88 cm"
+    },
+    {
+      "id": "F_pear_classic",
+      "label": "Female · classic pear (low WHR, high hip)",
+      "sex": "female", "age_y": 35, "height_cm": 165, "weight_kg": 82,
+      "waist_cm": 78, "hip_cm": 118, "neck_cm": 33,
+      "shape": "pear", "scale": "medium", "adiposity_band": "moderate_gynoid",
+      "literature_anchor": "Gynoid / gluteofemoral storage pattern"
+    },
+    {
+      "id": "F_pear_extreme",
+      "label": "Female · extreme pear (hip >> waist)",
+      "sex": "female", "age_y": 33, "height_cm": 168, "weight_kg": 95,
+      "waist_cm": 82, "hip_cm": 130, "neck_cm": 34,
+      "shape": "pear_extreme", "scale": "heavy_gynoid", "adiposity_band": "high_gynoid",
+      "literature_anchor": "Lower-body dominant adiposity extreme"
+    },
+    {
+      "id": "F_apple_classic",
+      "label": "Female · classic apple (high WHR)",
+      "sex": "female", "age_y": 45, "height_cm": 162, "weight_kg": 90,
+      "waist_cm": 105, "hip_cm": 108, "neck_cm": 36,
+      "shape": "apple", "scale": "heavy", "adiposity_band": "high_android",
+      "literature_anchor": "Female android / central adiposity"
+    },
+    {
+      "id": "F_high_105",
+      "label": "Female · high waist 105 cm",
+      "sex": "female", "age_y": 48, "height_cm": 160, "weight_kg": 100,
+      "waist_cm": 105, "hip_cm": 115, "neck_cm": 37,
+      "shape": "android", "scale": "heavy", "adiposity_band": "high",
+      "literature_anchor": "Class I–II obesity female abdominal"
+    },
+    {
+      "id": "F_severe_125",
+      "label": "Female · severe waist 125 cm",
+      "sex": "female", "age_y": 50, "height_cm": 163, "weight_kg": 125,
+      "waist_cm": 125, "hip_cm": 130, "neck_cm": 39,
+      "shape": "apple", "scale": "very_heavy", "adiposity_band": "severe",
+      "literature_anchor": "Severe obesity female"
+    },
+    {
+      "id": "F_extreme_150",
+      "label": "Female · extreme waist tail ~150 cm",
+      "sex": "female", "age_y": 44, "height_cm": 165, "weight_kg": 160,
+      "waist_cm": 150, "hip_cm": 155, "neck_cm": 42,
+      "shape": "apple_extreme", "scale": "extreme", "adiposity_band": "extreme",
+      "literature_anchor": "Super-obesity female circumference tail"
+    },
+    {
+      "id": "F_short_stocky",
+      "label": "Female · short stocky",
+      "sex": "female", "age_y": 40, "height_cm": 155, "weight_kg": 85,
+      "waist_cm": 98, "hip_cm": 112, "neck_cm": 35,
+      "shape": "stocky", "scale": "compact_heavy", "adiposity_band": "high",
+      "literature_anchor": "Short stature elevated BMI"
+    },
+    {
+      "id": "F_tall_pear",
+      "label": "Female · tall pear",
+      "sex": "female", "age_y": 31, "height_cm": 178, "weight_kg": 85,
+      "waist_cm": 76, "hip_cm": 112, "neck_cm": 33,
+      "shape": "pear", "scale": "tall", "adiposity_band": "moderate",
+      "literature_anchor": "Tall gynoid pattern"
+    },
+    {
+      "id": "F_postmeno_central",
+      "label": "Female · post-menopausal central shift",
+      "sex": "female", "age_y": 58, "height_cm": 162, "weight_kg": 80,
+      "waist_cm": 96, "hip_cm": 106, "neck_cm": 35,
+      "shape": "android_age", "scale": "medium", "adiposity_band": "elevated",
+      "literature_anchor": "Menopause-associated central fat redistribution"
+    },
+    {
+      "id": "F_skinny_fat",
+      "label": "Female · normal-weight high waist class",
+      "sex": "female", "age_y": 36, "height_cm": 165, "weight_kg": 62,
+      "waist_cm": 86, "hip_cm": 96, "neck_cm": 32,
+      "shape": "central_normalweight", "scale": "medium", "adiposity_band": "central_lean_mass_low",
+      "literature_anchor": "Normal-weight central adiposity"
+    },
+    {
+      "id": "F_hourglass_mid",
+      "label": "Female · hourglass mid (balanced WHR ~0.7)",
+      "sex": "female", "age_y": 29, "height_cm": 168, "weight_kg": 68,
+      "waist_cm": 70, "hip_cm": 100, "neck_cm": 32,
+      "shape": "hourglass", "scale": "medium", "adiposity_band": "moderate_lean",
+      "literature_anchor": "Classic low-mid WHR feminine pattern (~0.70)"
+    },
+    {
+      "id": "F_thick_neck_risk",
+      "label": "Female · elevated neck circumference class",
+      "sex": "female", "age_y": 47, "height_cm": 163, "weight_kg": 95,
+      "waist_cm": 100, "hip_cm": 115, "neck_cm": 40,
+      "shape": "android", "scale": "heavy", "adiposity_band": "high",
+      "literature_anchor": "Neck circumference obesity/risk screening literature (≥34–35 cm class)"
+    },
+    {
+      "id": "M_teen_early_adult_lean",
+      "label": "Male · young adult lean",
+      "sex": "male", "age_y": 19, "height_cm": 180, "weight_kg": 70,
+      "waist_cm": 74, "hip_cm": 92, "neck_cm": 36,
+      "shape": "linear", "scale": "medium", "adiposity_band": "lean",
+      "literature_anchor": "Young adult male lower adiposity"
+    },
+    {
+      "id": "F_teen_early_adult_lean",
+      "label": "Female · young adult lean",
+      "sex": "female", "age_y": 19, "height_cm": 165, "weight_kg": 55,
+      "waist_cm": 66, "hip_cm": 92, "neck_cm": 31,
+      "shape": "linear", "scale": "medium", "adiposity_band": "lean",
+      "literature_anchor": "Young adult female lower adiposity"
+    },
+    {
+      "id": "M_waist_height_risk",
+      "label": "Male · waist-to-height ≈ 0.6 risk class",
+      "sex": "male", "age_y": 41, "height_cm": 175, "weight_kg": 100,
+      "waist_cm": 105, "hip_cm": 108, "neck_cm": 41,
+      "shape": "android", "scale": "medium_heavy", "adiposity_band": "elevated",
+      "literature_anchor": "WHtR ≥0.5 risk often cited; 0.6 marks higher band"
+    },
+    {
+      "id": "F_waist_height_risk",
+      "label": "Female · waist-to-height ≈ 0.6 risk class",
+      "sex": "female", "age_y": 41, "height_cm": 160, "weight_kg": 85,
+      "waist_cm": 96, "hip_cm": 110, "neck_cm": 35,
+      "shape": "android_mild", "scale": "medium_heavy", "adiposity_band": "elevated",
+      "literature_anchor": "WHtR elevated band"
+    },
+    {
+      "id": "M_hip_dominant_rare",
+      "label": "Male · hip-dominant rare pattern",
+      "sex": "male", "age_y": 40, "height_cm": 176, "weight_kg": 100,
+      "waist_cm": 95, "hip_cm": 120, "neck_cm": 39,
+      "shape": "gynoid_rare", "scale": "heavy", "adiposity_band": "moderate_high",
+      "literature_anchor": "Uncommon male gluteofemoral-dominant storage"
+    },
+    {
+      "id": "F_waist_equals_hip",
+      "label": "Female · cylindrical (waist ≈ hip)",
+      "sex": "female", "age_y": 46, "height_cm": 164, "weight_kg": 92,
+      "waist_cm": 110, "hip_cm": 111, "neck_cm": 36,
+      "shape": "cylinder_apple", "scale": "heavy", "adiposity_band": "high",
+      "literature_anchor": "Low hip-waist differentiation / android cylinder"
+    },
+    {
+      "id": "M_micro_waist_tall_thin",
+      "label": "Male · tall thin micro-waist bound",
+      "sex": "male", "age_y": 25, "height_cm": 193, "weight_kg": 68,
+      "waist_cm": 66, "hip_cm": 88, "neck_cm": 33,
+      "shape": "extreme_ectomorph", "scale": "tall_light", "adiposity_band": "extreme_lean",
+      "literature_anchor": "Ectomorph tall-light population bound"
+    },
+    {
+      "id": "F_micro_waist_petite",
+      "label": "Female · petite micro-waist bound",
+      "sex": "female", "age_y": 24, "height_cm": 155, "weight_kg": 45,
+      "waist_cm": 56, "hip_cm": 82, "neck_cm": 29,
+      "shape": "extreme_ectomorph", "scale": "petite", "adiposity_band": "extreme_lean",
+      "literature_anchor": "Petite low-circumference bound"
+    }
+  ]
+}

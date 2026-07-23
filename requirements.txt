@@ -1,0 +1,7 @@
+# FSOT Fat Burn — application stack
+mpmath>=1.3.0
+requests>=2.31.0
+PyYAML>=6.0
+numpy>=1.26.0
+pandas>=2.1.0
+rich>=13.0.0

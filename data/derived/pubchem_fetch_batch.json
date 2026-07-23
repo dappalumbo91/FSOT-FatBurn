@@ -1,0 +1,531 @@
+[
+  {
+    "cid": 2519,
+    "ok": true,
+    "data": {
+      "PropertyTable": {
+        "Properties": [
+          {
+            "CID": 2519,
+            "MolecularFormula": "C8H10N4O2",
+            "MolecularWeight": "194.19",
+            "SMILES": "CN1C=NC2=C1C(=O)N(C(=O)N2C)C",
+            "ConnectivitySMILES": "CN1C=NC2=C1C(=O)N(C(=O)N2C)C",
+            "IUPACName": "1,3,7-trimethylpurine-2,6-dione",
+            "XLogP": -0.1,
+            "TPSA": 58.4,
+            "HBondDonorCount": 0,
+            "HBondAcceptorCount": 3,
+            "RotatableBondCount": 0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cid": 65064,
+    "ok": true,
+    "data": {
+      "PropertyTable": {
+        "Properties": [
+          {
+            "CID": 65064,
+            "MolecularFormula": "C22H18O11",
+            "MolecularWeight": "458.4",
+            "SMILES": "C1[C@H]([C@H](OC2=CC(=CC(=C21)O)O)C3=CC(=C(C(=C3)O)O)O)OC(=O)C4=CC(=C(C(=C4)O)O)O",
+            "ConnectivitySMILES": "C1C(C(OC2=CC(=CC(=C21)O)O)C3=CC(=C(C(=C3)O)O)O)OC(=O)C4=CC(=C(C(=C4)O)O)O",
+            "IUPACName": "[(2R,3R)-5,7-dihydroxy-2-(3,4,5-trihydroxyphenyl)-3,4-dihydro-2H-chromen-3-yl] 3,4,5-trihydroxybenzoate",
+            "XLogP": 1.2,
+            "TPSA": 197,
+            "HBondDonorCount": 8,
+            "HBondAcceptorCount": 11,
+            "RotatableBondCount": 4
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cid": 1548943,
+    "ok": true,
+    "data": {
+      "PropertyTable": {
+        "Properties": [
+          {
+            "CID": 1548943,
+            "MolecularFormula": "C18H27NO3",
+            "MolecularWeight": "305.4",
+            "SMILES": "CC(C)/C=C/CCCCC(=O)NCC1=CC(=C(C=C1)O)OC",
+            "ConnectivitySMILES": "CC(C)C=CCCCCC(=O)NCC1=CC(=C(C=C1)O)OC",
+            "IUPACName": "(E)-N-[(4-hydroxy-3-methoxyphenyl)methyl]-8-methylnon-6-enamide",
+            "XLogP": 3.6,
+            "TPSA": 58.6,
+            "HBondDonorCount": 2,
+            "HBondAcceptorCount": 3,
+            "RotatableBondCount": 9
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cid": 8969,
+    "ok": true,
+    "data": {
+      "PropertyTable": {
+        "Properties": [
+          {
+            "CID": 8969,
+            "MolecularFormula": "C21H26N2O3",
+            "MolecularWeight": "354.4",
+            "SMILES": "COC(=O)[C@H]1[C@H](CC[C@@H]2[C@@H]1C[C@H]3C4=C(CCN3C2)C5=CC=CC=C5N4)O",
+            "ConnectivitySMILES": "COC(=O)C1C(CCC2C1CC3C4=C(CCN3C2)C5=CC=CC=C5N4)O",
+            "IUPACName": "methyl (1S,15R,18S,19R,20S)-18-hydroxy-1,3,11,12,14,15,16,17,18,19,20,21-dodecahydroyohimban-19-carboxylate",
+            "XLogP": 2.9,
+            "TPSA": 65.6,
+            "HBondDonorCount": 2,
+            "HBondAcceptorCount": 4,
+            "RotatableBondCount": 2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cid": 7172,
+    "ok": true,
+    "data": {
+      "PropertyTable": {
+        "Properties": [
+          {
+            "CID": 7172,
+            "MolecularFormula": "C9H13NO2",
+            "MolecularWeight": "167.20",
+            "SMILES": "CNCC(C1=CC=C(C=C1)O)O",
+            "ConnectivitySMILES": "CNCC(C1=CC=C(C=C1)O)O",
+            "IUPACName": "4-[1-hydroxy-2-(methylamino)ethyl]phenol",
+            "XLogP": -0.6,
+            "TPSA": 52.5,
+            "HBondDonorCount": 3,
+            "HBondAcceptorCount": 3,
+            "RotatableBondCount": 3
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cid": 47936,
+    "ok": true,
+    "data": {
+      "PropertyTable": {
+        "Properties": [
+          {
+            "CID": 47936,
+            "MolecularFormula": "C22H34O7",
+            "MolecularWeight": "410.5",
+            "SMILES": "CC(=O)O[C@H]1[C@H]([C@@H]2[C@]([C@H](CCC2(C)C)O)([C@@]3([C@@]1(O[C@@](CC3=O)(C)C=C)C)O)C)O",
+            "ConnectivitySMILES": "CC(=O)OC1C(C2C(CCC(C2(C3(C1(OC(CC3=O)(C)C=C)C)O)C)O)(C)C)O",
+            "IUPACName": "[(3R,4aR,5S,6S,6aS,10S,10aR,10bS)-3-ethenyl-6,10,10b-trihydroxy-3,4a,7,7,10a-pentamethyl-1-oxo-5,6,6a,8,9,10-hexahydro-2H-benzo[f]chromen-5-yl] acetate",
+            "XLogP": 1,
+            "TPSA": 113,
+            "HBondDonorCount": 3,
+            "HBondAcceptorCount": 7,
+            "RotatableBondCount": 3
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cid": 288,
+    "ok": true,
+    "data": {
+      "PropertyTable": {
+        "Properties": [
+          {
+            "CID": 288,
+            "MolecularFormula": "C7H15NO3",
+            "MolecularWeight": "161.20",
+            "SMILES": "C[N+](C)(C)CC(CC(=O)[O-])O",
+            "ConnectivitySMILES": "C[N+](C)(C)CC(CC(=O)[O-])O",
+            "IUPACName": "3-hydroxy-4-(trimethylazaniumyl)butanoate",
+            "XLogP": -0.2,
+            "TPSA": 60.4,
+            "HBondDonorCount": 1,
+            "HBondAcceptorCount": 3,
+            "RotatableBondCount": 3
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cid": 2353,
+    "ok": true,
+    "data": {
+      "PropertyTable": {
+        "Properties": [
+          {
+            "CID": 2353,
+            "MolecularFormula": "C20H18NO4+",
+            "MolecularWeight": "336.4",
+            "SMILES": "COC1=C(C2=C[N+]3=C(C=C2C=C1)C4=CC5=C(C=C4CC3)OCO5)OC",
+            "ConnectivitySMILES": "COC1=C(C2=C[N+]3=C(C=C2C=C1)C4=CC5=C(C=C4CC3)OCO5)OC",
+            "IUPACName": "16,17-dimethoxy-5,7-dioxa-13-azoniapentacyclo[11.8.0.02,10.04,8.015,20]henicosa-1(13),2,4(8),9,14,16,18,20-octaene",
+            "XLogP": 3.6,
+            "TPSA": 40.8,
+            "HBondDonorCount": 0,
+            "HBondAcceptorCount": 4,
+            "RotatableBondCount": 2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cid": 4091,
+    "ok": true,
+    "data": {
+      "PropertyTable": {
+        "Properties": [
+          {
+            "CID": 4091,
+            "MolecularFormula": "C4H11N5",
+            "MolecularWeight": "129.16",
+            "SMILES": "CN(C)C(=N)N=C(N)N",
+            "ConnectivitySMILES": "CN(C)C(=N)N=C(N)N",
+            "IUPACName": "3-(diaminomethylidene)-1,1-dimethylguanidine",
+            "XLogP": -1.3,
+            "TPSA": 91.5,
+            "HBondDonorCount": 3,
+            "HBondAcceptorCount": 1,
+            "RotatableBondCount": 2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cid": 3034010,
+    "ok": true,
+    "data": {
+      "PropertyTable": {
+        "Properties": [
+          {
+            "CID": 3034010,
+            "MolecularFormula": "C29H53NO5",
+            "MolecularWeight": "495.7",
+            "SMILES": "CCCCCCCCCCC[C@@H](C[C@H]1[C@@H](C(=O)O1)CCCCCC)OC(=O)[C@H](CC(C)C)NC=O",
+            "ConnectivitySMILES": "CCCCCCCCCCCC(CC1C(C(=O)O1)CCCCCC)OC(=O)C(CC(C)C)NC=O",
+            "IUPACName": "[(2S)-1-[(2S,3S)-3-hexyl-4-oxooxetan-2-yl]tridecan-2-yl] (2S)-2-formamido-4-methylpentanoate",
+            "XLogP": 10,
+            "TPSA": 81.7,
+            "HBondDonorCount": 1,
+            "HBondAcceptorCount": 5,
+            "RotatableBondCount": 23
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cid": 56843331,
+    "ok": true,
+    "data": {
+      "PropertyTable": {
+        "Properties": [
+          {
+            "CID": 56843331,
+            "MolecularFormula": "C187H291N45O59",
+            "MolecularWeight": "4114",
+            "SMILES": "CC[C@H](C)[C@@H](C(=O)N[C@@H](C)C(=O)N[C@@H](CC1=CNC2=CC=CC=C21)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](C(C)C)C(=O)N[C@@H](CCCNC(=N)N)C(=O)NCC(=O)N[C@@H](CCCNC(=N)N)C(=O)NCC(=O)O)NC(=O)[C@H](CC3=CC=CC=C3)NC(=O)[C@H](CCC(=O)O)NC(=O)[C@H](CCCCNC(=O)COCCOCCNC(=O)COCCOCCNC(=O)CC[C@H](C(=O)O)NC(=O)CCCCCCCCCCCCCCCCC(=O)O)NC(=O)[C@H](C)NC(=O)[C@H](C)NC(=O)[C@H](CCC(=O)N)NC(=O)CNC(=O)[C@H](CCC(=O)O)NC(=O)[C@H](CC(C)C)NC(=O)[C@H](CC4=CC=C(C=C4)O)NC(=O)[C@H](CO)NC(=O)[C@H](CO)NC(=O)[C@H](C(C)C)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CO)NC(=O)[C@H]([C@@H](C)O)NC(=O)[C@H](CC5=CC=CC=C5)NC(=O)[C@H]([C@@H](C)O)NC(=O)CNC(=O)[C@H](CCC(=O)O)NC(=O)C(C)(C)NC(=O)[C@H](CC6=CN=CN6)N",
+            "ConnectivitySMILES": "CCC(C)C(C(=O)NC(C)C(=O)NC(CC1=CNC2=CC=CC=C21)C(=O)NC(CC(C)C)C(=O)NC(C(C)C)C(=O)NC(CCCNC(=N)N)C(=O)NCC(=O)NC(CCCNC(=N)N)C(=O)NCC(=O)O)NC(=O)C(CC3=CC=CC=C3)NC(=O)C(CCC(=O)O)NC(=O)C(CCCCNC(=O)COCCOCCNC(=O)COCCOCCNC(=O)CCC(C(=O)O)NC(=O)CCCCCCCCCCCCCCCCC(=O)O)NC(=O)C(C)NC(=O)C(C)NC(=O)C(CCC(=O)N)NC(=O)CNC(=O)C(CCC(=O)O)NC(=O)C(CC(C)C)NC(=O)C(CC4=CC=C(C=C4)O)NC(=O)C(CO)NC(=O)C(CO)NC(=O)C(C(C)C)NC(=O)C(CC(=O)O)NC(=O)C(CO)NC(=O)C(C(C)O)NC(=O)C(CC5=CC=CC=C5)NC(=O)C(C(C)O)NC(=O)CNC(=O)C(CCC(=O)O)NC(=O)C(C)(C)NC(=O)C(CC6=CN=CN6)N",
+            "IUPACName": "18-[[(1R)-4-[2-[2-[2-[2-[2-[2-[[(5S)-5-[[(2S)-2-[[(2S)-2-[[(2S)-5-amino-2-[[2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S,3R)-2-[[(2S)-2-[[(2S,3R)-2-[[2-[[(2S)-2-[[2-[[(2S)-2-amino-3-(1H-imidazol-5-yl)propanoyl]amino]-2-methylpropanoyl]amino]-4-carboxybutanoyl]amino]acetyl]amino]-3-hydroxybutanoyl]amino]-3-phenylpropanoyl]amino]-3-hydroxybutanoyl]amino]-3-hydroxypropanoyl]amino]-3-carboxypropanoyl]amino]-3-methylbutanoyl]amino]-3-hydroxypropanoyl]amino]-3-hydroxypropanoyl]amino]-3-(4-hydroxyphenyl)propanoyl]amino]-4-methylpentanoyl]amino]-4-carboxybutanoyl]amino]acetyl]amino]-5-oxopentanoyl]amino]propanoyl]amino]propanoyl]amino]-6-[[(2S)-1-[[(2S)-1-[[(2S,3S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-5-carbamimidamido-1-[[2-[[(2S)-5-carbamimidamido-1-(carboxymethylamino)-1-oxopentan-2-yl]amino]-2-oxoethyl]amino]-1-oxopentan-2-yl]amino]-3-methyl-1-oxobutan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-3-(1H-indol-3-yl)-1-oxopropan-2-yl]amino]-1-oxopropan-2-yl]amino]-3-methyl-1-oxopentan-2-yl]amino]-1-oxo-3-phenylpropan-2-yl]amino]-4-carboxy-1-oxobutan-2-yl]amino]-6-oxohexyl]amino]-2-oxoethoxy]ethoxy]ethylamino]-2-oxoethoxy]ethoxy]ethylamino]-1-carboxy-4-oxobutyl]amino]-18-oxooctadecanoic acid",
+            "XLogP": -5.8,
+            "TPSA": 1650,
+            "HBondDonorCount": 57,
+            "HBondAcceptorCount": 63,
+            "RotatableBondCount": 151
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cid": 156588324,
+    "ok": true,
+    "data": {
+      "PropertyTable": {
+        "Properties": [
+          {
+            "CID": 156588324,
+            "MolecularFormula": "C225H348N48O68",
+            "MolecularWeight": "4813",
+            "SMILES": "CC[C@H](C)[C@@H](C(=O)N[C@@H](C)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](C)C(=O)N[C@@H](CC1=CC=CC=C1)C(=O)N[C@@H](C(C)C)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CC2=CNC3=CC=CC=C32)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H]([C@@H](C)CC)C(=O)N[C@@H](C)C(=O)NCC(=O)NCC(=O)N4CCC[C@H]4C(=O)N[C@@H](CO)C(=O)N[C@@H](CO)C(=O)NCC(=O)N[C@@H](C)C(=O)N5CCC[C@H]5C(=O)N6CCC[C@H]6C(=O)N7CCC[C@H]7C(=O)N[C@@H](CO)C(=O)N)NC(=O)[C@H](CCCCNC(=O)CCCCCCCCCCCCCCCCCCC(=O)N[C@@H](CCC(=O)NCCOCCOCC(=O)NCCOCCOCC(=O)O)C(=O)O)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CC(C)C)NC(=O)C(C)(C)NC(=O)[C@H]([C@@H](C)CC)NC(=O)[C@H](CO)NC(=O)[C@H](CC8=CC=C(C=C8)O)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CO)NC(=O)[C@H]([C@@H](C)O)NC(=O)[C@H](CC9=CC=CC=C9)NC(=O)[C@H]([C@@H](C)O)NC(=O)CNC(=O)[C@H](CCC(=O)O)NC(=O)C(C)(C)NC(=O)[C@H](CC1=CC=C(C=C1)O)N",
+            "ConnectivitySMILES": "CCC(C)C(C(=O)NC(C)C(=O)NC(CCC(=O)N)C(=O)NC(CCCCN)C(=O)NC(C)C(=O)NC(CC1=CC=CC=C1)C(=O)NC(C(C)C)C(=O)NC(CCC(=O)N)C(=O)NC(CC2=CNC3=CC=CC=C32)C(=O)NC(CC(C)C)C(=O)NC(C(C)CC)C(=O)NC(C)C(=O)NCC(=O)NCC(=O)N4CCCC4C(=O)NC(CO)C(=O)NC(CO)C(=O)NCC(=O)NC(C)C(=O)N5CCCC5C(=O)N6CCCC6C(=O)N7CCCC7C(=O)NC(CO)C(=O)N)NC(=O)C(CCCCNC(=O)CCCCCCCCCCCCCCCCCCC(=O)NC(CCC(=O)NCCOCCOCC(=O)NCCOCCOCC(=O)O)C(=O)O)NC(=O)C(CC(=O)O)NC(=O)C(CC(C)C)NC(=O)C(C)(C)NC(=O)C(C(C)CC)NC(=O)C(CO)NC(=O)C(CC8=CC=C(C=C8)O)NC(=O)C(CC(=O)O)NC(=O)C(CO)NC(=O)C(C(C)O)NC(=O)C(CC9=CC=CC=C9)NC(=O)C(C(C)O)NC(=O)CNC(=O)C(CCC(=O)O)NC(=O)C(C)(C)NC(=O)C(CC1=CC=C(C=C1)O)N",
+            "IUPACName": "(2S)-2-[[20-[[(5S)-6-[[(2S,3S)-1-[[(2S)-1-[[(2S)-5-amino-1-[[(2S)-6-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-5-amino-1-[[(2S)-1-[[(2S)-1-[[(2S,3S)-1-[[(2S)-1-[[2-[[2-[(2S)-2-[[(2S)-1-[[(2S)-1-[[2-[[(2S)-1-[(2S)-2-[(2S)-2-[(2S)-2-[[(2S)-1-amino-3-hydroxy-1-oxopropan-2-yl]carbamoyl]pyrrolidine-1-carbonyl]pyrrolidine-1-carbonyl]pyrrolidin-1-yl]-1-oxopropan-2-yl]amino]-2-oxoethyl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]carbamoyl]pyrrolidin-1-yl]-2-oxoethyl]amino]-2-oxoethyl]amino]-1-oxopropan-2-yl]amino]-3-methyl-1-oxopentan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-3-(1H-indol-3-yl)-1-oxopropan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-3-methyl-1-oxobutan-2-yl]amino]-1-oxo-3-phenylpropan-2-yl]amino]-1-oxopropan-2-yl]amino]-1-oxohexan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-3-methyl-1-oxopentan-2-yl]amino]-5-[[(2S)-2-[[(2S)-2-[[2-[[(2S,3S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S,3R)-2-[[(2S)-2-[[(2S,3R)-2-[[2-[[(2S)-2-[[2-[[(2S)-2-amino-3-(4-hydroxyphenyl)propanoyl]amino]-2-methylpropanoyl]amino]-4-carboxybutanoyl]amino]acetyl]amino]-3-hydroxybutanoyl]amino]-3-phenylpropanoyl]amino]-3-hydroxybutanoyl]amino]-3-hydroxypropanoyl]amino]-3-carboxypropanoyl]amino]-3-(4-hydroxyphenyl)propanoyl]amino]-3-hydroxypropanoyl]amino]-3-methylpentanoyl]amino]-2-methylpropanoyl]amino]-4-methylpentanoyl]amino]-3-carboxypropanoyl]amino]-6-oxohexyl]amino]-20-oxoicosanoyl]amino]-5-[2-[2-[2-[2-[2-(carboxymethoxy)ethoxy]ethylamino]-2-oxoethoxy]ethoxy]ethylamino]-5-oxopentanoic acid",
+            "XLogP": -6.8,
+            "TPSA": 1790,
+            "HBondDonorCount": 58,
+            "HBondAcceptorCount": 70,
+            "RotatableBondCount": 163
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cid": 4771,
+    "ok": true,
+    "data": {
+      "PropertyTable": {
+        "Properties": [
+          {
+            "CID": 4771,
+            "MolecularFormula": "C10H15N",
+            "MolecularWeight": "149.23",
+            "SMILES": "CC(C)(CC1=CC=CC=C1)N",
+            "ConnectivitySMILES": "CC(C)(CC1=CC=CC=C1)N",
+            "IUPACName": "2-methyl-1-phenylpropan-2-amine",
+            "XLogP": 1.9,
+            "TPSA": 26,
+            "HBondDonorCount": 1,
+            "HBondAcceptorCount": 1,
+            "RotatableBondCount": 2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cid": 89594,
+    "ok": true,
+    "data": {
+      "PropertyTable": {
+        "Properties": [
+          {
+            "CID": 89594,
+            "MolecularFormula": "C10H14N2",
+            "MolecularWeight": "162.23",
+            "SMILES": "CN1CCC[C@H]1C2=CN=CC=C2",
+            "ConnectivitySMILES": "CN1CCCC1C2=CN=CC=C2",
+            "IUPACName": "3-[(2S)-1-methylpyrrolidin-2-yl]pyridine",
+            "XLogP": 1.2,
+            "TPSA": 16.1,
+            "HBondDonorCount": 0,
+            "HBondAcceptorCount": 2,
+            "RotatableBondCount": 1
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cid": 3440,
+    "ok": true,
+    "data": {
+      "PropertyTable": {
+        "Properties": [
+          {
+            "CID": 3440,
+            "MolecularFormula": "C12H11ClN2O5S",
+            "MolecularWeight": "330.74",
+            "SMILES": "C1=COC(=C1)CNC2=CC(=C(C=C2C(=O)O)S(=O)(=O)N)Cl",
+            "ConnectivitySMILES": "C1=COC(=C1)CNC2=CC(=C(C=C2C(=O)O)S(=O)(=O)N)Cl",
+            "IUPACName": "4-chloro-2-(furan-2-ylmethylamino)-5-sulfamoylbenzoic acid",
+            "XLogP": 2,
+            "TPSA": 131,
+            "HBondDonorCount": 3,
+            "HBondAcceptorCount": 7,
+            "RotatableBondCount": 5
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cid": 5833,
+    "ok": true,
+    "data": {
+      "PropertyTable": {
+        "Properties": [
+          {
+            "CID": 5833,
+            "MolecularFormula": "C24H32O4S",
+            "MolecularWeight": "416.6",
+            "SMILES": "CC(=O)S[C@@H]1CC2=CC(=O)CC[C@@]2([C@@H]3[C@@H]1[C@@H]4CC[C@]5([C@]4(CC3)C)CCC(=O)O5)C",
+            "ConnectivitySMILES": "CC(=O)SC1CC2=CC(=O)CCC2(C3C1C4CCC5(C4(CC3)C)CCC(=O)O5)C",
+            "IUPACName": "S-[(7R,8R,9S,10R,13S,14S,17R)-10,13-dimethyl-3,5'-dioxospiro[2,6,7,8,9,11,12,14,15,16-decahydro-1H-cyclopenta[a]phenanthrene-17,2'-oxolane]-7-yl] ethanethioate",
+            "XLogP": 2.9,
+            "TPSA": 85.7,
+            "HBondDonorCount": 0,
+            "HBondAcceptorCount": 5,
+            "RotatableBondCount": 2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cid": 446284,
+    "ok": true,
+    "data": {
+      "PropertyTable": {
+        "Properties": [
+          {
+            "CID": 446284,
+            "MolecularFormula": "C20H30O2",
+            "MolecularWeight": "302.5",
+            "SMILES": "CC/C=C\\C/C=C\\C/C=C\\C/C=C\\C/C=C\\CCCC(=O)O",
+            "ConnectivitySMILES": "CCC=CCC=CCC=CCC=CCC=CCCCC(=O)O",
+            "IUPACName": "(5Z,8Z,11Z,14Z,17Z)-icosa-5,8,11,14,17-pentaenoic acid",
+            "XLogP": 5.6,
+            "TPSA": 37.3,
+            "HBondDonorCount": 1,
+            "HBondAcceptorCount": 2,
+            "RotatableBondCount": 13
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cid": 5282800,
+    "ok": true,
+    "data": {
+      "PropertyTable": {
+        "Properties": [
+          {
+            "CID": 5282800,
+            "MolecularFormula": "C18H32O2",
+            "MolecularWeight": "280.4",
+            "SMILES": "CCCCC/C=C\\C=C\\CCCCCCCCC(=O)O",
+            "ConnectivitySMILES": "CCCCCC=CC=CCCCCCCCCC(=O)O",
+            "IUPACName": "(10E,12Z)-octadeca-10,12-dienoic acid",
+            "XLogP": 7.1,
+            "TPSA": 37.3,
+            "HBondDonorCount": 1,
+            "HBondAcceptorCount": 2,
+            "RotatableBondCount": 14
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cid": 1794427,
+    "ok": true,
+    "data": {
+      "PropertyTable": {
+        "Properties": [
+          {
+            "CID": 1794427,
+            "MolecularFormula": "C16H18O9",
+            "MolecularWeight": "354.31",
+            "SMILES": "C1[C@H]([C@H]([C@@H](C[C@@]1(C(=O)O)O)OC(=O)/C=C/C2=CC(=C(C=C2)O)O)O)O",
+            "ConnectivitySMILES": "C1C(C(C(CC1(C(=O)O)O)OC(=O)C=CC2=CC(=C(C=C2)O)O)O)O",
+            "IUPACName": "(1S,3R,4R,5R)-3-[(E)-3-(3,4-dihydroxyphenyl)prop-2-enoyl]oxy-1,4,5-trihydroxycyclohexane-1-carboxylic acid",
+            "XLogP": -0.4,
+            "TPSA": 165,
+            "HBondDonorCount": 6,
+            "HBondAcceptorCount": 9,
+            "RotatableBondCount": 5
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cid": 5281239,
+    "ok": true,
+    "data": {
+      "PropertyTable": {
+        "Properties": [
+          {
+            "CID": 5281239,
+            "MolecularFormula": "C42H58O6",
+            "MolecularWeight": "658.9",
+            "SMILES": "C/C(=C\\C=C\\C=C(/C)\\C=C\\C=C(/C)\\C(=O)C[C@]12[C@](O1)(C[C@H](CC2(C)C)O)C)/C=C/C=C(\\C)/C=C=C3[C@](C[C@H](CC3(C)C)OC(=O)C)(C)O",
+            "ConnectivitySMILES": "CC(=CC=CC=C(C)C=CC=C(C)C(=O)CC12C(CC(CC1(O2)C)O)(C)C)C=CC=C(C)C=C=C3C(CC(CC3(C)O)OC(=O)C)(C)C",
+            "IUPACName": "[(1S,3R)-3-hydroxy-4-[(3E,5E,7E,9E,11E,13E,15E)-18-[(1S,4S,6R)-4-hydroxy-2,2,6-trimethyl-7-oxabicyclo[4.1.0]heptan-1-yl]-3,7,12,16-tetramethyl-17-oxooctadeca-1,3,5,7,9,11,13,15-octaenylidene]-3,5,5-trimethylcyclohexyl] acetate",
+            "XLogP": 8.1,
+            "TPSA": 96.4,
+            "HBondDonorCount": 2,
+            "HBondAcceptorCount": 6,
+            "RotatableBondCount": 12
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cid": 5283454,
+    "ok": true,
+    "data": {
+      "PropertyTable": {
+        "Properties": [
+          {
+            "CID": 5283454,
+            "MolecularFormula": "C20H39NO2",
+            "MolecularWeight": "325.5",
+            "SMILES": "CCCCCCCC/C=C\\CCCCCCCC(=O)NCCO",
+            "ConnectivitySMILES": "CCCCCCCCC=CCCCCCCCC(=O)NCCO",
+            "IUPACName": "(Z)-N-(2-hydroxyethyl)octadec-9-enamide",
+            "XLogP": 6.3,
+            "TPSA": 49.3,
+            "HBondDonorCount": 2,
+            "HBondAcceptorCount": 2,
+            "RotatableBondCount": 17
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cid": 176,
+    "ok": true,
+    "data": {
+      "PropertyTable": {
+        "Properties": [
+          {
+            "CID": 176,
+            "MolecularFormula": "C2H4O2",
+            "MolecularWeight": "60.05",
+            "SMILES": "CC(=O)O",
+            "ConnectivitySMILES": "CC(=O)O",
+            "IUPACName": "acetic acid",
+            "XLogP": -0.2,
+            "TPSA": 37.3,
+            "HBondDonorCount": 1,
+            "HBondAcceptorCount": 2,
+            "RotatableBondCount": 0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cid": 586,
+    "ok": true,
+    "data": {
+      "PropertyTable": {
+        "Properties": [
+          {
+            "CID": 586,
+            "MolecularFormula": "C4H9N3O2",
+            "MolecularWeight": "131.13",
+            "SMILES": "CN(CC(=O)O)C(=N)N",
+            "ConnectivitySMILES": "CN(CC(=O)O)C(=N)N",
+            "IUPACName": "2-[carbamimidoyl(methyl)amino]acetic acid",
+            "XLogP": -1.2,
+            "TPSA": 90.4,
+            "HBondDonorCount": 3,
+            "HBondAcceptorCount": 3,
+            "RotatableBondCount": 3
+          }
+        ]
+      }
+    }
+  }
+]

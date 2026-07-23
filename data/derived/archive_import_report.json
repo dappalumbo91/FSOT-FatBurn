@@ -1,0 +1,55 @@
+{
+  "copied": [
+    {
+      "src": "I:\\FSOT-Physical-Archive\\03_FSOT-PublicData\\pubchem\\pubchem_cache.json",
+      "dest": "I:\\fsot fat burn\\data\\cache\\archive\\pubchem_archive.json",
+      "bytes": 137331
+    },
+    {
+      "src": "I:\\FSOT-Physical-Archive\\02_FSOT-2.1-Lean-Full\\data\\pharmacology_chembl_cache.json",
+      "dest": "I:\\fsot fat burn\\data\\cache\\archive\\chembl_archive.json",
+      "bytes": 825003
+    },
+    {
+      "src": "I:\\FSOT-Physical-Archive\\02_FSOT-2.1-Lean-Full\\vendor\\smiles\\FSOT_SMILES_Lab_Dataset.json",
+      "dest": "I:\\fsot fat burn\\data\\cache\\archive\\smiles_lab_dataset.json",
+      "bytes": 538582
+    },
+    {
+      "src": "I:\\FSOT-Physical-Archive\\02_FSOT-2.1-Lean-Full\\data\\clinicaltrials_medical_panel_benchmark.json",
+      "dest": "I:\\fsot fat burn\\data\\cache\\archive\\clinicaltrials_medical_panel.json",
+      "bytes": 328531
+    },
+    {
+      "src": "I:\\FSOT-Physical-Archive\\02_FSOT-2.1-Lean-Full\\data\\pubchem_compound_properties_benchmark.json",
+      "dest": "I:\\fsot fat burn\\data\\cache\\archive\\pubchem_compound_properties_benchmark.json",
+      "bytes": 402859
+    },
+    {
+      "src": "I:\\FSOT-Physical-Archive\\02_FSOT-2.1-Lean-Full\\data\\pubchem_live_deep_benchmark.json",
+      "dest": "I:\\fsot fat burn\\data\\cache\\archive\\pubchem_live_deep_benchmark.json",
+      "bytes": 2334367
+    },
+    {
+      "src": "I:\\FSOT-Physical-Archive\\02_FSOT-2.1-Lean-Full\\data\\pharmacology_chembl_manifest.yaml",
+      "dest": "I:\\fsot fat burn\\data\\cache\\archive\\pharmacology_chembl_manifest.yaml",
+      "bytes": 585
+    },
+    {
+      "src": "I:\\FSOT-Physical-Archive\\02_FSOT-2.1-Lean-Full\\data\\biology_strict_empirical.json",
+      "dest": "I:\\fsot fat burn\\data\\cache\\archive\\biology_strict_empirical.json",
+      "bytes": 4901
+    },
+    {
+      "src": "I:\\FSOT-Physical-Archive\\02_FSOT-2.1-Lean-Full\\data\\sports_biomechanics_reference_observables.json",
+      "dest": "I:\\fsot fat burn\\data\\cache\\archive\\sports_biomechanics_reference.json",
+      "bytes": 4703
+    }
+  ],
+  "indexed": {
+    "pubchem_fat_relevant": 257,
+    "chembl_molecules": 120,
+    "chembl_oral_phase3plus": 82
+  },
+  "missing": []
+}

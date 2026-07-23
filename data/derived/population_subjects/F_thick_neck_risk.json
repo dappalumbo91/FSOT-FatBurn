@@ -1,0 +1,39 @@
+{
+  "sex": "female",
+  "height_cm": 163.0,
+  "weight_kg": 95.0,
+  "body_fat_pct": 45.0675808405955,
+  "somatotype": "endomorph",
+  "waist_cm": 100.0,
+  "hip_cm": 115.0,
+  "neck_cm": 40.0,
+  "dexa_fat_mass_kg": null,
+  "dexa_lean_mass_kg": null,
+  "dexa_vat_kg": null,
+  "body_fat_method": "navy",
+  "depot_fraction_overrides": {
+    "visceral_omental": 0.0890469385195405,
+    "subq_abdominal": 0.24901538302628767,
+    "subq_chest": 0.07805871372815204,
+    "subq_back_flanks": 0.11826198363570631,
+    "subq_gluteofemoral": 0.33580194630327803,
+    "subq_arms": 0.05939249957576787,
+    "subq_face_neck": 0.027999321228576277,
+    "im_ectopic": 0.04242321398269133
+  },
+  "whr": 0.8695652173913043,
+  "calibration": {
+    "ffmi": 19.641611728493466,
+    "vat_fraction": null,
+    "navy_bf_pct": 45.0675808405955,
+    "dexa_bf_pct": null,
+    "somatotype_suggested": "endomorph",
+    "notes": [
+      "Navy BF% = 45.07",
+      "Somatotype suggested: endomorph"
+    ]
+  },
+  "age_y": 47,
+  "activity_factor": 1.35,
+  "steps_per_day": 7000
+}

@@ -1,0 +1,39 @@
+{
+  "sex": "male",
+  "height_cm": 193.0,
+  "weight_kg": 130.0,
+  "body_fat_pct": 28.371901193394073,
+  "somatotype": "endomorph",
+  "waist_cm": 112.0,
+  "hip_cm": 115.0,
+  "neck_cm": 43.0,
+  "dexa_fat_mass_kg": null,
+  "dexa_lean_mass_kg": null,
+  "dexa_vat_kg": null,
+  "body_fat_method": "navy",
+  "depot_fraction_overrides": {
+    "visceral_omental": 0.17427734013515508,
+    "subq_abdominal": 0.32858516404469923,
+    "subq_chest": 0.06081201931675907,
+    "subq_back_flanks": 0.12784741004564787,
+    "subq_gluteofemoral": 0.17165102299503082,
+    "subq_arms": 0.06260060812019318,
+    "subq_face_neck": 0.02951171525666249,
+    "im_ectopic": 0.044714720085852255
+  },
+  "whr": 0.9739130434782609,
+  "calibration": {
+    "ffmi": 24.998396855912294,
+    "vat_fraction": null,
+    "navy_bf_pct": 28.371901193394073,
+    "dexa_bf_pct": null,
+    "somatotype_suggested": "endomorph",
+    "notes": [
+      "Navy BF% = 28.37",
+      "Somatotype suggested: endomorph"
+    ]
+  },
+  "age_y": 36,
+  "activity_factor": 1.35,
+  "steps_per_day": 7000
+}

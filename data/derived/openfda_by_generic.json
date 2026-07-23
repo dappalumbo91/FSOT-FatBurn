@@ -1,0 +1,1208 @@
+{
+  "unknown": [
+    {
+      "brand": null,
+      "id": "fd12cd86-bbb2-4a3d-81e3-6b46e5f11e37",
+      "route": [],
+      "pharm_class": []
+    },
+    {
+      "brand": null,
+      "id": "8f6182f0-e8ce-4177-9021-25673b3c3b37",
+      "route": [],
+      "pharm_class": []
+    },
+    {
+      "brand": null,
+      "id": "2757899a-a72a-4820-9b19-37b17d45a19f",
+      "route": [],
+      "pharm_class": []
+    },
+    {
+      "brand": null,
+      "id": "3b75b318-3f73-6851-e054-00144ff8d46c",
+      "route": [],
+      "pharm_class": []
+    },
+    {
+      "brand": null,
+      "id": "8c0fcd4b-5c04-4be3-bfb0-859f79fef9f7",
+      "route": [],
+      "pharm_class": []
+    },
+    {
+      "brand": null,
+      "id": "0c864bfb-7f9b-48de-b860-a0f61a5b710b",
+      "route": [],
+      "pharm_class": []
+    },
+    {
+      "brand": null,
+      "id": "45ebac45-7d52-20be-e054-00144ff88e88",
+      "route": [],
+      "pharm_class": []
+    },
+    {
+      "brand": null,
+      "id": "9a9e21b1-bc83-4d50-a893-23691bb06a35",
+      "route": [],
+      "pharm_class": []
+    },
+    {
+      "brand": null,
+      "id": "36d5e23f-7dd5-400f-b8a3-a2d38fcbf403",
+      "route": [],
+      "pharm_class": []
+    },
+    {
+      "brand": null,
+      "id": "379620b9-b915-4e1a-87c2-dfd01ca40c76",
+      "route": [],
+      "pharm_class": []
+    },
+    {
+      "brand": null,
+      "id": "815f53e5-ccd5-4f3e-a438-2e2e9d143f4a",
+      "route": [],
+      "pharm_class": []
+    },
+    {
+      "brand": null,
+      "id": "36713557-ab03-3c88-e054-00144ff88e88",
+      "route": [],
+      "pharm_class": []
+    },
+    {
+      "brand": null,
+      "id": "bac19735-8c9d-41c0-a8be-0be4905c6242",
+      "route": [],
+      "pharm_class": []
+    },
+    {
+      "brand": null,
+      "id": "851e4dc7-ba9f-4fb8-816f-ec0e5c7a8766",
+      "route": [],
+      "pharm_class": []
+    },
+    {
+      "brand": null,
+      "id": "92eac4d7-16af-5457-e053-2995a90a63b0",
+      "route": [],
+      "pharm_class": []
+    },
+    {
+      "brand": null,
+      "id": "0a14fdc5-2428-46bf-b6d0-88bac7f9158e",
+      "route": [],
+      "pharm_class": []
+    },
+    {
+      "brand": null,
+      "id": "3d18a8a9-68a5-1406-e063-6294a90a225c",
+      "route": [],
+      "pharm_class": []
+    },
+    {
+      "brand": null,
+      "id": "3dbbfe4e-f9c5-67c8-e063-6294a90a4644",
+      "route": [],
+      "pharm_class": []
+    },
+    {
+      "brand": null,
+      "id": "3dd8592f-ce0c-fafa-e063-6394a90ab867",
+      "route": [],
+      "pharm_class": []
+    },
+    {
+      "brand": null,
+      "id": "42498bee-d407-178b-e063-6394a90a053d",
+      "route": [],
+      "pharm_class": []
+    },
+    {
+      "brand": null,
+      "id": "42d6ebab-cbda-8dd1-e063-6394a90a8490",
+      "route": [],
+      "pharm_class": []
+    },
+    {
+      "brand": null,
+      "id": "42fd220b-c4c1-c386-e063-6394a90a0ab1",
+      "route": [],
+      "pharm_class": []
+    },
+    {
+      "brand": null,
+      "id": "42ff036a-fd92-4f60-e063-6294a90a49c8",
+      "route": [],
+      "pharm_class": []
+    },
+    {
+      "brand": null,
+      "id": "e5590154-1e90-e5e3-e053-2995a90a877b",
+      "route": [],
+      "pharm_class": []
+    },
+    {
+      "brand": null,
+      "id": "47e29360-c79e-0359-e054-00144ff8d46c",
+      "route": [],
+      "pharm_class": []
+    },
+    {
+      "brand": null,
+      "id": "47e38f0b-b72d-5062-e054-00144ff88e88",
+      "route": [],
+      "pharm_class": []
+    },
+    {
+      "brand": null,
+      "id": "89090aa6-a6bf-4436-b18d-8d43323b028d",
+      "route": [],
+      "pharm_class": []
+    },
+    {
+      "brand": null,
+      "id": "c02320ed-68ab-4d07-9c74-481060a45453",
+      "route": [],
+      "pharm_class": []
+    },
+    {
+      "brand": null,
+      "id": "785dc00b-da8c-415c-908f-a7ee6b23997c",
+      "route": [],
+      "pharm_class": []
+    },
+    {
+      "brand": null,
+      "id": "154afefc-0884-4dd2-98f4-a7f8f4d7e203",
+      "route": [],
+      "pharm_class": []
+    },
+    {
+      "brand": null,
+      "id": "6c7a2abc-c09e-4617-a1dd-ec6e055b54ee",
+      "route": [],
+      "pharm_class": []
+    }
+  ],
+  "serdexmethylphenidate and dexmethylphenidate": [
+    {
+      "brand": "AZSTARYS",
+      "id": "515506d2-5c3d-92d2-e063-6394a90a0603",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": []
+    }
+  ],
+  "ursodiol": [
+    {
+      "brand": "Ursodiol",
+      "id": "48bfa576-f7b2-85ff-e063-6394a90a0504",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": [
+        "Bile Acid [EPC]"
+      ]
+    },
+    {
+      "brand": "Ursodiol",
+      "id": "ebdd40ad-00e7-46e8-bad8-47c8f62c98d3",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": [
+        "Bile Acid [EPC]"
+      ]
+    }
+  ],
+  "megestrol acetate": [
+    {
+      "brand": "Megestrol Acetate",
+      "id": "5633adca-eb95-d0ae-e063-6394a90a3065",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": []
+    }
+  ],
+  "omega-3-acid ethyl esters": [
+    {
+      "brand": "Omega-3-acid ethyl esters",
+      "id": "774e24ef-b517-4346-9c90-c74cde9d8f06",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": []
+    }
+  ],
+  "isoniazid": [
+    {
+      "brand": "Isoniazid",
+      "id": "8a54747c-67c0-42c9-bc36-bea05101c811",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": [
+        "Antimycobacterial [EPC]"
+      ]
+    }
+  ],
+  "amphetamine sulfate": [
+    {
+      "brand": "Amphetamine Sulfate",
+      "id": "8fdfec51-e7c0-429b-a3f4-8f5ae2679147",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": []
+    }
+  ],
+  "phentermine hydrochloride": [
+    {
+      "brand": "Phentermine Hydrochloride",
+      "id": "39e24c57-7266-2bf6-e063-6294a90afdd1",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": []
+    },
+    {
+      "brand": "PHENTERMINE HYDROCHLORIDE",
+      "id": "eb0dd945-2ebd-422f-9228-7460f93d7889",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": []
+    },
+    {
+      "brand": "LOMAIRA",
+      "id": "52567d07-cb5d-3c15-e063-6294a90a36ec",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": []
+    },
+    {
+      "brand": "Phentermine Hydrochloride",
+      "id": "050ea3a8-ebed-43e8-84c6-1285b5d92718",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": []
+    },
+    {
+      "brand": "Phentermine Hydrochloride",
+      "id": "2d3fa192-bcd3-7d2f-e063-6394a90aa73f",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": []
+    },
+    {
+      "brand": "Phentermine Hydrochloride",
+      "id": "f2b9f70f-b5e3-4e6e-8607-5c73afbe9677",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": []
+    },
+    {
+      "brand": "Phentermine Hydrochloride",
+      "id": "fc628475-40f6-4c86-be0b-1df0d41f470c",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": []
+    },
+    {
+      "brand": "Phentermine Hydrochloride",
+      "id": "3a811977-fd65-4ec6-b4a2-a8c711422e20",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": []
+    },
+    {
+      "brand": "Phentermine Hydrochloride",
+      "id": "48fd28f6-101b-498c-e063-6294a90aba52",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": []
+    },
+    {
+      "brand": "Phentermine Hydrochloride",
+      "id": "3a9b6c60-a063-2709-e063-6394a90a6168",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": []
+    },
+    {
+      "brand": "Phentermine hydrochloride",
+      "id": "ffb64679-121e-4853-b455-2be421546748",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": []
+    },
+    {
+      "brand": "Phentermine Hydrochloride",
+      "id": "53321c7b-022c-80b8-e063-6294a90aaba9",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": []
+    },
+    {
+      "brand": "Phentermine Hydrochloride",
+      "id": "bcfc205c-6118-4764-8734-efb2bd6f5308",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": []
+    },
+    {
+      "brand": "Phentermine Hydrochloride",
+      "id": "534a52dc-f6f2-cab4-e063-6294a90a8c5d",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": []
+    },
+    {
+      "brand": "Phentermine Hydrochloride",
+      "id": "3a7573b5-ad43-a080-e063-6394a90a0ef7",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": []
+    }
+  ],
+  "adeps suillus, andrenalinum, adrenocorticotrophin, calcarea carbonica, chelidonium, pituitarum, thyroidinum": [
+    {
+      "brand": "Thinnr BOOST",
+      "id": "3cd3f3bf-dd70-7f6b-e063-6394a90a3d6b",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": [
+        "Adrenocorticotropic Hormone [EPC]",
+        "alpha-Adrenergic Agonist [EPC]",
+        "beta-Adrenergic Agonist [EPC]",
+        "Catecholamine [EPC]"
+      ]
+    }
+  ],
+  "adeps suillus, adrenalinium, adrenocorticotrophin, agrimonia eupatoria flos, ammounium bromatum, anacardium orientale, antimonium crudum, castanea sativa flos, calcarea carbonica, coenzyme a, cortisone aceticum, fucus vesiculosus, hypothalamus, kali bichromicum, pituitarum posterium, rna, sabadilla, staphysagria, thyroidinum": [
+    {
+      "brand": "Thinnr PROTOCOL",
+      "id": "3cd3fc5f-1af1-55be-e063-6294a90aef68",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": [
+        "Adrenocorticotropic Hormone [EPC]",
+        "alpha-Adrenergic Agonist [EPC]",
+        "beta-Adrenergic Agonist [EPC]",
+        "Catecholamine [EPC]"
+      ]
+    }
+  ],
+  "ammonium bromatum, fucus vesiculosus, natrum sulphuricum, nicotinamidum, spongia tosta, thiaminum hydrochloricum, pyridoxinum hydrochloricum, riboflavinum, thyroidinum (bovine), calcarea carbonica, graphites": [
+    {
+      "brand": "ESSENTIAL WEIGHT LOSS",
+      "id": "bcb536df-98eb-4986-a4e3-e28648cbb546",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": []
+    }
+  ],
+  "fucus vesiculosus, chelidonium majus, kali phosphoricum, lycopodium clavatum, natrum muriaticum, quercus glandium spiritus, quercus robur, nux vomica, phytolacca decandra, ornithogalum umbellatum, agnus castus, berberis aquifolium, berberis vulgaris, saccharum officinale, solidago virgaurea, calcarea carbonica, carbo vegetabilis, magnesia phosphorica, natrum phosphoricum, sinapis arvensis, flos, ubidecarenonum, graphites, hypophysis suis, placenta totalis suis, hypothalamus (bovine)": [
+    {
+      "brand": "2 Transform",
+      "id": "69f12d3d-665c-4be0-a616-ab208832bdf4",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": [
+        "Non-Standardized Plant Allergenic Extract [EPC]"
+      ]
+    }
+  ],
+  "cholestyramine light": [
+    {
+      "brand": "CHOLESTYRAMINE LIGHT",
+      "id": "d1aa04ed-c076-4f53-a173-e8951360a1ea",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": [
+        "Bile Acid Sequestrant [EPC]"
+      ]
+    },
+    {
+      "brand": "CHOLESTYRAMINE LIGHT",
+      "id": "fd2993a6-d5ce-4853-8912-e7b5e6de5585",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": [
+        "Bile Acid Sequestrant [EPC]"
+      ]
+    }
+  ],
+  "cholestyramine": [
+    {
+      "brand": "Cholestyramine",
+      "id": "94d7bc24-2f81-463b-b646-92fbf6641f71",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": [
+        "Bile Acid Sequestrant [EPC]"
+      ]
+    },
+    {
+      "brand": "Cholestyramine",
+      "id": "4c544fbf-3a7e-d5fa-e063-6394a90a176f",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": [
+        "Bile Acid Sequestrant [EPC]"
+      ]
+    },
+    {
+      "brand": "Cholestyramine",
+      "id": "37093f43-91d8-424c-98d9-8a07334454ad",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": [
+        "Bile Acid Sequestrant [EPC]"
+      ]
+    },
+    {
+      "brand": "Cholestyramine",
+      "id": "d3c8b2d9-80f5-4ce6-a68b-f4bbf3aa9b1f",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": [
+        "Bile Acid Sequestrant [EPC]"
+      ]
+    },
+    {
+      "brand": "CHOLESTYRAMINE",
+      "id": "11d83a73-e97b-466d-9af9-2882e7a094b2",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": [
+        "Bile Acid Sequestrant [EPC]"
+      ]
+    }
+  ],
+  "liraglutide": [
+    {
+      "brand": "Liraglutide",
+      "id": "15f41bf3-b403-b32c-e64f-2330120c519e",
+      "route": [
+        "SUBCUTANEOUS"
+      ],
+      "pharm_class": [
+        "GLP-1 Receptor Agonist [EPC]"
+      ]
+    },
+    {
+      "brand": "liraglutide",
+      "id": "364ea559-970d-4db9-a549-9966fb8a4314",
+      "route": [
+        "SUBCUTANEOUS"
+      ],
+      "pharm_class": [
+        "GLP-1 Receptor Agonist [EPC]"
+      ]
+    },
+    {
+      "brand": "Liraglutide",
+      "id": "e829ecbe-8005-412e-a0a1-65b44265050f",
+      "route": [
+        "SUBCUTANEOUS"
+      ],
+      "pharm_class": [
+        "GLP-1 Receptor Agonist [EPC]"
+      ]
+    },
+    {
+      "brand": "Liraglutide",
+      "id": "8e3ed594-772c-4762-abaf-eac7a114d9c7",
+      "route": [
+        "SUBCUTANEOUS"
+      ],
+      "pharm_class": [
+        "GLP-1 Receptor Agonist [EPC]"
+      ]
+    },
+    {
+      "brand": "Liraglutide",
+      "id": "c4f6adef-1b2a-4e7c-b7a9-b19d4ed1df36",
+      "route": [
+        "SUBCUTANEOUS"
+      ],
+      "pharm_class": [
+        "GLP-1 Receptor Agonist [EPC]"
+      ]
+    },
+    {
+      "brand": "Liraglutide",
+      "id": "57c9f463-a1b8-4efa-8982-40175cf6cf4f",
+      "route": [
+        "SUBCUTANEOUS"
+      ],
+      "pharm_class": [
+        "GLP-1 Receptor Agonist [EPC]"
+      ]
+    },
+    {
+      "brand": "Liraglutide",
+      "id": "1a36a385-111a-f5a9-e063-6294a90a29a7",
+      "route": [
+        "SUBCUTANEOUS"
+      ],
+      "pharm_class": [
+        "GLP-1 Receptor Agonist [EPC]"
+      ]
+    },
+    {
+      "brand": "Liraglutide",
+      "id": "28439e3c-4761-7d3d-e063-6394a90a571d",
+      "route": [
+        "SUBCUTANEOUS"
+      ],
+      "pharm_class": [
+        "GLP-1 Receptor Agonist [EPC]"
+      ]
+    },
+    {
+      "brand": "Liraglutide",
+      "id": "2854c47e-c069-07d7-e063-6394a90a50eb",
+      "route": [
+        "SUBCUTANEOUS"
+      ],
+      "pharm_class": [
+        "GLP-1 Receptor Agonist [EPC]"
+      ]
+    },
+    {
+      "brand": "Victoza",
+      "id": "09a7fb42-d3e0-45bd-8ec5-2424d9091ebd",
+      "route": [
+        "SUBCUTANEOUS"
+      ],
+      "pharm_class": [
+        "GLP-1 Receptor Agonist [EPC]"
+      ]
+    },
+    {
+      "brand": "Liraglutide",
+      "id": "4e2acb7a-d32d-49d3-b59b-39332b5809f3",
+      "route": [
+        "SUBCUTANEOUS"
+      ],
+      "pharm_class": [
+        "GLP-1 Receptor Agonist [EPC]"
+      ]
+    },
+    {
+      "brand": "Victoza",
+      "id": "a934a344-0ee2-420c-980c-ae69581875fe",
+      "route": [
+        "SUBCUTANEOUS"
+      ],
+      "pharm_class": [
+        "GLP-1 Receptor Agonist [EPC]"
+      ]
+    },
+    {
+      "brand": "Saxenda",
+      "id": "7e183945-550d-4b6a-bf4e-300193517cac",
+      "route": [
+        "SUBCUTANEOUS"
+      ],
+      "pharm_class": [
+        "GLP-1 Receptor Agonist [EPC]"
+      ]
+    },
+    {
+      "brand": "Liraglutide",
+      "id": "792c7fe2-ae5a-4867-a4de-8147efacc85e",
+      "route": [
+        "SUBCUTANEOUS"
+      ],
+      "pharm_class": [
+        "GLP-1 Receptor Agonist [EPC]"
+      ]
+    },
+    {
+      "brand": "Saxenda",
+      "id": "f65e201b-a65f-4e28-af27-5292380ee09d",
+      "route": [
+        "SUBCUTANEOUS"
+      ],
+      "pharm_class": [
+        "GLP-1 Receptor Agonist [EPC]"
+      ]
+    }
+  ],
+  "orlistat": [
+    {
+      "brand": "ALLI",
+      "id": "14a73146-26ef-3d96-e063-6394a90ab4ce",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": [
+        "Intestinal Lipase Inhibitor [EPC]"
+      ]
+    },
+    {
+      "brand": "Xenical",
+      "id": "4fd710c5-6147-498a-ade9-0cce6e1513c7",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": [
+        "Intestinal Lipase Inhibitor [EPC]"
+      ]
+    },
+    {
+      "brand": "ALLI",
+      "id": "4d51b8f1-a819-7ff6-e063-6294a90a82bc",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": [
+        "Intestinal Lipase Inhibitor [EPC]"
+      ]
+    },
+    {
+      "brand": "ORLISTAT",
+      "id": "45add4e4-7806-4a6c-b360-e6e383d7e18e",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": [
+        "Intestinal Lipase Inhibitor [EPC]"
+      ]
+    }
+  ],
+  "phentermine and topiramate extended-release": [
+    {
+      "brand": "Phentermine and Topiramate Extended-Release",
+      "id": "ce37425a-12f1-722f-ab5b-d95615c635a0",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": []
+    }
+  ],
+  "oral semaglutide": [
+    {
+      "brand": "OZEMPIC",
+      "id": "5176eed4-f8f8-4f88-a079-11f16864f40a",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": [
+        "GLP-1 Receptor Agonist [EPC]"
+      ]
+    }
+  ],
+  "semaglutide": [
+    {
+      "brand": "Ozempic",
+      "id": "a5c23c93-1c61-4768-b7f2-1e430cd21a8d",
+      "route": [
+        "SUBCUTANEOUS"
+      ],
+      "pharm_class": [
+        "GLP-1 Receptor Agonist [EPC]"
+      ]
+    },
+    {
+      "brand": "Ozempic",
+      "id": "12f15944-a280-494d-9cd1-1e8f93b1077e",
+      "route": [
+        "SUBCUTANEOUS"
+      ],
+      "pharm_class": [
+        "GLP-1 Receptor Agonist [EPC]"
+      ]
+    },
+    {
+      "brand": "OZEMPIC",
+      "id": "52d28c75-c5a5-4389-abff-8a243ba26d99",
+      "route": [
+        "SUBCUTANEOUS"
+      ],
+      "pharm_class": [
+        "GLP-1 Receptor Agonist [EPC]"
+      ]
+    },
+    {
+      "brand": "WEGOVY",
+      "id": "f38985f6-b16a-426b-9c0d-6d4815acebfe",
+      "route": [
+        "SUBCUTANEOUS",
+        "ORAL"
+      ],
+      "pharm_class": [
+        "GLP-1 Receptor Agonist [EPC]"
+      ]
+    },
+    {
+      "brand": "WEGOVY",
+      "id": "58b8887c-a572-4a74-ad0b-1049d388e206",
+      "route": [
+        "SUBCUTANEOUS"
+      ],
+      "pharm_class": [
+        "GLP-1 Receptor Agonist [EPC]"
+      ]
+    }
+  ],
+  "tirzepatide": [
+    {
+      "brand": "Zepbound",
+      "id": "86a64015-7f78-4281-8b7f-579b6c3dc1f7",
+      "route": [
+        "SUBCUTANEOUS"
+      ],
+      "pharm_class": [
+        "Glucose-dependent Insulinotropic Polypeptide Receptor Agonist [EPC]",
+        "GLP-1 Receptor Agonist [EPC]"
+      ]
+    },
+    {
+      "brand": "Mounjaro",
+      "id": "08af2d71-07e5-474b-98a2-eb5be9bcf894",
+      "route": [
+        "SUBCUTANEOUS"
+      ],
+      "pharm_class": [
+        "Glucose-dependent Insulinotropic Polypeptide Receptor Agonist [EPC]",
+        "GLP-1 Receptor Agonist [EPC]"
+      ]
+    }
+  ],
+  "insulin degludec and liraglutide": [
+    {
+      "brand": "Xultophy 100/3.6",
+      "id": "7ade72ef-d354-430d-afad-3b63b95f5b39",
+      "route": [
+        "SUBCUTANEOUS"
+      ],
+      "pharm_class": [
+        "Insulin Analog [EPC]",
+        "GLP-1 Receptor Agonist [EPC]"
+      ]
+    }
+  ],
+  "naltrexone hydrochloride": [
+    {
+      "brand": "Naltrexone Hydrochloride",
+      "id": "4242e317-1764-436a-aff6-338a58f1b0a2",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": []
+    },
+    {
+      "brand": "NALTREXONE HYDROCHLORIDE",
+      "id": "074fe42c-ca67-4dda-8bc8-30a6c2cd1c4f",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": []
+    },
+    {
+      "brand": "NALTREXONE HYDROCHLORIDE",
+      "id": "9ed13551-325e-4b82-a266-72fc89ed27dc",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": []
+    },
+    {
+      "brand": "NALTREXONE HYDROCHLORIDE",
+      "id": "536e22b1-cd99-a64a-e063-6394a90adc92",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": []
+    },
+    {
+      "brand": "NALTREXONE HYDROCHLORIDE",
+      "id": "ba53c1a1-0bc1-444f-9dc8-fbd07df724d0",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": []
+    },
+    {
+      "brand": "Naltrexone Hydrochloride",
+      "id": "2a2ff668-e2bb-5308-e063-6294a90a832d",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": []
+    },
+    {
+      "brand": "Naltrexone Hydrochloride",
+      "id": "4a197f32-b382-2a52-e063-6394a90ad197",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": []
+    },
+    {
+      "brand": "NALTREXONE HYDROCHLORIDE",
+      "id": "390beeb7-865f-e87d-e063-6394a90a8822",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": []
+    },
+    {
+      "brand": "NALTREXONE HYDROCHLORIDE",
+      "id": "3cbd097c-11db-6e77-e063-6294a90a3c7b",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": []
+    },
+    {
+      "brand": "NALTREXONE HYDROCHLORIDE",
+      "id": "43cd684b-f17f-80ab-e063-6294a90a6f5a",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": []
+    },
+    {
+      "brand": "Naltrexone Hydrochloride",
+      "id": "424db74c-6c0f-1eb3-e063-6294a90a7db8",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": []
+    },
+    {
+      "brand": "Naltrexone Hydrochloride",
+      "id": "a3b74230-f1bf-4ab3-934d-fb9f43cfae3d",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": []
+    },
+    {
+      "brand": "Naltrexone Hydrochloride",
+      "id": "4f721786-dab7-3405-e063-6294a90a6bbb",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": []
+    },
+    {
+      "brand": "NALTREXONE HYDROCHLORIDE",
+      "id": "544f79a0-f10e-61bc-e063-6294a90a6bf8",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": []
+    }
+  ],
+  "naltrexone hydrochloride and bupropion hydrochloride": [
+    {
+      "brand": "Contrave Extended-Release",
+      "id": "8e7e5582-7a35-4ec7-85e7-b88a98d1bd23",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": []
+    }
+  ],
+  "bupropion hydrochloride": [
+    {
+      "brand": "buPropion Hydrochloride XL",
+      "id": "47afeb95-a677-8969-e063-6294a90a7b2d",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": []
+    },
+    {
+      "brand": "Bupropion Hydrochloride XL",
+      "id": "5410649a-9081-bc25-e063-6394a90a7025",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": []
+    },
+    {
+      "brand": "BUPROPION HYDROCHLORIDE",
+      "id": "42fa8097-2060-e261-e063-6294a90a6c29",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": []
+    },
+    {
+      "brand": "Bupropion Hydrochloride",
+      "id": "8ab0c758-843a-4b62-8635-fb4f32918205",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": []
+    },
+    {
+      "brand": "Bupropion Hydrochloride (XL)",
+      "id": "bfffed2f-273f-4f60-bd38-03486c73cfdd",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": []
+    },
+    {
+      "brand": "Bupropion Hydrochloride SR",
+      "id": "baf029ae-b819-465b-82e9-82167b132b79",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": []
+    },
+    {
+      "brand": "Bupropion Hydrochloride (XL)",
+      "id": "1105c206-a0be-4ea0-a6e3-1371ac2df153",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": []
+    },
+    {
+      "brand": "Bupropion hydrochloride",
+      "id": "069e6828-e599-4614-9645-9cf1382ac93e",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": []
+    },
+    {
+      "brand": "Bupropion Hydrochloride XL",
+      "id": "1b0d6505-54e6-a28f-e063-6294a90aae71",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": []
+    },
+    {
+      "brand": "BUPROPION HYDROCHLORIDE",
+      "id": "4f95b6cc-0478-391a-e063-6294a90a4885",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": []
+    },
+    {
+      "brand": "Bupropion Hydrochloride SR",
+      "id": "549ef654-60b6-05bb-e063-6294a90a22b8",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": []
+    },
+    {
+      "brand": "Bupropion Hydrochloride SR",
+      "id": "188f0dd2-baaa-4cd2-b99e-1f86225ca7b8",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": []
+    },
+    {
+      "brand": "Bupropion hydrochloride",
+      "id": "17da2d67-85ad-4170-bd4e-1b9ca4565950",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": []
+    },
+    {
+      "brand": "Bupropion Hydrochloride",
+      "id": "fe5a706a-47cf-47d4-a6ed-db4e7f08a169",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": []
+    },
+    {
+      "brand": "Bupropion hydrochloride",
+      "id": "3fa40592-575b-111b-e063-6294a90a6466",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": []
+    }
+  ],
+  "sitagliptin and metformin hydrochloride": [
+    {
+      "brand": "ZITUVIMET",
+      "id": "3bf9383a-afe0-4989-b952-50c995bd3fa5",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": [
+        "Dipeptidyl Peptidase 4 Inhibitor [EPC]"
+      ]
+    }
+  ],
+  "metformin hydrochloride": [
+    {
+      "brand": "Metformin Hydrochloride",
+      "id": "19e4bfb8-2ed1-4a6b-adf5-853ad2953362",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": []
+    },
+    {
+      "brand": "Metformin hydrochloride",
+      "id": "511138d4-8c1a-2198-e063-6394a90afc43",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": []
+    },
+    {
+      "brand": "Metformin Hydrochloride",
+      "id": "4b81b8de-7de7-2dc4-e063-6294a90a7a10",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": []
+    },
+    {
+      "brand": "Metformin Hydrochloride",
+      "id": "4138efd9-8582-c8db-e063-6294a90adcd7",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": []
+    },
+    {
+      "brand": "Metformin Hydrochloride",
+      "id": "1ef48a70-a4ad-28bf-e063-6394a90a9795",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": []
+    },
+    {
+      "brand": "Metformin Hydrochloride",
+      "id": "eda81df8-05d9-4eac-b058-7eb51d7aa6e4",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": []
+    },
+    {
+      "brand": "Metformin Hydrochloride",
+      "id": "e7a6bb9d-6691-44d9-932f-5d3298191aa4",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": []
+    },
+    {
+      "brand": "Riomet",
+      "id": "8ed86d67-8a49-4334-82c4-1dbf6a489d3b",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": []
+    },
+    {
+      "brand": "METFORMIN HYDROCHLORIDE",
+      "id": "230dcecd-8f28-d624-e063-6394a90ae9cf",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": []
+    },
+    {
+      "brand": "Metformin Hydrochloride",
+      "id": "5230a45b-01a1-dd63-e063-6294a90a716d",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": []
+    },
+    {
+      "brand": "METFORMIN HYDROCHLORIDE",
+      "id": "0bcfb466-d20c-472a-8e3e-aee3df526272",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": []
+    }
+  ],
+  "glipizide and metformin hydrochloride": [
+    {
+      "brand": "Glipizide and Metformin Hydrochloride",
+      "id": "50580ebe-be6b-439b-a39d-6536b9125fc1",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": [
+        "Sulfonylurea [EPC]"
+      ]
+    }
+  ],
+  "metformin er 500 mg": [
+    {
+      "brand": "Metformin",
+      "id": "3cf39c3e-e7c6-c6d6-e063-6294a90aede4",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": []
+    }
+  ],
+  "metformin hcl": [
+    {
+      "brand": "Metformin HCl",
+      "id": "45b422ff-1892-ceaa-e063-6394a90a00c9",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": []
+    }
+  ],
+  "phentermine and topiramate": [
+    {
+      "brand": "Qsymia",
+      "id": "5010eb88-287a-9597-e063-6394a90aad40",
+      "route": [
+        "ORAL"
+      ],
+      "pharm_class": []
+    }
+  ]
+}

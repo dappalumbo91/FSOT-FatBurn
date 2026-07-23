@@ -1,0 +1,2528 @@
+{
+  "food_count": 144,
+  "seed_count": 34,
+  "errors": [
+    {
+      "source": "openfoodfacts",
+      "query": "banana",
+      "error": "503 Server Error: Service Temporarily Unavailable for url: https://world.openfoodfacts.org/cgi/search.pl?search_terms=banana&search_simple=1&action=process&json=1&page_size=20&fields=product_name%2Ccode%2Cnutriments%2Cnutriscore_grade%2Ccategories_tags%2Cbrands"
+    },
+    {
+      "source": "openfoodfacts",
+      "query": "greek yogurt",
+      "error": "503 Server Error: Service Temporarily Unavailable for url: https://world.openfoodfacts.org/cgi/search.pl?search_terms=greek+yogurt&search_simple=1&action=process&json=1&page_size=20&fields=product_name%2Ccode%2Cnutriments%2Cnutriscore_grade%2Ccategories_tags%2Cbrands"
+    },
+    {
+      "source": "openfoodfacts",
+      "query": "olive oil",
+      "error": "503 Server Error: Service Temporarily Unavailable for url: https://world.openfoodfacts.org/cgi/search.pl?search_terms=olive+oil&search_simple=1&action=process&json=1&page_size=20&fields=product_name%2Ccode%2Cnutriments%2Cnutriscore_grade%2Ccategories_tags%2Cbrands"
+    },
+    {
+      "source": "openfoodfacts",
+      "query": "salmon",
+      "error": "503 Server Error: Service Temporarily Unavailable for url: https://world.openfoodfacts.org/cgi/search.pl?search_terms=salmon&search_simple=1&action=process&json=1&page_size=20&fields=product_name%2Ccode%2Cnutriments%2Cnutriscore_grade%2Ccategories_tags%2Cbrands"
+    },
+    {
+      "source": "openfoodfacts",
+      "query": "cola",
+      "error": "503 Server Error: Service Temporarily Unavailable for url: https://world.openfoodfacts.org/cgi/search.pl?search_terms=cola&search_simple=1&action=process&json=1&page_size=20&fields=product_name%2Ccode%2Cnutriments%2Cnutriscore_grade%2Ccategories_tags%2Cbrands"
+    },
+    {
+      "source": "openfoodfacts",
+      "query": "pizza",
+      "error": "503 Server Error: Service Temporarily Unavailable for url: https://world.openfoodfacts.org/cgi/search.pl?search_terms=pizza&search_simple=1&action=process&json=1&page_size=20&fields=product_name%2Ccode%2Cnutriments%2Cnutriscore_grade%2Ccategories_tags%2Cbrands"
+    }
+  ],
+  "foods": [
+    {
+      "id": "white_rice_cooked",
+      "name": "White rice, cooked",
+      "per_100g": {
+        "kcal": 130,
+        "protein_g": 2.7,
+        "carb_g": 28.2,
+        "fat_g": 0.3,
+        "fiber_g": 0.4,
+        "sugars_g": 0.1
+      },
+      "gi": 73,
+      "category": "grain",
+      "source": "seed"
+    },
+    {
+      "id": "brown_rice_cooked",
+      "name": "Brown rice, cooked",
+      "per_100g": {
+        "kcal": 123,
+        "protein_g": 2.7,
+        "carb_g": 25.6,
+        "fat_g": 1.0,
+        "fiber_g": 1.6,
+        "sugars_g": 0.2
+      },
+      "gi": 68,
+      "category": "grain",
+      "source": "seed"
+    },
+    {
+      "id": "oatmeal_cooked",
+      "name": "Oatmeal, cooked",
+      "per_100g": {
+        "kcal": 71,
+        "protein_g": 2.5,
+        "carb_g": 12.0,
+        "fat_g": 1.5,
+        "fiber_g": 1.7,
+        "sugars_g": 0.3
+      },
+      "gi": 55,
+      "category": "grain",
+      "source": "seed"
+    },
+    {
+      "id": "white_bread",
+      "name": "White bread",
+      "per_100g": {
+        "kcal": 265,
+        "protein_g": 9.0,
+        "carb_g": 49.0,
+        "fat_g": 3.2,
+        "fiber_g": 2.7,
+        "sugars_g": 5.0
+      },
+      "gi": 75,
+      "category": "grain",
+      "source": "seed"
+    },
+    {
+      "id": "potato_boiled",
+      "name": "Potato, boiled",
+      "per_100g": {
+        "kcal": 87,
+        "protein_g": 1.9,
+        "carb_g": 20.1,
+        "fat_g": 0.1,
+        "fiber_g": 1.8,
+        "sugars_g": 0.9
+      },
+      "gi": 78,
+      "category": "starch",
+      "source": "seed"
+    },
+    {
+      "id": "sweet_potato",
+      "name": "Sweet potato, baked",
+      "per_100g": {
+        "kcal": 90,
+        "protein_g": 2.0,
+        "carb_g": 20.7,
+        "fat_g": 0.2,
+        "fiber_g": 3.3,
+        "sugars_g": 6.5
+      },
+      "gi": 63,
+      "category": "starch",
+      "source": "seed"
+    },
+    {
+      "id": "banana",
+      "name": "Banana, raw",
+      "per_100g": {
+        "kcal": 89,
+        "protein_g": 1.1,
+        "carb_g": 22.8,
+        "fat_g": 0.3,
+        "fiber_g": 2.6,
+        "sugars_g": 12.2
+      },
+      "gi": 51,
+      "category": "fruit",
+      "source": "seed"
+    },
+    {
+      "id": "apple",
+      "name": "Apple, raw",
+      "per_100g": {
+        "kcal": 52,
+        "protein_g": 0.3,
+        "carb_g": 13.8,
+        "fat_g": 0.2,
+        "fiber_g": 2.4,
+        "sugars_g": 10.4
+      },
+      "gi": 36,
+      "category": "fruit",
+      "source": "seed"
+    },
+    {
+      "id": "orange",
+      "name": "Orange, raw",
+      "per_100g": {
+        "kcal": 47,
+        "protein_g": 0.9,
+        "carb_g": 11.8,
+        "fat_g": 0.1,
+        "fiber_g": 2.4,
+        "sugars_g": 9.4
+      },
+      "gi": 43,
+      "category": "fruit",
+      "source": "seed"
+    },
+    {
+      "id": "broccoli",
+      "name": "Broccoli, raw",
+      "per_100g": {
+        "kcal": 34,
+        "protein_g": 2.8,
+        "carb_g": 7.0,
+        "fat_g": 0.4,
+        "fiber_g": 2.6,
+        "sugars_g": 1.7
+      },
+      "gi": 15,
+      "category": "vegetable",
+      "source": "seed"
+    },
+    {
+      "id": "spinach",
+      "name": "Spinach, raw",
+      "per_100g": {
+        "kcal": 23,
+        "protein_g": 2.9,
+        "carb_g": 3.6,
+        "fat_g": 0.4,
+        "fiber_g": 2.2,
+        "sugars_g": 0.4
+      },
+      "gi": 15,
+      "category": "vegetable",
+      "source": "seed"
+    },
+    {
+      "id": "chicken_breast",
+      "name": "Chicken breast, cooked",
+      "per_100g": {
+        "kcal": 165,
+        "protein_g": 31.0,
+        "carb_g": 0.0,
+        "fat_g": 3.6,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0
+      },
+      "gi": 0,
+      "category": "protein",
+      "source": "seed"
+    },
+    {
+      "id": "egg_whole",
+      "name": "Egg, whole, cooked",
+      "per_100g": {
+        "kcal": 155,
+        "protein_g": 13.0,
+        "carb_g": 1.1,
+        "fat_g": 11.0,
+        "fiber_g": 0.0,
+        "sugars_g": 1.1
+      },
+      "gi": 0,
+      "category": "protein",
+      "source": "seed"
+    },
+    {
+      "id": "salmon",
+      "name": "Salmon, Atlantic, cooked",
+      "per_100g": {
+        "kcal": 208,
+        "protein_g": 22.0,
+        "carb_g": 0.0,
+        "fat_g": 13.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0
+      },
+      "gi": 0,
+      "category": "protein",
+      "source": "seed"
+    },
+    {
+      "id": "greek_yogurt_nonfat",
+      "name": "Greek yogurt, nonfat",
+      "per_100g": {
+        "kcal": 59,
+        "protein_g": 10.0,
+        "carb_g": 3.6,
+        "fat_g": 0.4,
+        "fiber_g": 0.0,
+        "sugars_g": 3.2
+      },
+      "gi": 11,
+      "category": "dairy",
+      "source": "seed"
+    },
+    {
+      "id": "whole_milk",
+      "name": "Milk, whole 3.25%",
+      "per_100g": {
+        "kcal": 61,
+        "protein_g": 3.2,
+        "carb_g": 4.8,
+        "fat_g": 3.3,
+        "fiber_g": 0.0,
+        "sugars_g": 5.1
+      },
+      "gi": 39,
+      "category": "dairy",
+      "source": "seed"
+    },
+    {
+      "id": "cheddar",
+      "name": "Cheddar cheese",
+      "per_100g": {
+        "kcal": 403,
+        "protein_g": 25.0,
+        "carb_g": 1.3,
+        "fat_g": 33.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.5
+      },
+      "gi": 0,
+      "category": "dairy",
+      "source": "seed"
+    },
+    {
+      "id": "olive_oil",
+      "name": "Olive oil",
+      "per_100g": {
+        "kcal": 884,
+        "protein_g": 0.0,
+        "carb_g": 0.0,
+        "fat_g": 100.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0
+      },
+      "gi": 0,
+      "category": "fat",
+      "source": "seed"
+    },
+    {
+      "id": "butter",
+      "name": "Butter",
+      "per_100g": {
+        "kcal": 717,
+        "protein_g": 0.9,
+        "carb_g": 0.1,
+        "fat_g": 81.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.1
+      },
+      "gi": 0,
+      "category": "fat",
+      "source": "seed"
+    },
+    {
+      "id": "avocado",
+      "name": "Avocado, raw",
+      "per_100g": {
+        "kcal": 160,
+        "protein_g": 2.0,
+        "carb_g": 8.5,
+        "fat_g": 14.7,
+        "fiber_g": 6.7,
+        "sugars_g": 0.7
+      },
+      "gi": 15,
+      "category": "fat",
+      "source": "seed"
+    },
+    {
+      "id": "almonds",
+      "name": "Almonds",
+      "per_100g": {
+        "kcal": 579,
+        "protein_g": 21.0,
+        "carb_g": 22.0,
+        "fat_g": 50.0,
+        "fiber_g": 12.5,
+        "sugars_g": 4.4
+      },
+      "gi": 15,
+      "category": "nut",
+      "source": "seed"
+    },
+    {
+      "id": "peanut_butter",
+      "name": "Peanut butter",
+      "per_100g": {
+        "kcal": 588,
+        "protein_g": 25.0,
+        "carb_g": 20.0,
+        "fat_g": 50.0,
+        "fiber_g": 6.0,
+        "sugars_g": 9.0
+      },
+      "gi": 14,
+      "category": "nut",
+      "source": "seed"
+    },
+    {
+      "id": "table_sugar",
+      "name": "Table sugar",
+      "per_100g": {
+        "kcal": 387,
+        "protein_g": 0.0,
+        "carb_g": 100.0,
+        "fat_g": 0.0,
+        "fiber_g": 0.0,
+        "sugars_g": 100.0
+      },
+      "gi": 65,
+      "category": "sugar",
+      "source": "seed"
+    },
+    {
+      "id": "cola",
+      "name": "Cola soft drink",
+      "per_100g": {
+        "kcal": 42,
+        "protein_g": 0.0,
+        "carb_g": 10.6,
+        "fat_g": 0.0,
+        "fiber_g": 0.0,
+        "sugars_g": 10.6
+      },
+      "gi": 63,
+      "category": "beverage",
+      "source": "seed"
+    },
+    {
+      "id": "beer_regular",
+      "name": "Beer, regular",
+      "per_100g": {
+        "kcal": 43,
+        "protein_g": 0.5,
+        "carb_g": 3.6,
+        "fat_g": 0.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0
+      },
+      "gi": 66,
+      "category": "alcohol",
+      "source": "seed"
+    },
+    {
+      "id": "pasta_cooked",
+      "name": "Pasta, cooked",
+      "per_100g": {
+        "kcal": 131,
+        "protein_g": 5.0,
+        "carb_g": 25.0,
+        "fat_g": 1.1,
+        "fiber_g": 1.8,
+        "sugars_g": 0.6
+      },
+      "gi": 49,
+      "category": "grain",
+      "source": "seed"
+    },
+    {
+      "id": "beans_black_cooked",
+      "name": "Black beans, cooked",
+      "per_100g": {
+        "kcal": 132,
+        "protein_g": 8.9,
+        "carb_g": 23.7,
+        "fat_g": 0.5,
+        "fiber_g": 8.7,
+        "sugars_g": 0.3
+      },
+      "gi": 30,
+      "category": "legume",
+      "source": "seed"
+    },
+    {
+      "id": "lentils_cooked",
+      "name": "Lentils, cooked",
+      "per_100g": {
+        "kcal": 116,
+        "protein_g": 9.0,
+        "carb_g": 20.0,
+        "fat_g": 0.4,
+        "fiber_g": 7.9,
+        "sugars_g": 1.8
+      },
+      "gi": 32,
+      "category": "legume",
+      "source": "seed"
+    },
+    {
+      "id": "ice_cream_vanilla",
+      "name": "Ice cream, vanilla",
+      "per_100g": {
+        "kcal": 207,
+        "protein_g": 3.5,
+        "carb_g": 24.0,
+        "fat_g": 11.0,
+        "fiber_g": 0.7,
+        "sugars_g": 21.0
+      },
+      "gi": 57,
+      "category": "dessert",
+      "source": "seed"
+    },
+    {
+      "id": "pizza_cheese",
+      "name": "Cheese pizza",
+      "per_100g": {
+        "kcal": 266,
+        "protein_g": 11.0,
+        "carb_g": 33.0,
+        "fat_g": 10.0,
+        "fiber_g": 2.3,
+        "sugars_g": 3.6
+      },
+      "gi": 60,
+      "category": "mixed",
+      "source": "seed"
+    },
+    {
+      "id": "burger_beef",
+      "name": "Beef hamburger sandwich",
+      "per_100g": {
+        "kcal": 295,
+        "protein_g": 17.0,
+        "carb_g": 24.0,
+        "fat_g": 14.0,
+        "fiber_g": 1.0,
+        "sugars_g": 4.0
+      },
+      "gi": 66,
+      "category": "mixed",
+      "source": "seed"
+    },
+    {
+      "id": "whey_isolate",
+      "name": "Whey protein isolate powder",
+      "per_100g": {
+        "kcal": 370,
+        "protein_g": 85.0,
+        "carb_g": 5.0,
+        "fat_g": 1.5,
+        "fiber_g": 0.0,
+        "sugars_g": 2.0
+      },
+      "gi": 0,
+      "category": "protein",
+      "source": "seed"
+    },
+    {
+      "id": "honey",
+      "name": "Honey",
+      "per_100g": {
+        "kcal": 304,
+        "protein_g": 0.3,
+        "carb_g": 82.0,
+        "fat_g": 0.0,
+        "fiber_g": 0.2,
+        "sugars_g": 82.0
+      },
+      "gi": 61,
+      "category": "sugar",
+      "source": "seed"
+    },
+    {
+      "id": "dark_chocolate_70",
+      "name": "Dark chocolate 70%",
+      "per_100g": {
+        "kcal": 598,
+        "protein_g": 7.8,
+        "carb_g": 46.0,
+        "fat_g": 43.0,
+        "fiber_g": 11.0,
+        "sugars_g": 24.0
+      },
+      "gi": 23,
+      "category": "dessert",
+      "source": "seed"
+    },
+    {
+      "id": "off_3095757047108",
+      "name": "Blanc de Poulet",
+      "source": "openfoodfacts",
+      "barcode": "3095757047108",
+      "brands": "fleury Michon",
+      "per_100g": {
+        "kcal": 103.967495219885,
+        "protein_g": 21.0,
+        "carb_g": 0.5,
+        "fat_g": 1.9,
+        "fiber_g": 0.0,
+        "sugars_g": 0.5
+      },
+      "gi": null,
+      "category": "off",
+      "query": "chicken breast"
+    },
+    {
+      "id": "off_3302740059186",
+      "name": "Blanc de Poulet Nature Sans Nitrite",
+      "source": "openfoodfacts",
+      "barcode": "3302740059186",
+      "brands": "Fleury Michon",
+      "per_100g": {
+        "kcal": 100.0,
+        "protein_g": 21.0,
+        "carb_g": 0.5,
+        "fat_g": 1.6,
+        "fiber_g": 0.0,
+        "sugars_g": 0.5
+      },
+      "gi": null,
+      "category": "off",
+      "query": "chicken breast"
+    },
+    {
+      "id": "off_3154230801023",
+      "name": "HERTA Blanc Poulet Broche conservation sans nitrite x4 -140g",
+      "source": "openfoodfacts",
+      "barcode": "3154230801023",
+      "brands": "Herta",
+      "per_100g": {
+        "kcal": 110.0,
+        "protein_g": 22.0,
+        "carb_g": 1.0,
+        "fat_g": 2.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.6
+      },
+      "gi": null,
+      "category": "off",
+      "query": "chicken breast"
+    },
+    {
+      "id": "off_8480000566614",
+      "name": "tiras pollo",
+      "source": "openfoodfacts",
+      "barcode": "8480000566614",
+      "brands": "Hacendado",
+      "per_100g": {
+        "kcal": 107.0,
+        "protein_g": 23.4,
+        "carb_g": 0.6,
+        "fat_g": 1.2,
+        "fiber_g": 0.0,
+        "sugars_g": 0.6
+      },
+      "gi": null,
+      "category": "off",
+      "query": "chicken breast"
+    },
+    {
+      "id": "off_3302740057113",
+      "name": "Blanc de poulet 100% filet",
+      "source": "openfoodfacts",
+      "barcode": "3302740057113",
+      "brands": "Fleury Michon",
+      "per_100g": {
+        "kcal": 100.0,
+        "protein_g": 21.0,
+        "carb_g": 0.5,
+        "fat_g": 1.6,
+        "fiber_g": 0.0,
+        "sugars_g": 0.5
+      },
+      "gi": null,
+      "category": "off",
+      "query": "chicken breast"
+    },
+    {
+      "id": "off_20048402",
+      "name": "Chicken breast cured, cooked, baked",
+      "source": "openfoodfacts",
+      "barcode": "20048402",
+      "brands": "Dulano",
+      "per_100g": {
+        "kcal": 107.0,
+        "protein_g": 20.0,
+        "carb_g": 2.0,
+        "fat_g": 2.0,
+        "fiber_g": 0.5,
+        "sugars_g": 1.8
+      },
+      "gi": null,
+      "category": "off",
+      "query": "chicken breast"
+    },
+    {
+      "id": "off_3661112059316",
+      "name": "Blanc de poulet -25 % de sel x 4 tranches",
+      "source": "openfoodfacts",
+      "barcode": "3661112059316",
+      "brands": "Tradil\u00e8ge",
+      "per_100g": {
+        "kcal": 106.0,
+        "protein_g": 21.0,
+        "carb_g": 0.8,
+        "fat_g": 2.2,
+        "fiber_g": 0.0,
+        "sugars_g": 0.6
+      },
+      "gi": null,
+      "category": "off",
+      "query": "chicken breast"
+    },
+    {
+      "id": "off_4056489613329",
+      "name": "Blanc de poulet sans nitrite",
+      "source": "openfoodfacts",
+      "barcode": "4056489613329",
+      "brands": "Saint Alby",
+      "per_100g": {
+        "kcal": 109.0,
+        "protein_g": 21.6,
+        "carb_g": 0.8,
+        "fat_g": 2.1,
+        "fiber_g": 0.5,
+        "sugars_g": 0.8
+      },
+      "gi": null,
+      "category": "off",
+      "query": "chicken breast"
+    },
+    {
+      "id": "off_8480000141415",
+      "name": "Tortitas de arroz con chocolate blanco",
+      "source": "openfoodfacts",
+      "barcode": "8480000141415",
+      "brands": "Hacendado",
+      "per_100g": {
+        "kcal": 466.666666666667,
+        "protein_g": 7.33333333333333,
+        "carb_g": 63.0,
+        "fat_g": 20.0,
+        "fiber_g": 3.0,
+        "sugars_g": 29.0
+      },
+      "gi": null,
+      "category": "off",
+      "query": "white rice"
+    },
+    {
+      "id": "off_5010044003955",
+      "name": "Extra Thick Sliced White Bread with a Wheat and Rice Topping",
+      "source": "openfoodfacts",
+      "barcode": "5010044003955",
+      "brands": "Warburtons",
+      "per_100g": {
+        "kcal": 272.0,
+        "protein_g": 10.1333333333333,
+        "carb_g": 46.1333333333333,
+        "fat_g": 2.4,
+        "fiber_g": 2.13333333333333,
+        "sugars_g": 2.93333333333333
+      },
+      "gi": null,
+      "category": "off",
+      "query": "white rice"
+    },
+    {
+      "id": "off_3760341070823",
+      "name": "TA RIZ MED 800G C20",
+      "source": "openfoodfacts",
+      "barcode": "3760341070823",
+      "brands": "Taureau Ail\u00e9",
+      "per_100g": {
+        "kcal": 352.0,
+        "protein_g": 7.4,
+        "carb_g": 78.0,
+        "fat_g": 0.9,
+        "fiber_g": 1.1,
+        "sugars_g": 0.2
+      },
+      "gi": null,
+      "category": "off",
+      "query": "white rice"
+    },
+    {
+      "id": "off_3760341070533",
+      "name": "Riz Thai",
+      "source": "openfoodfacts",
+      "barcode": "3760341070533",
+      "brands": "Taureau Ail\u00e9",
+      "per_100g": {
+        "kcal": 353.0,
+        "protein_g": 8.1,
+        "carb_g": 78.0,
+        "fat_g": 0.8,
+        "fiber_g": 0.9,
+        "sugars_g": 0.2
+      },
+      "gi": null,
+      "category": "off",
+      "query": "white rice"
+    },
+    {
+      "id": "off_20908270",
+      "name": "Riz long grain",
+      "source": "openfoodfacts",
+      "barcode": "20908270",
+      "brands": "Golden Sun",
+      "per_100g": {
+        "kcal": 359.0,
+        "protein_g": 7.4,
+        "carb_g": 81.3,
+        "fat_g": 0.3,
+        "fiber_g": 0.0,
+        "sugars_g": 0.3
+      },
+      "gi": null,
+      "category": "off",
+      "query": "white rice"
+    },
+    {
+      "id": "off_3564700024171",
+      "name": "Tha\u00ef",
+      "source": "openfoodfacts",
+      "barcode": "3564700024171",
+      "brands": "Marque Rep\u00e8re, Comptoir du Grain",
+      "per_100g": {
+        "kcal": 353.0,
+        "protein_g": 7.1,
+        "carb_g": 79.0,
+        "fat_g": 0.8,
+        "fiber_g": 0.7,
+        "sugars_g": 0.2
+      },
+      "gi": null,
+      "category": "off",
+      "query": "white rice"
+    },
+    {
+      "id": "off_3379670017401",
+      "name": "Rougail saucisses et riz",
+      "source": "openfoodfacts",
+      "barcode": "3379670017401",
+      "brands": "Paul & Louise",
+      "per_100g": {
+        "kcal": 132.0,
+        "protein_g": 4.6,
+        "carb_g": 17.4,
+        "fat_g": 4.7,
+        "fiber_g": 0.9,
+        "sugars_g": 1.5
+      },
+      "gi": null,
+      "category": "off",
+      "query": "white rice"
+    },
+    {
+      "id": "off_5063334012687",
+      "name": "Basmati Rice",
+      "source": "openfoodfacts",
+      "barcode": "5063334012687",
+      "brands": "Sainsbury's",
+      "per_100g": {
+        "kcal": 140.8,
+        "protein_g": 2.72,
+        "carb_g": 30.24,
+        "fat_g": 0.4,
+        "fiber_g": 2.48,
+        "sugars_g": 0.4
+      },
+      "gi": null,
+      "category": "off",
+      "query": "white rice"
+    },
+    {
+      "id": "off_4056489729426",
+      "name": "Riz complet",
+      "source": "openfoodfacts",
+      "barcode": "4056489729426",
+      "brands": "Golden Sun",
+      "per_100g": {
+        "kcal": 355.0,
+        "protein_g": 7.4,
+        "carb_g": 75.0,
+        "fat_g": 2.4,
+        "fiber_g": 1.8,
+        "sugars_g": 0.5
+      },
+      "gi": null,
+      "category": "off",
+      "query": "brown rice"
+    },
+    {
+      "id": "off_8480000051844",
+      "name": "Arroz integral largo",
+      "source": "openfoodfacts",
+      "barcode": "8480000051844",
+      "brands": "Hacendado",
+      "per_100g": {
+        "kcal": 350.0,
+        "protein_g": 7.6,
+        "carb_g": 72.0,
+        "fat_g": 2.8,
+        "fiber_g": 3.3,
+        "sugars_g": 0.5
+      },
+      "gi": null,
+      "category": "off",
+      "query": "brown rice"
+    },
+    {
+      "id": "off_5011157992662",
+      "name": "Basmati & Wild Rice",
+      "source": "openfoodfacts",
+      "barcode": "5011157992662",
+      "brands": "Tilda",
+      "per_100g": {
+        "kcal": 107.074569789675,
+        "protein_g": 3.12,
+        "carb_g": 23.28,
+        "fat_g": 2.64,
+        "fiber_g": 3.04,
+        "sugars_g": 0.08
+      },
+      "gi": null,
+      "category": "off",
+      "query": "brown rice"
+    },
+    {
+      "id": "off_3800233070071",
+      "name": "Brown rice cakes",
+      "source": "openfoodfacts",
+      "barcode": "3800233070071",
+      "brands": "Rice Up",
+      "per_100g": {
+        "kcal": 400.0,
+        "protein_g": 9.8,
+        "carb_g": 79.0,
+        "fat_g": 4.3,
+        "fiber_g": 3.3,
+        "sugars_g": 0.6
+      },
+      "gi": null,
+      "category": "off",
+      "query": "brown rice"
+    },
+    {
+      "id": "off_0748404287947",
+      "name": "Organic Quinoa & Brown Rice with Garlic",
+      "source": "openfoodfacts",
+      "barcode": "0748404287947",
+      "brands": "Seeds of Change",
+      "per_100g": {
+        "kcal": 280.0,
+        "protein_g": 5.0,
+        "carb_g": 53.0,
+        "fat_g": 4.5,
+        "fiber_g": 5.0,
+        "sugars_g": 0.0
+      },
+      "gi": null,
+      "category": "off",
+      "query": "brown rice"
+    },
+    {
+      "id": "off_29455607",
+      "name": "CHOCOLATE FLAVOURED OAT, MAIZE AND BROWN RICE HOOPS SWEETENED WITH DATE SYRUP",
+      "source": "openfoodfacts",
+      "barcode": "29455607",
+      "brands": "M&S FOOD",
+      "per_100g": {
+        "kcal": 406.666666666667,
+        "protein_g": 9.0,
+        "carb_g": 83.0,
+        "fat_g": 3.0,
+        "fiber_g": 5.0,
+        "sugars_g": 8.4
+      },
+      "gi": null,
+      "category": "off",
+      "query": "brown rice"
+    },
+    {
+      "id": "off_3800233070026",
+      "name": "Brown rice cake",
+      "source": "openfoodfacts",
+      "barcode": "3800233070026",
+      "brands": "rice UP!",
+      "per_100g": {
+        "kcal": 389.285714285714,
+        "protein_g": 8.8,
+        "carb_g": 78.0,
+        "fat_g": 3.8,
+        "fiber_g": 3.0,
+        "sugars_g": 7.0
+      },
+      "gi": null,
+      "category": "off",
+      "query": "brown rice"
+    },
+    {
+      "id": "off_4056489240846",
+      "name": "Brown basmati",
+      "source": "openfoodfacts",
+      "barcode": "4056489240846",
+      "brands": "Lidl",
+      "per_100g": {
+        "kcal": 154.0,
+        "protein_g": 4.7,
+        "carb_g": 25.2,
+        "fat_g": 2.7,
+        "fiber_g": 5.1,
+        "sugars_g": 0.2
+      },
+      "gi": null,
+      "category": "off",
+      "query": "brown rice"
+    },
+    {
+      "id": "off_8410376026979",
+      "name": "Digestive Muesli",
+      "source": "openfoodfacts",
+      "barcode": "8410376026979",
+      "brands": "Gull\u00f3n",
+      "per_100g": {
+        "kcal": 462.0,
+        "protein_g": 7.5,
+        "carb_g": 64.0,
+        "fat_g": 18.0,
+        "fiber_g": 7.0,
+        "sugars_g": 21.0
+      },
+      "gi": null,
+      "category": "off",
+      "query": "oatmeal"
+    },
+    {
+      "id": "off_3245413922465",
+      "name": "Vitality p\u00e9pites de chocolat",
+      "source": "openfoodfacts",
+      "barcode": "3245413922465",
+      "brands": "Carrefour",
+      "per_100g": {
+        "kcal": 461.0,
+        "protein_g": 11.0,
+        "carb_g": 66.0,
+        "fat_g": 16.0,
+        "fiber_g": 4.4,
+        "sugars_g": 19.0
+      },
+      "gi": null,
+      "category": "off",
+      "query": "oatmeal"
+    },
+    {
+      "id": "off_20343255",
+      "name": "Sasanki",
+      "source": "openfoodfacts",
+      "barcode": "20343255",
+      "brands": "Lidl sondey",
+      "per_100g": {
+        "kcal": 527.0,
+        "protein_g": 6.5,
+        "carb_g": 63.9,
+        "fat_g": 26.6,
+        "fiber_g": 4.0,
+        "sugars_g": 26.6
+      },
+      "gi": null,
+      "category": "off",
+      "query": "oatmeal"
+    },
+    {
+      "id": "off_3175681272958",
+      "name": "Gerble - Organic Oatmeal Coconut Cocoa Cookie, 132g (4.7oz)",
+      "source": "openfoodfacts",
+      "barcode": "3175681272958",
+      "brands": "Gerbl\u00e9",
+      "per_100g": {
+        "kcal": 460.0,
+        "protein_g": 8.2,
+        "carb_g": 63.0,
+        "fat_g": 18.0,
+        "fiber_g": 6.3,
+        "sugars_g": 16.0
+      },
+      "gi": null,
+      "category": "off",
+      "query": "oatmeal"
+    },
+    {
+      "id": "off_0731216103987",
+      "name": "Aussie Bites",
+      "source": "openfoodfacts",
+      "barcode": "0731216103987",
+      "brands": "Universal Bakery",
+      "per_100g": {
+        "kcal": 500.0,
+        "protein_g": 7.69230769230769,
+        "carb_g": 57.6923076923077,
+        "fat_g": 26.9230769230769,
+        "fiber_g": 7.69230769230769,
+        "sugars_g": 26.9230769230769
+      },
+      "gi": null,
+      "category": "off",
+      "query": "oatmeal"
+    },
+    {
+      "id": "off_8410376057805",
+      "name": "Avena con chocolate negro - sin az\u00facares a\u00f1adidos",
+      "source": "openfoodfacts",
+      "barcode": "8410376057805",
+      "brands": "Galletas Gull\u00f3n",
+      "per_100g": {
+        "kcal": 412.0,
+        "protein_g": 8.0,
+        "carb_g": 57.0,
+        "fat_g": 22.0,
+        "fiber_g": 9.0,
+        "sugars_g": 1.0
+      },
+      "gi": null,
+      "category": "off",
+      "query": "oatmeal"
+    },
+    {
+      "id": "off_8410376061772",
+      "name": "Senza Glutine Biscotto con Gocce di Cioccolato",
+      "source": "openfoodfacts",
+      "barcode": "8410376061772",
+      "brands": "gull\u00f3n",
+      "per_100g": {
+        "kcal": 463.636363636364,
+        "protein_g": 4.5,
+        "carb_g": 67.0,
+        "fat_g": 18.0,
+        "fiber_g": 7.0,
+        "sugars_g": 18.0
+      },
+      "gi": null,
+      "category": "off",
+      "query": "oatmeal"
+    },
+    {
+      "id": "off_7315122030709",
+      "name": "oatmeal",
+      "source": "openfoodfacts",
+      "barcode": "7315122030709",
+      "brands": "IKEA",
+      "per_100g": {
+        "kcal": 508.0,
+        "protein_g": 5.0,
+        "carb_g": 61.0,
+        "fat_g": 26.0,
+        "fiber_g": 0.0,
+        "sugars_g": 41.0
+      },
+      "gi": null,
+      "category": "off",
+      "query": "oatmeal"
+    },
+    {
+      "id": "off_0072250037129",
+      "name": "100% Whole Wheat Bread",
+      "source": "openfoodfacts",
+      "barcode": "0072250037129",
+      "brands": "Nature's Own",
+      "per_100g": {
+        "kcal": 214.285714285714,
+        "protein_g": 11.5384615384615,
+        "carb_g": 50.0,
+        "fat_g": 1.92307692307692,
+        "fiber_g": 7.69230769230769,
+        "sugars_g": 3.84615384615385
+      },
+      "gi": null,
+      "category": "off",
+      "query": "whole wheat bread"
+    },
+    {
+      "id": "off_41005514",
+      "name": "Whole Grain Rye Bread",
+      "source": "openfoodfacts",
+      "barcode": "41005514",
+      "brands": "Schneider Brot",
+      "per_100g": {
+        "kcal": 201.0,
+        "protein_g": 5.2,
+        "carb_g": 38.9,
+        "fat_g": 1.0,
+        "fiber_g": 7.7,
+        "sugars_g": 2.2
+      },
+      "gi": null,
+      "category": "off",
+      "query": "whole wheat bread"
+    },
+    {
+      "id": "off_0013764028074",
+      "name": "Thin-Sliced Organic Bread Sprouted Whole Grains",
+      "source": "openfoodfacts",
+      "barcode": "0013764028074",
+      "brands": "Killer Bread",
+      "per_100g": {
+        "kcal": 250.0,
+        "protein_g": 10.7142857142857,
+        "carb_g": 53.5714285714286,
+        "fat_g": 0.0,
+        "fiber_g": 7.14285714285714,
+        "sugars_g": 10.7142857142857
+      },
+      "gi": null,
+      "category": "off",
+      "query": "whole wheat bread"
+    },
+    {
+      "id": "off_8904043551548",
+      "name": "Modern 100% Whole Wheat Bread",
+      "source": "openfoodfacts",
+      "barcode": "8904043551548",
+      "brands": "Modern",
+      "per_100g": {
+        "kcal": 264.444444444444,
+        "protein_g": 8.78,
+        "carb_g": 43.54,
+        "fat_g": 2.73,
+        "fiber_g": 6.4,
+        "sugars_g": 3.67
+      },
+      "gi": null,
+      "category": "off",
+      "query": "whole wheat bread"
+    },
+    {
+      "id": "off_8713576000610",
+      "name": "Whole Wheat & Oat Flour Wraps",
+      "source": "openfoodfacts",
+      "barcode": "8713576000610",
+      "brands": "Terra Sana",
+      "per_100g": {
+        "kcal": 347.0,
+        "protein_g": 10.0,
+        "carb_g": 50.2,
+        "fat_g": 10.4,
+        "fiber_g": 6.5,
+        "sugars_g": 3.3
+      },
+      "gi": null,
+      "category": "off",
+      "query": "whole wheat bread"
+    },
+    {
+      "id": "off_0073731071076",
+      "name": "Whole Wheat Original",
+      "source": "openfoodfacts",
+      "barcode": "0073731071076",
+      "brands": "Mission",
+      "per_100g": {
+        "kcal": 244.444444444444,
+        "protein_g": 8.88888888888889,
+        "carb_g": 48.8888888888889,
+        "fat_g": 4.44444444444444,
+        "fiber_g": 11.1111111111111,
+        "sugars_g": 2.22222222222222
+      },
+      "gi": null,
+      "category": "off",
+      "query": "whole wheat bread"
+    },
+    {
+      "id": "off_0073731001219",
+      "name": "Carb Balance Whole Wheat",
+      "source": "openfoodfacts",
+      "barcode": "0073731001219",
+      "brands": "Mission",
+      "per_100g": {
+        "kcal": 140.0,
+        "protein_g": 11.6,
+        "carb_g": 46.51,
+        "fat_g": 8.14,
+        "fiber_g": 41.9,
+        "sugars_g": 0.0
+      },
+      "gi": null,
+      "category": "off",
+      "query": "whole wheat bread"
+    },
+    {
+      "id": "off_0072945601345",
+      "name": "100% Whole Wheat Bread",
+      "source": "openfoodfacts",
+      "barcode": "0072945601345",
+      "brands": "Sara Lee",
+      "per_100g": {
+        "kcal": 309.52380952381,
+        "protein_g": 11.5384615384615,
+        "carb_g": 46.1538461538462,
+        "fat_g": 3.84615384615385,
+        "fiber_g": 7.69230769230769,
+        "sugars_g": 3.84615384615385
+      },
+      "gi": null,
+      "category": "off",
+      "query": "whole wheat bread"
+    },
+    {
+      "id": "off_5060430291909",
+      "name": "Spanish butter bean stew",
+      "source": "openfoodfacts",
+      "barcode": "5060430291909",
+      "brands": "BOL",
+      "per_100g": {
+        "kcal": 70.0,
+        "protein_g": 4.44444444444444,
+        "carb_g": 13.0222222222222,
+        "fat_g": 1.0,
+        "fiber_g": 5.91111111111111,
+        "sugars_g": 1.4
+      },
+      "gi": null,
+      "category": "off",
+      "query": "black beans"
+    },
+    {
+      "id": "off_5057373748423",
+      "name": "Black beans",
+      "source": "openfoodfacts",
+      "barcode": "5057373748423",
+      "brands": "Tesco",
+      "per_100g": {
+        "kcal": 109.0,
+        "protein_g": 6.3,
+        "carb_g": 16.6,
+        "fat_g": 0.5,
+        "fiber_g": 6.4,
+        "sugars_g": 0.5
+      },
+      "gi": null,
+      "category": "off",
+      "query": "black beans"
+    },
+    {
+      "id": "off_00427920",
+      "name": "black beans in water",
+      "source": "openfoodfacts",
+      "barcode": "00427920",
+      "brands": "Sainsbury's",
+      "per_100g": {
+        "kcal": 106.382978723404,
+        "protein_g": 7.1,
+        "carb_g": 13.8,
+        "fat_g": 0.8,
+        "fiber_g": 7.7,
+        "sugars_g": 0.5
+      },
+      "gi": null,
+      "category": "off",
+      "query": "black beans"
+    },
+    {
+      "id": "off_5032722309791",
+      "name": "Organic black beans",
+      "source": "openfoodfacts",
+      "barcode": "5032722309791",
+      "brands": "Biona Organic",
+      "per_100g": {
+        "kcal": 72.0,
+        "protein_g": 5.3,
+        "carb_g": 8.0,
+        "fat_g": 0.6,
+        "fiber_g": 6.9,
+        "sugars_g": 0.1
+      },
+      "gi": null,
+      "category": "off",
+      "query": "black beans"
+    },
+    {
+      "id": "off_0039400018803",
+      "name": "Black Beans",
+      "source": "openfoodfacts",
+      "barcode": "0039400018803",
+      "brands": "BUSH'S BEST",
+      "per_100g": {
+        "kcal": 100.0,
+        "protein_g": 6.15384615384615,
+        "carb_g": 17.6923076923077,
+        "fat_g": 0.384615384615385,
+        "fiber_g": 4.61538461538461,
+        "sugars_g": 0.769230769230769
+      },
+      "gi": null,
+      "category": "off",
+      "query": "black beans"
+    },
+    {
+      "id": "off_4056489666011",
+      "name": "Black Beans in Water",
+      "source": "openfoodfacts",
+      "barcode": "4056489666011",
+      "brands": "Freshona",
+      "per_100g": {
+        "kcal": 108.0,
+        "protein_g": 7.6,
+        "carb_g": 13.1,
+        "fat_g": 1.0,
+        "fiber_g": 7.1,
+        "sugars_g": 0.5
+      },
+      "gi": null,
+      "category": "off",
+      "query": "black beans"
+    },
+    {
+      "id": "off_4088600316536",
+      "name": "Mixed Beans in Water",
+      "source": "openfoodfacts",
+      "barcode": "4088600316536",
+      "brands": "Aldi, Four Seasons",
+      "per_100g": {
+        "kcal": 114.0,
+        "protein_g": 7.3,
+        "carb_g": 15.6,
+        "fat_g": 1.1,
+        "fiber_g": 6.4,
+        "sugars_g": 0.3
+      },
+      "gi": null,
+      "category": "off",
+      "query": "black beans"
+    },
+    {
+      "id": "off_0041331124669",
+      "name": "Black Beans",
+      "source": "openfoodfacts",
+      "barcode": "0041331124669",
+      "brands": "Goya",
+      "per_100g": {
+        "kcal": 106.55737704918,
+        "protein_g": 6.55737704918033,
+        "carb_g": 18.8524590163934,
+        "fat_g": 0.409836065573771,
+        "fiber_g": 4.91803278688525,
+        "sugars_g": 0.819672131147541
+      },
+      "gi": null,
+      "category": "off",
+      "query": "black beans"
+    },
+    {
+      "id": "off_5060136255939",
+      "name": "Marinated Tomato, Broccoli & Spinach Vegan Quiche",
+      "source": "openfoodfacts",
+      "barcode": "5060136255939",
+      "brands": "Higgidy",
+      "per_100g": {
+        "kcal": 205.0,
+        "protein_g": 4.6,
+        "carb_g": 23.3,
+        "fat_g": 9.6,
+        "fiber_g": 3.5,
+        "sugars_g": 3.2
+      },
+      "gi": null,
+      "category": "off",
+      "query": "broccoli"
+    },
+    {
+      "id": "off_5012427212404",
+      "name": "Super Good Pea, Broccoli and Basil Pesto",
+      "source": "openfoodfacts",
+      "barcode": "5012427212404",
+      "brands": "Baxters",
+      "per_100g": {
+        "kcal": 47.0,
+        "protein_g": 2.3,
+        "carb_g": 5.9,
+        "fat_g": 1.1,
+        "fiber_g": 2.2,
+        "sugars_g": 1.5
+      },
+      "gi": null,
+      "category": "off",
+      "query": "broccoli"
+    },
+    {
+      "id": "off_3270160757046",
+      "name": "Duo de fleurettes brocolis, chou-fleur Bio",
+      "source": "openfoodfacts",
+      "barcode": "3270160757046",
+      "brands": "Picard",
+      "per_100g": {
+        "kcal": 25.0,
+        "protein_g": 2.5,
+        "carb_g": 2.0,
+        "fat_g": 0.5,
+        "fiber_g": 2.6,
+        "sugars_g": 1.9
+      },
+      "gi": null,
+      "category": "off",
+      "query": "broccoli"
+    },
+    {
+      "id": "off_4056489456476",
+      "name": "Buckwheat & broccoli",
+      "source": "openfoodfacts",
+      "barcode": "4056489456476",
+      "brands": "Vemondo, Greenyard Frozen Langemark",
+      "per_100g": {
+        "kcal": 79.0,
+        "protein_g": 3.3,
+        "carb_g": 8.7,
+        "fat_g": 2.7,
+        "fiber_g": 3.2,
+        "sugars_g": 2.6
+      },
+      "gi": null,
+      "category": "off",
+      "query": "broccoli"
+    },
+    {
+      "id": "off_5060419860126",
+      "name": "Riced cauliflower & broccoli",
+      "source": "openfoodfacts",
+      "barcode": "5060419860126",
+      "brands": "Full Green, Fullgreen",
+      "per_100g": {
+        "kcal": 20.0,
+        "protein_g": 1.3,
+        "carb_g": 1.7,
+        "fat_g": 0.5,
+        "fiber_g": 1.9,
+        "sugars_g": 1.3
+      },
+      "gi": null,
+      "category": "off",
+      "query": "broccoli"
+    },
+    {
+      "id": "off_00473682",
+      "name": "Broccoli & Cheddar Soup",
+      "source": "openfoodfacts",
+      "barcode": "00473682",
+      "brands": "Sainsbury's",
+      "per_100g": {
+        "kcal": 60.3333333333333,
+        "protein_g": 2.6,
+        "carb_g": 4.6,
+        "fat_g": 3.3,
+        "fiber_g": 0.8,
+        "sugars_g": 1.2
+      },
+      "gi": null,
+      "category": "off",
+      "query": "broccoli"
+    },
+    {
+      "id": "off_20969233",
+      "name": "vegan Medaglioni with spinach, broccoli and olives",
+      "source": "openfoodfacts",
+      "barcode": "20969233",
+      "brands": "Vemondo",
+      "per_100g": {
+        "kcal": 216.0,
+        "protein_g": 6.3,
+        "carb_g": 34.0,
+        "fat_g": 5.0,
+        "fiber_g": 4.8,
+        "sugars_g": 3.1
+      },
+      "gi": null,
+      "category": "off",
+      "query": "broccoli"
+    },
+    {
+      "id": "off_8711327373105",
+      "name": "Cookie Dough Vanilla Ice Cream with Chunks of Chocolate Chip Cookie Dough",
+      "source": "openfoodfacts",
+      "barcode": "8711327373105",
+      "brands": "Ben & Jerry's",
+      "per_100g": {
+        "kcal": 273.0,
+        "protein_g": 4.1,
+        "carb_g": 31.0,
+        "fat_g": 15.0,
+        "fiber_g": 0.3,
+        "sugars_g": 25.0
+      },
+      "gi": null,
+      "category": "off",
+      "query": "ice cream"
+    },
+    {
+      "id": "off_8000500425183",
+      "name": "Glace au Nutella",
+      "source": "openfoodfacts",
+      "barcode": "8000500425183",
+      "brands": "Nutella, Ferrero",
+      "per_100g": {
+        "kcal": 343.558282208589,
+        "protein_g": 4.1,
+        "carb_g": 29.8,
+        "fat_g": 23.0,
+        "fiber_g": 0.0,
+        "sugars_g": 29.0
+      },
+      "gi": null,
+      "category": "off",
+      "query": "ice cream"
+    },
+    {
+      "id": "off_3415581101928",
+      "name": "Vanilla Ice Cream",
+      "source": "openfoodfacts",
+      "barcode": "3415581101928",
+      "brands": "H\u00e4agen-Dazs",
+      "per_100g": {
+        "kcal": 251.0,
+        "protein_g": 4.3,
+        "carb_g": 20.0,
+        "fat_g": 17.0,
+        "fiber_g": 0.0,
+        "sugars_g": 18.8
+      },
+      "gi": null,
+      "category": "off",
+      "query": "ice cream"
+    },
+    {
+      "id": "off_3760039982056",
+      "name": "Cr\u00e8me glac\u00e9e Vanille gousses enti\u00e8res de Madagascar 450G/750ml",
+      "source": "openfoodfacts",
+      "barcode": "3760039982056",
+      "brands": "L'Ang\u00e9lys",
+      "per_100g": {
+        "kcal": 194.0,
+        "protein_g": 4.1,
+        "carb_g": 23.0,
+        "fat_g": 9.7,
+        "fiber_g": 0.0,
+        "sugars_g": 17.0
+      },
+      "gi": null,
+      "category": "off",
+      "query": "ice cream"
+    },
+    {
+      "id": "off_3415581115017",
+      "name": "Glace vanille p\u00e9can",
+      "source": "openfoodfacts",
+      "barcode": "3415581115017",
+      "brands": "H\u00e4agen-Dazs",
+      "per_100g": {
+        "kcal": 283.0,
+        "protein_g": 4.8,
+        "carb_g": 18.7,
+        "fat_g": 20.9,
+        "fiber_g": 0.5,
+        "sugars_g": 18.5
+      },
+      "gi": null,
+      "category": "off",
+      "query": "ice cream"
+    },
+    {
+      "id": "off_8711327611924",
+      "name": "Magnum Mini IJs Almond 6 x 55 ml",
+      "source": "openfoodfacts",
+      "barcode": "8711327611924",
+      "brands": "Magnum",
+      "per_100g": {
+        "kcal": 343.0,
+        "protein_g": 4.8,
+        "carb_g": 32.0,
+        "fat_g": 21.0,
+        "fiber_g": 1.1,
+        "sugars_g": 29.0
+      },
+      "gi": null,
+      "category": "off",
+      "query": "ice cream"
+    },
+    {
+      "id": "off_3274664225674",
+      "name": "Glace Vanille Bourbon",
+      "source": "openfoodfacts",
+      "barcode": "3274664225674",
+      "brands": "Nestl\u00e9, La Laiti\u00e8re",
+      "per_100g": {
+        "kcal": 183.0,
+        "protein_g": 1.4,
+        "carb_g": 31.0,
+        "fat_g": 6.0,
+        "fiber_g": 0.5,
+        "sugars_g": 21.0
+      },
+      "gi": null,
+      "category": "off",
+      "query": "ice cream"
+    },
+    {
+      "id": "off_12131900",
+      "name": "Glace Macadamia Nut Brittle",
+      "source": "openfoodfacts",
+      "barcode": "12131900",
+      "brands": "H\u00e4agen-Dazs",
+      "per_100g": {
+        "kcal": 274.0,
+        "protein_g": 4.0,
+        "carb_g": 25.3,
+        "fat_g": 17.3,
+        "fiber_g": 0.1,
+        "sugars_g": 24.2
+      },
+      "gi": null,
+      "category": "off",
+      "query": "ice cream"
+    },
+    {
+      "id": "off_20724696",
+      "name": "Amandes d\u00e9cortiqu\u00e9es",
+      "source": "openfoodfacts",
+      "barcode": "20724696",
+      "brands": "Alesto",
+      "per_100g": {
+        "kcal": 621.0,
+        "protein_g": 24.5,
+        "carb_g": 4.8,
+        "fat_g": 53.3,
+        "fiber_g": 12.1,
+        "sugars_g": 4.8
+      },
+      "gi": null,
+      "category": "off",
+      "query": "almonds"
+    },
+    {
+      "id": "off_4056489346357",
+      "name": "Boisson \u00e0 l'amande, sans sucres",
+      "source": "openfoodfacts",
+      "barcode": "4056489346357",
+      "brands": "Vemondo",
+      "per_100g": {
+        "kcal": 14.0,
+        "protein_g": 0.5,
+        "carb_g": 0.0,
+        "fat_g": 1.2,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0
+      },
+      "gi": null,
+      "category": "off",
+      "query": "almonds"
+    },
+    {
+      "id": "off_7614500010013",
+      "name": "Milk Chocolate Almond Nougat",
+      "source": "openfoodfacts",
+      "barcode": "7614500010013",
+      "brands": "Toblerone",
+      "per_100g": {
+        "kcal": 529.0,
+        "protein_g": 5.6,
+        "carb_g": 61.0,
+        "fat_g": 28.0,
+        "fiber_g": 2.4,
+        "sugars_g": 60.0
+      },
+      "gi": null,
+      "category": "off",
+      "query": "almonds"
+    },
+    {
+      "id": "off_8000500023976",
+      "name": "Candies Raffaello",
+      "source": "openfoodfacts",
+      "barcode": "8000500023976",
+      "brands": "Ferrero, Raffaello",
+      "per_100g": {
+        "kcal": 627.0,
+        "protein_g": 7.0,
+        "carb_g": 38.6,
+        "fat_g": 48.3,
+        "fiber_g": 0.0,
+        "sugars_g": 33.6
+      },
+      "gi": null,
+      "category": "off",
+      "query": "almonds"
+    },
+    {
+      "id": "off_4056489719618",
+      "name": "Chocolat noir, \u00c9clats d'amandes grill\u00e9es & pointe de sel",
+      "source": "openfoodfacts",
+      "barcode": "4056489719618",
+      "brands": "Fairglobe, Lidl, Way to go!",
+      "per_100g": {
+        "kcal": 551.0,
+        "protein_g": 7.5,
+        "carb_g": 46.9,
+        "fat_g": 35.2,
+        "fiber_g": 8.4,
+        "sugars_g": 42.1
+      },
+      "gi": null,
+      "category": "off",
+      "query": "almonds"
+    },
+    {
+      "id": "off_8480000348654",
+      "name": "Almendra natural",
+      "source": "openfoodfacts",
+      "barcode": "8480000348654",
+      "brands": "Hacendado",
+      "per_100g": {
+        "kcal": 642.0,
+        "protein_g": 25.2,
+        "carb_g": 5.9,
+        "fat_g": 54.8,
+        "fiber_g": 12.2,
+        "sugars_g": 5.9
+      },
+      "gi": null,
+      "category": "off",
+      "query": "almonds"
+    },
+    {
+      "id": "off_4008258065013",
+      "name": "Mandeln",
+      "source": "openfoodfacts",
+      "barcode": "4008258065013",
+      "brands": "Seeberger",
+      "per_100g": {
+        "kcal": 619.0,
+        "protein_g": 24.0,
+        "carb_g": 5.7,
+        "fat_g": 53.0,
+        "fiber_g": 11.2,
+        "sugars_g": 3.4
+      },
+      "gi": null,
+      "category": "off",
+      "query": "almonds"
+    },
+    {
+      "id": "off_8002352303008",
+      "name": "Amandino Pur\u00e9e d'amandes grill\u00e9es",
+      "source": "openfoodfacts",
+      "barcode": "8002352303008",
+      "brands": "Damiano",
+      "per_100g": {
+        "kcal": 643.0,
+        "protein_g": 26.5,
+        "carb_g": 3.2,
+        "fat_g": 56.3,
+        "fiber_g": 8.9,
+        "sugars_g": 3.0
+      },
+      "gi": null,
+      "category": "off",
+      "query": "almonds"
+    },
+    {
+      "id": "off_8076809513753",
+      "name": "PESTO alla GENOVESE",
+      "source": "openfoodfacts",
+      "barcode": "8076809513753",
+      "brands": "Barilla",
+      "per_100g": {
+        "kcal": 492.0,
+        "protein_g": 4.7,
+        "carb_g": 11.0,
+        "fat_g": 47.0,
+        "fiber_g": 3.0,
+        "sugars_g": 5.0
+      },
+      "gi": null,
+      "category": "off",
+      "query": "pasta"
+    },
+    {
+      "id": "off_8076809523547",
+      "name": "PESTO ROSSO",
+      "source": "openfoodfacts",
+      "barcode": "8076809523547",
+      "brands": "Barilla",
+      "per_100g": {
+        "kcal": 329.0,
+        "protein_g": 3.8,
+        "carb_g": 12.0,
+        "fat_g": 29.0,
+        "fiber_g": 2.3,
+        "sugars_g": 7.8
+      },
+      "gi": null,
+      "category": "off",
+      "query": "pasta"
+    },
+    {
+      "id": "off_8076800195057",
+      "name": "Spaghetti N\u00b0 5",
+      "source": "openfoodfacts",
+      "barcode": "8076800195057",
+      "brands": "Barilla",
+      "per_100g": {
+        "kcal": 359.0,
+        "protein_g": 13.0,
+        "carb_g": 71.0,
+        "fat_g": 2.0,
+        "fiber_g": 3.0,
+        "sugars_g": 3.5
+      },
+      "gi": null,
+      "category": "off",
+      "query": "pasta"
+    },
+    {
+      "id": "off_8076809529433",
+      "name": "Whole Wheat Penne Rigate",
+      "source": "openfoodfacts",
+      "barcode": "8076809529433",
+      "brands": "Barilla",
+      "per_100g": {
+        "kcal": 347.0,
+        "protein_g": 13.0,
+        "carb_g": 64.0,
+        "fat_g": 2.5,
+        "fiber_g": 8.0,
+        "sugars_g": 3.5
+      },
+      "gi": null,
+      "category": "off",
+      "query": "pasta"
+    },
+    {
+      "id": "off_8076809513388",
+      "name": "Arrabbiata",
+      "source": "openfoodfacts",
+      "barcode": "8076809513388",
+      "brands": "Barilla",
+      "per_100g": {
+        "kcal": 60.0,
+        "protein_g": 1.4,
+        "carb_g": 5.5,
+        "fat_g": 3.1,
+        "fiber_g": 2.2,
+        "sugars_g": 5.0
+      },
+      "gi": null,
+      "category": "off",
+      "query": "pasta"
+    },
+    {
+      "id": "off_8076802085738",
+      "name": "Penne Rigate No. 73 Durum Wheat Semolina Pasta",
+      "source": "openfoodfacts",
+      "barcode": "8076802085738",
+      "brands": "Barilla",
+      "per_100g": {
+        "kcal": 359.0,
+        "protein_g": 13.0,
+        "carb_g": 71.0,
+        "fat_g": 2.0,
+        "fiber_g": 3.0,
+        "sugars_g": 3.5
+      },
+      "gi": null,
+      "category": "off",
+      "query": "pasta"
+    },
+    {
+      "id": "off_8076800376999",
+      "name": "Lasagne all'uovo",
+      "source": "openfoodfacts",
+      "barcode": "8076800376999",
+      "brands": "Barilla",
+      "per_100g": {
+        "kcal": 368.0,
+        "protein_g": 14.0,
+        "carb_g": 68.0,
+        "fat_g": 4.0,
+        "fiber_g": 3.0,
+        "sugars_g": 3.0
+      },
+      "gi": null,
+      "category": "off",
+      "query": "pasta"
+    },
+    {
+      "id": "off_3011360030498",
+      "name": "Mayonnaise Classique \u00e0 l'huile de colza",
+      "source": "openfoodfacts",
+      "barcode": "3011360030498",
+      "brands": "Lesieur",
+      "per_100g": {
+        "kcal": 650.0,
+        "protein_g": 1.0,
+        "carb_g": 2.8,
+        "fat_g": 70.0,
+        "fiber_g": 0.0,
+        "sugars_g": 2.0
+      },
+      "gi": null,
+      "category": "off",
+      "query": "egg"
+    },
+    {
+      "id": "off_8480000512239",
+      "name": "Queso blanco pasteurizado",
+      "source": "openfoodfacts",
+      "barcode": "8480000512239",
+      "brands": "Hacendado",
+      "per_100g": {
+        "kcal": 130.0,
+        "protein_g": 9.0,
+        "carb_g": 4.8,
+        "fat_g": 8.3,
+        "fiber_g": 0.0,
+        "sugars_g": 4.8
+      },
+      "gi": null,
+      "category": "off",
+      "query": "egg"
+    },
+    {
+      "id": "off_8711200547982",
+      "name": "Mayonnaise de Dijon",
+      "source": "openfoodfacts",
+      "barcode": "8711200547982",
+      "brands": "Amora",
+      "per_100g": {
+        "kcal": 648.0,
+        "protein_g": 1.2,
+        "carb_g": 1.6,
+        "fat_g": 70.0,
+        "fiber_g": 0.5,
+        "sugars_g": 1.5
+      },
+      "gi": null,
+      "category": "off",
+      "query": "egg"
+    },
+    {
+      "id": "off_8715700421957",
+      "name": "Mayonnaise American Style",
+      "source": "openfoodfacts",
+      "barcode": "8715700421957",
+      "brands": "Heinz",
+      "per_100g": {
+        "kcal": 597.514340344168,
+        "protein_g": 0.8,
+        "carb_g": 3.0,
+        "fat_g": 70.0,
+        "fiber_g": 0.0,
+        "sugars_g": 1.5
+      },
+      "gi": null,
+      "category": "off",
+      "query": "egg"
+    },
+    {
+      "id": "off_3178530410112",
+      "name": "Petites Madeleines",
+      "source": "openfoodfacts",
+      "barcode": "3178530410112",
+      "brands": "St Michel",
+      "per_100g": {
+        "kcal": 441.0,
+        "protein_g": 5.8,
+        "carb_g": 55.0,
+        "fat_g": 22.0,
+        "fiber_g": 1.1,
+        "sugars_g": 23.0
+      },
+      "gi": null,
+      "category": "off",
+      "query": "egg"
+    },
+    {
+      "id": "off_3270160873555",
+      "name": "4 R\u00f6stis de l\u00e9gumes et cheddar",
+      "source": "openfoodfacts",
+      "barcode": "3270160873555",
+      "brands": "Picard",
+      "per_100g": {
+        "kcal": 118.0,
+        "protein_g": 3.9,
+        "carb_g": 10.0,
+        "fat_g": 6.2,
+        "fiber_g": 2.4,
+        "sugars_g": 1.9
+      },
+      "gi": null,
+      "category": "off",
+      "query": "egg"
+    },
+    {
+      "id": "off_4017100499715",
+      "name": "La Grande Galette 1905",
+      "source": "openfoodfacts",
+      "barcode": "4017100499715",
+      "brands": "St Michel",
+      "per_100g": {
+        "kcal": 501.0,
+        "protein_g": 6.7,
+        "carb_g": 70.0,
+        "fat_g": 21.0,
+        "fiber_g": 2.4,
+        "sugars_g": 25.0
+      },
+      "gi": null,
+      "category": "off",
+      "query": "egg"
+    },
+    {
+      "id": "off_6111259347106",
+      "name": "6111259347106",
+      "source": "openfoodfacts",
+      "barcode": "6111259347106",
+      "brands": null,
+      "per_100g": {
+        "kcal": 500.0,
+        "protein_g": 5.0,
+        "carb_g": 60.0,
+        "fat_g": 25.0,
+        "fiber_g": 5.0,
+        "sugars_g": 45.0
+      },
+      "gi": null,
+      "category": "off",
+      "query": "egg"
+    },
+    {
+      "id": "off_0815074022915",
+      "name": "Avocado Oil Spray",
+      "source": "openfoodfacts",
+      "barcode": "0815074022915",
+      "brands": "Chosen Foods",
+      "per_100g": {
+        "kcal": 5.0,
+        "protein_g": 0.0,
+        "carb_g": 0.0,
+        "fat_g": 0.5,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0
+      },
+      "gi": null,
+      "category": "off",
+      "query": "avocado"
+    },
+    {
+      "id": "off_20229030",
+      "name": "Avocados",
+      "source": "openfoodfacts",
+      "barcode": "20229030",
+      "brands": "Lidl",
+      "per_100g": {
+        "kcal": 190.0,
+        "protein_g": 1.9,
+        "carb_g": 1.9,
+        "fat_g": 19.5,
+        "fiber_g": 3.4,
+        "sugars_g": 0.5
+      },
+      "gi": null,
+      "category": "off",
+      "query": "avocado"
+    },
+    {
+      "id": "off_0787099923204",
+      "name": "All Natural Avocado Oil Mayo",
+      "source": "openfoodfacts",
+      "barcode": "0787099923204",
+      "brands": "Dr Wills",
+      "per_100g": {
+        "kcal": 755.0,
+        "protein_g": 1.9,
+        "carb_g": 0.4,
+        "fat_g": 82.8,
+        "fiber_g": 0.0,
+        "sugars_g": 0.1
+      },
+      "gi": null,
+      "category": "off",
+      "query": "avocado"
+    },
+    {
+      "id": "off_0863699000108",
+      "name": "MAYO Real Mayonnaise made with Avocado Oil",
+      "source": "openfoodfacts",
+      "barcode": "0863699000108",
+      "brands": "PRIMAL KITCHEN",
+      "per_100g": {
+        "kcal": 714.285714285714,
+        "protein_g": 0.0,
+        "carb_g": 0.0,
+        "fat_g": 78.5714285714286,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0
+      },
+      "gi": null,
+      "category": "off",
+      "query": "avocado"
+    },
+    {
+      "id": "off_5060367450578",
+      "name": "Tortilla Chips Avocado Guacamole Flavour",
+      "source": "openfoodfacts",
+      "barcode": "5060367450578",
+      "brands": "Mister Free'd",
+      "per_100g": {
+        "kcal": 522.0,
+        "protein_g": 7.1,
+        "carb_g": 67.0,
+        "fat_g": 24.0,
+        "fiber_g": 4.7,
+        "sugars_g": 1.6
+      },
+      "gi": null,
+      "category": "off",
+      "query": "avocado"
+    },
+    {
+      "id": "off_4005514072211",
+      "name": "Tartex Bio Avocado Abendbrotaufstrich Pflanzlicher Brotaufstrich mit Avocado",
+      "source": "openfoodfacts",
+      "barcode": "4005514072211",
+      "brands": "Allos, Tartex",
+      "per_100g": {
+        "kcal": 300.0,
+        "protein_g": 3.1,
+        "carb_g": 7.6,
+        "fat_g": 28.0,
+        "fiber_g": 2.4,
+        "sugars_g": 5.1
+      },
+      "gi": null,
+      "category": "off",
+      "query": "avocado"
+    },
+    {
+      "id": "off_0708163120589",
+      "name": "Avocado Oil Classic Sea Salt Kettle Style Potato Chips",
+      "source": "openfoodfacts",
+      "barcode": "0708163120589",
+      "brands": "Boulder Canyon",
+      "per_100g": {
+        "kcal": 571.428571428572,
+        "protein_g": 10.7142857142857,
+        "carb_g": 57.1428571428571,
+        "fat_g": 32.1428571428571,
+        "fiber_g": 3.57142857142857,
+        "sugars_g": 0.0
+      },
+      "gi": null,
+      "category": "off",
+      "query": "avocado"
+    },
+    {
+      "id": "off_0708163260933",
+      "name": "Avocado Oil Classic Sea Salt Kettle Style Potato Chips",
+      "source": "openfoodfacts",
+      "barcode": "0708163260933",
+      "brands": "Boulder Canyon",
+      "per_100g": {
+        "kcal": 535.714285714286,
+        "protein_g": 10.7142857142857,
+        "carb_g": 57.1428571428571,
+        "fat_g": 32.1428571428571,
+        "fiber_g": 3.57142857142857,
+        "sugars_g": 0.0
+      },
+      "gi": null,
+      "category": "off",
+      "query": "avocado"
+    },
+    {
+      "id": "off_5060042641413",
+      "name": "Tyrrell's Sweet Chilli & Red Pepper",
+      "source": "openfoodfacts",
+      "barcode": "5060042641413",
+      "brands": "Tyrrell\u2019s",
+      "per_100g": {
+        "kcal": 468.0,
+        "protein_g": 6.3,
+        "carb_g": 51.0,
+        "fat_g": 25.0,
+        "fiber_g": 5.4,
+        "sugars_g": 5.1
+      },
+      "gi": null,
+      "category": "off",
+      "query": "sweet potato"
+    },
+    {
+      "id": "off_5391528180073",
+      "name": "Oven Baked Sweet Potato Fries",
+      "source": "openfoodfacts",
+      "barcode": "5391528180073",
+      "brands": "Strong Roots",
+      "per_100g": {
+        "kcal": 192.5,
+        "protein_g": 2.1,
+        "carb_g": 21.0,
+        "fat_g": 6.2,
+        "fiber_g": 4.1,
+        "sugars_g": 13.0
+      },
+      "gi": null,
+      "category": "off",
+      "query": "sweet potato"
+    },
+    {
+      "id": "off_5000328028873",
+      "name": "Thai Sweet Chilli Flavour Potato Crisps",
+      "source": "openfoodfacts",
+      "barcode": "5000328028873",
+      "brands": "Walkers",
+      "per_100g": {
+        "kcal": 490.0,
+        "protein_g": 6.6,
+        "carb_g": 54.0,
+        "fat_g": 26.0,
+        "fiber_g": 5.9,
+        "sugars_g": 3.7
+      },
+      "gi": null,
+      "category": "off",
+      "query": "sweet potato"
+    },
+    {
+      "id": "off_3270160503148",
+      "name": "Pur\u00e9e de patate douce \u00e0 la cr\u00e8me",
+      "source": "openfoodfacts",
+      "barcode": "3270160503148",
+      "brands": "Picard",
+      "per_100g": {
+        "kcal": 76.0,
+        "protein_g": 0.8,
+        "carb_g": 13.0,
+        "fat_g": 2.0,
+        "fiber_g": 2.0,
+        "sugars_g": 6.4
+      },
+      "gi": null,
+      "category": "off",
+      "query": "sweet potato"
+    },
+    {
+      "id": "off_5391528181483",
+      "name": "Sweet potato fries",
+      "source": "openfoodfacts",
+      "barcode": "5391528181483",
+      "brands": "strong roots",
+      "per_100g": {
+        "kcal": 157.0,
+        "protein_g": 2.0,
+        "carb_g": 21.0,
+        "fat_g": 6.3,
+        "fiber_g": 4.0,
+        "sugars_g": 13.0
+      },
+      "gi": null,
+      "category": "off",
+      "query": "sweet potato"
+    },
+    {
+      "id": "off_8901491503051",
+      "name": "West Indies' Hot 'n' Sweet Chilli Potato Chips",
+      "source": "openfoodfacts",
+      "barcode": "8901491503051",
+      "brands": "Lay's",
+      "per_100g": {
+        "kcal": 534.0,
+        "protein_g": 6.3,
+        "carb_g": 55.4,
+        "fat_g": 31.9,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0
+      },
+      "gi": null,
+      "category": "off",
+      "query": "sweet potato"
+    },
+    {
+      "id": "off_5036829756304",
+      "name": "sweet potato pakora with red pepper, cumin and chilli",
+      "source": "openfoodfacts",
+      "barcode": "5036829756304",
+      "brands": "Gosh!",
+      "per_100g": {
+        "kcal": 219.0,
+        "protein_g": 6.1,
+        "carb_g": 19.9,
+        "fat_g": 10.9,
+        "fiber_g": 8.1,
+        "sugars_g": 4.5
+      },
+      "gi": null,
+      "category": "off",
+      "query": "sweet potato"
+    },
+    {
+      "id": "off_0850036699187",
+      "name": "Sweet Potato Chips Sea Salt",
+      "source": "openfoodfacts",
+      "barcode": "0850036699187",
+      "brands": "Jackson's",
+      "per_100g": {
+        "kcal": 535.714285714286,
+        "protein_g": 3.57142857142857,
+        "carb_g": 57.1428571428571,
+        "fat_g": 32.1428571428571,
+        "fiber_g": 7.14285714285714,
+        "sugars_g": 2.85714285714286
+      },
+      "gi": null,
+      "category": "off",
+      "query": "sweet potato"
+    },
+    {
+      "id": "off_5060088700112",
+      "name": "Protein Bars Cocoa Hazelnut",
+      "source": "openfoodfacts",
+      "barcode": "5060088700112",
+      "brands": "nakd.",
+      "per_100g": {
+        "kcal": 424.444444444444,
+        "protein_g": 16.1,
+        "carb_g": 32.6,
+        "fat_g": 21.7,
+        "fiber_g": 15.4,
+        "sugars_g": 25.2
+      },
+      "gi": null,
+      "category": "off",
+      "query": "protein bar"
+    },
+    {
+      "id": "off_8410076901026",
+      "name": "Protein Nut Bar Fruit & Chocolate",
+      "source": "openfoodfacts",
+      "barcode": "8410076901026",
+      "brands": "Nature Valley",
+      "per_100g": {
+        "kcal": 428.571428571429,
+        "protein_g": 25.6,
+        "carb_g": 22.9,
+        "fat_g": 30.1,
+        "fiber_g": 13.6,
+        "sugars_g": 15.4
+      },
+      "gi": null,
+      "category": "off",
+      "query": "protein bar"
+    },
+    {
+      "id": "off_8000500416938",
+      "name": "peanuts & dark chocolate protein fruit & nut bars",
+      "source": "openfoodfacts",
+      "barcode": "8000500416938",
+      "brands": "EAT NATURAL",
+      "per_100g": {
+        "kcal": 550.0,
+        "protein_g": 19.5,
+        "carb_g": 33.4,
+        "fat_g": 36.3,
+        "fiber_g": 5.9,
+        "sugars_g": 24.9
+      },
+      "gi": null,
+      "category": "off",
+      "query": "protein bar"
+    },
+    {
+      "id": "off_5060088700082",
+      "name": "Peanut Butter Protein Bars",
+      "source": "openfoodfacts",
+      "barcode": "5060088700082",
+      "brands": "n\u0101kd, Nakd",
+      "per_100g": {
+        "kcal": 443.0,
+        "protein_g": 17.4,
+        "carb_g": 39.3,
+        "fat_g": 21.9,
+        "fiber_g": 9.6,
+        "sugars_g": 26.8
+      },
+      "gi": null,
+      "category": "off",
+      "query": "protein bar"
+    },
+    {
+      "id": "off_3609200011549",
+      "name": "Barre Cacahu\u00e8tes Caramel Chocolat",
+      "source": "openfoodfacts",
+      "barcode": "3609200011549",
+      "brands": "Joyguel",
+      "per_100g": {
+        "kcal": 382.0,
+        "protein_g": 36.0,
+        "carb_g": 30.0,
+        "fat_g": 17.0,
+        "fiber_g": 3.2,
+        "sugars_g": 2.7
+      },
+      "gi": null,
+      "category": "off",
+      "query": "protein bar"
+    },
+    {
+      "id": "off_5391532121710",
+      "name": "Protrein Bar Salted Caramel",
+      "source": "openfoodfacts",
+      "barcode": "5391532121710",
+      "brands": "Fulfil",
+      "per_100g": {
+        "kcal": 370.0,
+        "protein_g": 37.0,
+        "carb_g": 29.0,
+        "fat_g": 15.0,
+        "fiber_g": 5.0,
+        "sugars_g": 2.6
+      },
+      "gi": null,
+      "category": "off",
+      "query": "protein bar"
+    },
+    {
+      "id": "off_5391532124162",
+      "name": "Chocolate and Hazelnut",
+      "source": "openfoodfacts",
+      "barcode": "5391532124162",
+      "brands": "Fullfill",
+      "per_100g": {
+        "kcal": 516.363636363636,
+        "protein_g": 34.5454545454545,
+        "carb_g": 29.0909090909091,
+        "fat_g": 16.3636363636364,
+        "fiber_g": 6.18181818181818,
+        "sugars_g": 2.72727272727273
+      },
+      "gi": null,
+      "category": "off",
+      "query": "protein bar"
+    },
+    {
+      "id": "off_5060367181977",
+      "name": "Original Peanut Butter Stuffed Oat Bars",
+      "source": "openfoodfacts",
+      "barcode": "5060367181977",
+      "brands": "Pip & Nut",
+      "per_100g": {
+        "kcal": 466.666666666667,
+        "protein_g": 13.125,
+        "carb_g": 43.9583333333333,
+        "fat_g": 25.625,
+        "fiber_g": 6.04166666666667,
+        "sugars_g": 20.4166666666667
+      },
+      "gi": null,
+      "category": "off",
+      "query": "protein bar"
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "protocol": {
+    "diet_id": "moderate_deficit_balanced",
+    "exercise_ids": [
+      "resistance_full_45",
+      "zone2_bike_40",
+      "steps_10k"
+    ],
+    "compound_ids": [
+      "caffeine",
+      "egcg"
+    ],
+    "days": 28
+  },
+  "comparison": [
+    {
+      "somatotype": "ectomorph",
+      "name": "Ectomorph",
+      "bmr_multiplier": 1.08,
+      "neat_multiplier": 1.15,
+      "insulin_response_multiplier": 0.85,
+      "body_fat_pct_start": 12.0,
+      "bmr_kcal": 1989.9,
+      "fat_lost_kg": 3.2696377007803994,
+      "scale_delta_kg": 3.7201841781438105,
+      "mean_daily_deficit_kcal": 899.150367714611,
+      "mean_fat_burn_index": 0.8197450636483533,
+      "depot_delta_kg": {
+        "visceral_omental": -0.992281952989126,
+        "subq_abdominal": -1.0404261878880514,
+        "subq_chest": -0.22412470459164047,
+        "subq_back_flanks": -0.27646489662035245,
+        "subq_gluteofemoral": -0.21658762031175516,
+        "subq_arms": -0.16879794825832173,
+        "subq_face_neck": -0.09462002784017381,
+        "im_ectopic": -0.25633436228097756
+      }
+    },
+    {
+      "somatotype": "mesomorph",
+      "name": "Mesomorph",
+      "bmr_multiplier": 1.03,
+      "neat_multiplier": 1.05,
+      "insulin_response_multiplier": 0.95,
+      "body_fat_pct_start": 15.0,
+      "bmr_kcal": 1897.775,
+      "fat_lost_kg": 3.033688984821344,
+      "scale_delta_kg": 3.484235462184742,
+      "mean_daily_deficit_kcal": 834.26447082587,
+      "mean_fat_burn_index": 0.8238217333858611,
+      "depot_delta_kg": {
+        "visceral_omental": -0.9751271452213421,
+        "subq_abdominal": -0.9630150493239502,
+        "subq_chest": -0.19453119034309863,
+        "subq_back_flanks": -0.2248110475433207,
+        "subq_gluteofemoral": -0.18219842498332195,
+        "subq_arms": -0.14436196907354248,
+        "subq_face_neck": -0.07803301802064794,
+        "im_ectopic": -0.2716111403121222
+      }
+    },
+    {
+      "somatotype": "endomorph",
+      "name": "Endomorph",
+      "bmr_multiplier": 0.94,
+      "neat_multiplier": 0.88,
+      "insulin_response_multiplier": 1.2,
+      "body_fat_pct_start": 28.0,
+      "bmr_kcal": 1731.9499999999998,
+      "fat_lost_kg": 3.644027414230191,
+      "scale_delta_kg": 3.9620115391624466,
+      "mean_daily_deficit_kcal": 1002.1075389133014,
+      "mean_fat_burn_index": 0.8310023379870292,
+      "depot_delta_kg": {
+        "visceral_omental": -1.4070589817187726,
+        "subq_abdominal": -1.0846296055189848,
+        "subq_chest": -0.1949920180839535,
+        "subq_back_flanks": -0.24705304441060694,
+        "subq_gluteofemoral": -0.2048773649819129,
+        "subq_arms": -0.1427457567360173,
+        "subq_face_neck": -0.09016339780129745,
+        "im_ectopic": -0.272507244978644
+      }
+    },
+    {
+      "somatotype": "meso_endo",
+      "name": "Meso-endomorph hybrid",
+      "bmr_multiplier": 0.9895,
+      "neat_multiplier": 0.9735000000000001,
+      "insulin_response_multiplier": 1.0625,
+      "body_fat_pct_start": 20.85,
+      "bmr_kcal": 1823.1537500000002,
+      "fat_lost_kg": 3.3242615895990877,
+      "scale_delta_kg": 3.7748080669624926,
+      "mean_daily_deficit_kcal": 914.1719371397497,
+      "mean_fat_burn_index": 0.8280814773229644,
+      "depot_delta_kg": {
+        "visceral_omental": -1.437626373721177,
+        "subq_abdominal": -1.1797488599205534,
+        "subq_chest": -0.13188737639672043,
+        "subq_back_flanks": -0.13078452881005864,
+        "subq_gluteofemoral": -0.10890411622768204,
+        "subq_arms": -0.09682386629957906,
+        "subq_face_neck": -0.047534938027321616,
+        "im_ectopic": -0.19095153019599564
+      }
+    },
+    {
+      "somatotype": "ecto_endo",
+      "name": "Ecto-endomorph hybrid (skinny-fat pattern)",
+      "bmr_multiplier": 1.0030000000000001,
+      "neat_multiplier": 1.0015,
+      "insulin_response_multiplier": 1.0425,
+      "body_fat_pct_start": 20.800000000000004,
+      "bmr_kcal": 1848.0275000000001,
+      "fat_lost_kg": 3.4943340635790783,
+      "scale_delta_kg": 3.944880540942478,
+      "mean_daily_deficit_kcal": 960.9418674842474,
+      "mean_fat_burn_index": 0.8279019745058889,
+      "depot_delta_kg": {
+        "visceral_omental": -1.3326803684776098,
+        "subq_abdominal": -1.1973344143037092,
+        "subq_chest": -0.2212593894522703,
+        "subq_back_flanks": -0.1685302572781051,
+        "subq_gluteofemoral": -0.2328928879402099,
+        "subq_arms": -0.16307224473812032,
+        "subq_face_neck": -0.05632291884866941,
+        "im_ectopic": -0.12224158254038536
+      }
+    }
+  ],
+  "known_types": [
+    "ectomorph",
+    "mesomorph",
+    "endomorph",
+    "ecto_meso",
+    "meso_endo",
+    "ecto_endo"
+  ]
+}

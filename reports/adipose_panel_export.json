@@ -1,0 +1,14 @@
+{
+  "local_benchmark": "I:\\fsot fat burn\\data\\derived\\adipose_lipolysis_panel_benchmark.json",
+  "archive_benchmark": "I:\\FSOT-Physical-Archive\\02_FSOT-2.1-Lean-Full\\data\\adipose_lipolysis_panel_benchmark.json",
+  "lean_module": "I:\\FSOT-Physical-Archive\\02_FSOT-2.1-Lean-Full\\FSOT\\Formal\\AdiposeLipolysisPanelPriors.lean",
+  "record_count": 63,
+  "pooled_median_error_pct": 0.0,
+  "median_error_pct": 0.0,
+  "margin_summary": {
+    "green_count": 48,
+    "amber_count": 0,
+    "scaffold_count": 15,
+    "note": "Trial weekly % rows are scaffold routing vs literature; tight rows are identity/ordering gates."
+  }
+}

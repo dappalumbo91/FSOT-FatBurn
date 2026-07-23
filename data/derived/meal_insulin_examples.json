@@ -1,0 +1,221 @@
+{
+  "high_gi_takeout": {
+    "total_kcal": 1053.6,
+    "protein_g": 40.75,
+    "carb_g": 153.48,
+    "fat_g": 28.75,
+    "fiber_g": 3.0,
+    "sugars_g": 43.23,
+    "available_carb_g": 150.48,
+    "weighted_gi": 68.53561935140883,
+    "glycemic_load": 103.1324,
+    "insulin_index": 0.8390702156439845,
+    "insulinogenic_score": 176.73,
+    "items": [
+      {
+        "food_id": "white_rice_cooked",
+        "name": "White rice, cooked",
+        "grams": 250,
+        "kcal": 325.0,
+        "gi": 73.0,
+        "glycemic_load": 50.735
+      },
+      {
+        "food_id": "cola",
+        "name": "Cola soft drink",
+        "grams": 330,
+        "kcal": 138.6,
+        "gi": 63.0,
+        "glycemic_load": 22.037399999999998
+      },
+      {
+        "food_id": "burger_beef",
+        "name": "Beef hamburger sandwich",
+        "grams": 200,
+        "kcal": 590.0,
+        "gi": 66.0,
+        "glycemic_load": 30.36
+      }
+    ]
+  },
+  "balanced_home": {
+    "total_kcal": 571.4,
+    "protein_g": 54.75,
+    "carb_g": 48.900000000000006,
+    "fat_g": 17.5,
+    "fiber_g": 6.300000000000001,
+    "sugars_g": 2.8499999999999996,
+    "available_carb_g": 42.60000000000001,
+    "weighted_gi": 59.78873239436619,
+    "glycemic_load": 25.470000000000002,
+    "insulin_index": 0.5822030449012866,
+    "insulinogenic_score": 78.025,
+    "items": [
+      {
+        "food_id": "chicken_breast",
+        "name": "Chicken breast, cooked",
+        "grams": 150,
+        "kcal": 247.5,
+        "gi": 0.0,
+        "glycemic_load": 0.0
+      },
+      {
+        "food_id": "brown_rice_cooked",
+        "name": "Brown rice, cooked",
+        "grams": 150,
+        "kcal": 184.5,
+        "gi": 68.0,
+        "glycemic_load": 24.480000000000004
+      },
+      {
+        "food_id": "broccoli",
+        "name": "Broccoli, raw",
+        "grams": 150,
+        "kcal": 51.0,
+        "gi": 15.0,
+        "glycemic_load": 0.99
+      },
+      {
+        "food_id": "olive_oil",
+        "name": "Olive oil",
+        "grams": 10,
+        "kcal": 88.4,
+        "gi": 0.0,
+        "glycemic_load": 0.0
+      }
+    ]
+  },
+  "low_insulin_cut": {
+    "total_kcal": 680.4000000000001,
+    "protein_g": 57.1,
+    "carb_g": 11.5,
+    "fat_g": 46.56,
+    "fiber_g": 7.5600000000000005,
+    "sugars_g": 2.06,
+    "available_carb_g": 3.9400000000000004,
+    "weighted_gi": 10.812182741116752,
+    "glycemic_load": 0.42600000000000005,
+    "insulin_index": 0.175211502458656,
+    "insulinogenic_score": 44.705999999999996,
+    "items": [
+      {
+        "food_id": "salmon",
+        "name": "Salmon, Atlantic, cooked",
+        "grams": 180,
+        "kcal": 374.40000000000003,
+        "gi": 0.0,
+        "glycemic_load": 0.0
+      },
+      {
+        "food_id": "spinach",
+        "name": "Spinach, raw",
+        "grams": 100,
+        "kcal": 23.0,
+        "gi": 15.0,
+        "glycemic_load": 0.21
+      },
+      {
+        "food_id": "avocado",
+        "name": "Avocado, raw",
+        "grams": 80,
+        "kcal": 128.0,
+        "gi": 15.0,
+        "glycemic_load": 0.21600000000000005
+      },
+      {
+        "food_id": "egg_whole",
+        "name": "Egg, whole, cooked",
+        "grams": 100,
+        "kcal": 155.0,
+        "gi": 0.0,
+        "glycemic_load": 0.0
+      }
+    ]
+  },
+  "dessert_spike": {
+    "total_kcal": 526.5,
+    "protein_g": 5.25,
+    "carb_g": 90.97999999999999,
+    "fat_g": 16.5,
+    "fiber_g": 1.0499999999999998,
+    "sugars_g": 86.47999999999999,
+    "available_carb_g": 89.93,
+    "weighted_gi": 61.112976759701986,
+    "glycemic_load": 54.9589,
+    "insulin_index": 0.8617468158003899,
+    "insulinogenic_score": 95.255,
+    "items": [
+      {
+        "food_id": "ice_cream_vanilla",
+        "name": "Ice cream, vanilla",
+        "grams": 150,
+        "kcal": 310.5,
+        "gi": 57.0,
+        "glycemic_load": 19.9215
+      },
+      {
+        "food_id": "table_sugar",
+        "name": "Table sugar",
+        "grams": 20,
+        "kcal": 77.4,
+        "gi": 65.0,
+        "glycemic_load": 13.0
+      },
+      {
+        "food_id": "cola",
+        "name": "Cola soft drink",
+        "grams": 330,
+        "kcal": 138.6,
+        "gi": 63.0,
+        "glycemic_load": 22.037399999999998
+      }
+    ]
+  },
+  "athlete_high_carb": {
+    "total_kcal": 491.6,
+    "protein_g": 34.38,
+    "carb_g": 81.26,
+    "fat_g": 5.3100000000000005,
+    "fiber_g": 8.259999999999998,
+    "sugars_g": 32.540000000000006,
+    "available_carb_g": 73.0,
+    "weighted_gi": 53.88630136986302,
+    "glycemic_load": 39.337,
+    "insulin_index": 0.8351897350627512,
+    "insulinogenic_score": 98.98100000000001,
+    "items": [
+      {
+        "food_id": "oatmeal_cooked",
+        "name": "Oatmeal, cooked",
+        "grams": 300,
+        "kcal": 213.0,
+        "gi": 55.0,
+        "glycemic_load": 16.995
+      },
+      {
+        "food_id": "banana",
+        "name": "Banana, raw",
+        "grams": 120,
+        "kcal": 106.8,
+        "gi": 51.0,
+        "glycemic_load": 12.362400000000001
+      },
+      {
+        "food_id": "whey_isolate",
+        "name": "Whey protein isolate powder",
+        "grams": 30,
+        "kcal": 111.0,
+        "gi": 0.0,
+        "glycemic_load": 0.0
+      },
+      {
+        "food_id": "honey",
+        "name": "Honey",
+        "grams": 20,
+        "kcal": 60.800000000000004,
+        "gi": 61.0,
+        "glycemic_load": 9.979600000000001
+      }
+    ]
+  }
+}

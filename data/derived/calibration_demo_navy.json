@@ -1,0 +1,48 @@
+{
+  "method": "navy",
+  "sex": "male",
+  "height_cm": 178.0,
+  "weight_kg": 95.0,
+  "body_fat_pct": 26.837152211323804,
+  "fat_mass_kg": 25.495294600757617,
+  "lean_mass_kg": 69.50470539924238,
+  "whr": 0.9444444444444444,
+  "vat_fraction": null,
+  "somatotype": "meso_endo",
+  "somatotype_suggested": "meso_endo",
+  "depot_fractions": {
+    "visceral_omental": 0.21329814120647678,
+    "subq_abdominal": 0.4306403713293229,
+    "subq_chest": 0.05058546199327588,
+    "subq_back_flanks": 0.08266048356970795,
+    "subq_gluteofemoral": 0.11264692369457222,
+    "subq_arms": 0.05207326969896048,
+    "subq_face_neck": 0.019128956215944657,
+    "im_ectopic": 0.03896639229173913
+  },
+  "navy_bf_pct": 26.837152211323804,
+  "dexa_bf_pct": null,
+  "ffmi": 21.93684679940739,
+  "notes": [
+    "Navy BF% = 26.84",
+    "Somatotype suggested: meso_endo"
+  ],
+  "anthropometry": {
+    "sex": "male",
+    "age_y": 35.0,
+    "height_cm": 178.0,
+    "weight_kg": 95.0,
+    "waist_cm": 102.0,
+    "hip_cm": 108.0,
+    "neck_cm": 40.0,
+    "dexa_fat_mass_kg": null,
+    "dexa_lean_mass_kg": null,
+    "dexa_vat_kg": null,
+    "dexa_android_pct": null,
+    "dexa_gynoid_pct": null,
+    "body_fat_pct_manual": null,
+    "somatotype_override": null,
+    "activity_factor": 1.35,
+    "steps_per_day": 7000
+  }
+}

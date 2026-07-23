@@ -1,0 +1,1278 @@
+[
+  {
+    "id": "phentermine",
+    "name": "Phentermine",
+    "pubchem_cid": 4771,
+    "chembl_id": "CHEMBL1200912",
+    "smiles": null,
+    "category": "appetite",
+    "lipolytic": 0.25,
+    "alpha2_antagonist": 0.0,
+    "thermogenic": 0.3,
+    "appetite_suppress": 0.47296874999999994,
+    "diuretic": 0.0,
+    "insulin_sensitizer": 0.0,
+    "oral_home_feasible": true,
+    "notes": "Sympathomimetic anorectic; Rx controlled substance in many regions.",
+    "molecular_weight": null,
+    "molecular_formula": null,
+    "iupac_name": null,
+    "source": "seed+trial_tuned+trial+trial+trial",
+    "openfda": {
+      "label_count": 17,
+      "brands": [
+        "LOMAIRA",
+        "PHENTERMINE HYDROCHLORIDE",
+        "Phentermine Hydrochloride",
+        "Phentermine and Topiramate Extended-Release",
+        "Phentermine hydrochloride",
+        "Qsymia"
+      ],
+      "generic_names": [
+        "phentermine and topiramate",
+        "phentermine and topiramate extended-release",
+        "phentermine hydrochloride"
+      ],
+      "epc_classes": [],
+      "routes": [
+        "ORAL"
+      ]
+    },
+    "tune_source": "seed+trial",
+    "trial_anchors": [
+      {
+        "trial": "Short-term sympathomimetic anorectic literature",
+        "citation": "FDA label class effect; short-term controlled use",
+        "measured": -3.6,
+        "unit": "kg"
+      }
+    ]
+  },
+  {
+    "id": "metformin",
+    "name": "Metformin",
+    "pubchem_cid": 4091,
+    "chembl_id": "CHEMBL1431",
+    "smiles": "CN(C)C(=N)N=C(N)N",
+    "category": "hormone",
+    "lipolytic": 0.1,
+    "alpha2_antagonist": 0.0,
+    "thermogenic": 0.05,
+    "appetite_suppress": 0.084125,
+    "diuretic": 0.0,
+    "insulin_sensitizer": 0.46884375,
+    "oral_home_feasible": true,
+    "notes": "Biguanide insulin sensitizer; Rx context; body-weight modest effects.",
+    "molecular_weight": null,
+    "molecular_formula": null,
+    "iupac_name": null,
+    "source": "seed+trial_tuned+trial+trial+trial",
+    "openfda": {
+      "label_count": 15,
+      "brands": [
+        "Glipizide and Metformin Hydrochloride",
+        "METFORMIN HYDROCHLORIDE",
+        "Metformin",
+        "Metformin HCl",
+        "Metformin Hydrochloride",
+        "Metformin hydrochloride",
+        "Riomet",
+        "ZITUVIMET"
+      ],
+      "generic_names": [
+        "glipizide and metformin hydrochloride",
+        "metformin er 500 mg",
+        "metformin hcl",
+        "metformin hydrochloride",
+        "sitagliptin and metformin hydrochloride"
+      ],
+      "epc_classes": [
+        "Dipeptidyl Peptidase 4 Inhibitor [EPC]",
+        "Sulfonylurea [EPC]"
+      ],
+      "routes": [
+        "ORAL"
+      ]
+    },
+    "tune_source": "seed+trial",
+    "trial_anchors": [
+      {
+        "trial": "DPP outcomes / weight meta",
+        "citation": "Diabetes Prevention Program weight effect class",
+        "measured": -2.1,
+        "unit": "kg"
+      }
+    ]
+  },
+  {
+    "id": "semaglutide",
+    "name": "Semaglutide",
+    "pubchem_cid": 56843331,
+    "chembl_id": "CHEMBL3707238",
+    "smiles": null,
+    "category": "appetite",
+    "lipolytic": 0.05,
+    "alpha2_antagonist": 0.0,
+    "thermogenic": 0.0,
+    "appetite_suppress": 0.8136805555555555,
+    "diuretic": 0.0,
+    "insulin_sensitizer": 0.15,
+    "oral_home_feasible": false,
+    "notes": "GLP-1 RA; strong clinical fat loss via intake reduction; injectable Rx.",
+    "molecular_weight": null,
+    "molecular_formula": null,
+    "iupac_name": null,
+    "source": "seed+trial_tuned+trial+trial+trial",
+    "openfda": {
+      "label_count": 6,
+      "brands": [
+        "OZEMPIC",
+        "Ozempic",
+        "WEGOVY"
+      ],
+      "generic_names": [
+        "oral semaglutide",
+        "semaglutide"
+      ],
+      "epc_classes": [
+        "GLP-1 Receptor Agonist [EPC]"
+      ],
+      "routes": [
+        "ORAL",
+        "SUBCUTANEOUS"
+      ]
+    },
+    "tune_source": "seed+trial",
+    "trial_anchors": [
+      {
+        "trial": "STEP-1 (Wilding et al. NEJM 2021)",
+        "citation": "10.1056/NEJMoa2032183",
+        "measured": -14.9,
+        "unit": "percent_body_weight"
+      }
+    ]
+  },
+  {
+    "id": "orlistat",
+    "name": "Orlistat",
+    "pubchem_cid": 3034010,
+    "chembl_id": "CHEMBL1753",
+    "smiles": null,
+    "category": "appetite",
+    "lipolytic": 0.06047222222222223,
+    "alpha2_antagonist": 0.0,
+    "thermogenic": 0.0,
+    "appetite_suppress": 0.058680555555555555,
+    "diuretic": 0.0,
+    "insulin_sensitizer": 0.0,
+    "oral_home_feasible": true,
+    "notes": "Gastric/pancreatic lipase inhibitor; fecal fat loss; GI tradeoffs.",
+    "molecular_weight": null,
+    "molecular_formula": null,
+    "iupac_name": null,
+    "source": "seed+trial_tuned+trial+trial+trial",
+    "openfda": {
+      "label_count": 4,
+      "brands": [
+        "ALLI",
+        "ORLISTAT",
+        "Xenical"
+      ],
+      "generic_names": [
+        "orlistat"
+      ],
+      "epc_classes": [
+        "Intestinal Lipase Inhibitor [EPC]"
+      ],
+      "routes": [
+        "ORAL"
+      ]
+    },
+    "tune_source": "seed+trial",
+    "trial_anchors": [
+      {
+        "trial": "Meta-analysis order (Torgerson XENDOS / Rucker reviews)",
+        "citation": "XENDOS / systematic reviews ~2.5\u20133.5 kg at 1y",
+        "measured": -2.9,
+        "unit": "percent_body_weight_vs_placebo"
+      }
+    ]
+  },
+  {
+    "id": "tirzepatide",
+    "name": "Tirzepatide",
+    "pubchem_cid": 156588324,
+    "chembl_id": null,
+    "smiles": null,
+    "category": "appetite",
+    "lipolytic": 0.05,
+    "alpha2_antagonist": 0.0,
+    "thermogenic": 0.0,
+    "appetite_suppress": 0.986861111111111,
+    "diuretic": 0.0,
+    "insulin_sensitizer": 0.2,
+    "oral_home_feasible": false,
+    "notes": "GIP/GLP-1 dual agonist; among highest clinical weight-loss effect sizes.",
+    "molecular_weight": null,
+    "molecular_formula": null,
+    "iupac_name": null,
+    "source": "seed+trial_tuned+trial+trial+trial",
+    "openfda": {
+      "label_count": 2,
+      "brands": [
+        "Mounjaro",
+        "Zepbound"
+      ],
+      "generic_names": [
+        "tirzepatide"
+      ],
+      "epc_classes": [
+        "GLP-1 Receptor Agonist [EPC]",
+        "Glucose-dependent Insulinotropic Polypeptide Receptor Agonist [EPC]"
+      ],
+      "routes": [
+        "SUBCUTANEOUS"
+      ]
+    },
+    "tune_source": "seed+trial",
+    "trial_anchors": [
+      {
+        "trial": "SURMOUNT-1 (Jastreboff et al. NEJM 2022)",
+        "citation": "10.1056/NEJMoa2206038",
+        "measured": -20.9,
+        "unit": "percent_body_weight"
+      }
+    ]
+  },
+  {
+    "id": "omega3_epa_dha",
+    "name": "EPA/DHA omega-3",
+    "pubchem_cid": 446284,
+    "chembl_id": null,
+    "smiles": null,
+    "category": "nutrient",
+    "lipolytic": 0.05,
+    "alpha2_antagonist": 0.0,
+    "thermogenic": 0.0,
+    "appetite_suppress": 0.040625,
+    "diuretic": 0.0,
+    "insulin_sensitizer": 0.20484375,
+    "oral_home_feasible": true,
+    "notes": "Anti-inflammatory / membrane; indirect metabolic support.",
+    "molecular_weight": null,
+    "molecular_formula": null,
+    "iupac_name": null,
+    "source": "seed+trial_tuned+trial+trial+trial",
+    "openfda": {
+      "label_count": 1,
+      "brands": [
+        "Omega-3-acid ethyl esters"
+      ],
+      "generic_names": [
+        "omega-3-acid ethyl esters"
+      ],
+      "epc_classes": [],
+      "routes": [
+        "ORAL"
+      ]
+    },
+    "tune_source": "seed+trial",
+    "trial_anchors": [
+      {
+        "trial": "n-3 body composition metas",
+        "citation": "Indirect; not primary fat-loss agent",
+        "measured": -0.5,
+        "unit": "kg"
+      }
+    ]
+  },
+  {
+    "id": "acetate_vinegar",
+    "name": "Acetic acid (vinegar)",
+    "pubchem_cid": 176,
+    "chembl_id": null,
+    "smiles": "CC(=O)O",
+    "category": "nutrient",
+    "lipolytic": 0.05,
+    "alpha2_antagonist": 0.0,
+    "thermogenic": 0.05,
+    "appetite_suppress": 0.0695,
+    "diuretic": 0.0,
+    "insulin_sensitizer": 0.18412499999999998,
+    "oral_home_feasible": true,
+    "notes": "Glycemic blunting; small EE literature.",
+    "molecular_weight": null,
+    "molecular_formula": null,
+    "iupac_name": null,
+    "source": "seed+trial_tuned+trial+trial+trial",
+    "tune_source": "seed+trial",
+    "trial_anchors": [
+      {
+        "trial": "Acetic acid glycemic / modest weight trials",
+        "citation": "Kondo 2009 class; small",
+        "measured": -1.2,
+        "unit": "kg"
+      }
+    ]
+  },
+  {
+    "id": "berberine",
+    "name": "Berberine",
+    "pubchem_cid": 2353,
+    "chembl_id": "CHEMBL1200580",
+    "smiles": null,
+    "category": "nutrient",
+    "lipolytic": 0.1,
+    "alpha2_antagonist": 0.0,
+    "thermogenic": 0.05,
+    "appetite_suppress": 0.0825,
+    "diuretic": 0.0,
+    "insulin_sensitizer": 0.411875,
+    "oral_home_feasible": true,
+    "notes": "AMPK / glucose disposal; insulin-index reduction pathway.",
+    "molecular_weight": null,
+    "molecular_formula": null,
+    "iupac_name": null,
+    "source": "seed+trial_tuned+trial+trial+trial",
+    "tune_source": "seed+trial",
+    "trial_anchors": [
+      {
+        "trial": "Metabolic meta (glucose + modest weight)",
+        "citation": "T2D/metabolic metas; weight secondary",
+        "measured": -2.0,
+        "unit": "kg"
+      }
+    ]
+  },
+  {
+    "id": "caffeine",
+    "name": "Caffeine",
+    "pubchem_cid": 2519,
+    "chembl_id": "CHEMBL113",
+    "smiles": "CN1C=NC2=C1C(=O)N(C(=O)N2C)C",
+    "category": "thermogenic",
+    "lipolytic": 0.45,
+    "alpha2_antagonist": 0.0,
+    "thermogenic": 0.375625,
+    "appetite_suppress": 0.15,
+    "diuretic": 0.05,
+    "insulin_sensitizer": 0.0,
+    "oral_home_feasible": true,
+    "notes": "Adenosine antagonist; mild lipolysis + thermogenesis; ubiquitous.",
+    "molecular_weight": null,
+    "molecular_formula": null,
+    "iupac_name": null,
+    "source": "seed+trial_tuned+trial+trial+trial",
+    "tune_source": "seed+trial",
+    "trial_anchors": [
+      {
+        "trial": "Thermogenesis meta (Dulloo / Astrup class)",
+        "citation": "~70\u2013100 kcal/day acute EE; fat-loss modest alone",
+        "measured": 75,
+        "unit": "kcal_day"
+      }
+    ]
+  },
+  {
+    "id": "capsaicin",
+    "name": "Capsaicin",
+    "pubchem_cid": 1548943,
+    "chembl_id": "CHEMBL294199",
+    "smiles": "COc1cc(CNC(=O)CCCC/C=C/C(C)C)ccc1O",
+    "category": "thermogenic",
+    "lipolytic": 0.3,
+    "alpha2_antagonist": 0.0,
+    "thermogenic": 0.33625000000000005,
+    "appetite_suppress": 0.1,
+    "diuretic": 0.0,
+    "insulin_sensitizer": 0.0,
+    "oral_home_feasible": true,
+    "notes": "TRPV1 agonist; diet-induced thermogenesis support.",
+    "molecular_weight": null,
+    "molecular_formula": null,
+    "iupac_name": null,
+    "source": "seed+trial_tuned+trial+trial+trial",
+    "tune_source": "seed+trial",
+    "trial_anchors": [
+      {
+        "trial": "Capsaicinoid EE meta (Ludy / Whiting class)",
+        "citation": "~50 kcal/day EE; appetite mild",
+        "measured": 50,
+        "unit": "kcal_day"
+      }
+    ]
+  },
+  {
+    "id": "cla",
+    "name": "Conjugated linoleic acid",
+    "pubchem_cid": 5282800,
+    "chembl_id": null,
+    "smiles": null,
+    "category": "nutrient",
+    "lipolytic": 0.17843749999999997,
+    "alpha2_antagonist": 0.0,
+    "thermogenic": 0.1,
+    "appetite_suppress": 0.0,
+    "diuretic": 0.0,
+    "insulin_sensitizer": 0.0,
+    "oral_home_feasible": true,
+    "notes": "Mixed human evidence for body composition.",
+    "molecular_weight": null,
+    "molecular_formula": null,
+    "iupac_name": null,
+    "source": "seed+trial_tuned+trial+trial+trial",
+    "tune_source": "seed+trial",
+    "trial_anchors": [
+      {
+        "trial": "CLA body fat meta (Whigham / Onakpoya class)",
+        "citation": "Small effect; heterogeneity high",
+        "measured": -0.7,
+        "unit": "kg"
+      }
+    ]
+  },
+  {
+    "id": "creatine_h2o",
+    "name": "Creatine monohydrate",
+    "pubchem_cid": 586,
+    "chembl_id": null,
+    "smiles": null,
+    "category": "nutrient",
+    "lipolytic": 0.0,
+    "alpha2_antagonist": 0.0,
+    "thermogenic": 0.0,
+    "appetite_suppress": 0.0,
+    "diuretic": -0.105,
+    "insulin_sensitizer": 0.0,
+    "oral_home_feasible": true,
+    "notes": "Intracellular water \u2191 (not fat); helps resistance performance.",
+    "molecular_weight": null,
+    "molecular_formula": null,
+    "iupac_name": null,
+    "source": "seed+trial_tuned+trial+trial+trial",
+    "tune_source": "seed+trial",
+    "trial_anchors": [
+      {
+        "trial": "Creatine intracellular water",
+        "citation": "Scale up; performance benefit; not fat",
+        "measured": 1.0,
+        "unit": "kg_water_gain"
+      }
+    ]
+  },
+  {
+    "id": "dandelion_k",
+    "name": "Potassium-rich diuretic herbs (scaffold)",
+    "pubchem_cid": null,
+    "chembl_id": null,
+    "smiles": null,
+    "category": "diuretic",
+    "lipolytic": 0.0,
+    "alpha2_antagonist": 0.0,
+    "thermogenic": 0.0,
+    "appetite_suppress": 0.0,
+    "diuretic": 0.367,
+    "insulin_sensitizer": 0.0,
+    "oral_home_feasible": true,
+    "notes": "Mild OTC diuretic class proxy; water only.",
+    "molecular_weight": null,
+    "molecular_formula": null,
+    "iupac_name": null,
+    "source": "seed+trial_tuned+trial+trial+trial",
+    "tune_source": "seed+trial",
+    "trial_anchors": [
+      {
+        "trial": "Herbal diuretic class (weak)",
+        "citation": "Mild OTC diuretic proxy",
+        "measured": -0.4,
+        "unit": "kg_water"
+      }
+    ]
+  },
+  {
+    "id": "egcg",
+    "name": "EGCG (green tea catechin)",
+    "pubchem_cid": 65064,
+    "chembl_id": null,
+    "smiles": "C1=C(C=C(C(=C1O)O)O)C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)OC(=O)C4=CC(=C(C(=C4)O)O)O",
+    "category": "thermogenic",
+    "lipolytic": 0.25,
+    "alpha2_antagonist": 0.0,
+    "thermogenic": 0.24475000000000002,
+    "appetite_suppress": 0.05,
+    "diuretic": 0.0,
+    "insulin_sensitizer": 0.1,
+    "oral_home_feasible": true,
+    "notes": "Green tea extract principal catechin; modest EE increase in meta-analyses.",
+    "molecular_weight": null,
+    "molecular_formula": null,
+    "iupac_name": null,
+    "source": "seed+trial_tuned+trial+trial+trial",
+    "tune_source": "seed+trial",
+    "trial_anchors": [
+      {
+        "trial": "Green tea catechin meta (Hursel / Phung class)",
+        "citation": "Catechin+caffeine combos; EGCG alone smaller",
+        "measured": -1.3,
+        "unit": "kg"
+      }
+    ]
+  },
+  {
+    "id": "forskolin",
+    "name": "Forskolin",
+    "pubchem_cid": 47936,
+    "chembl_id": null,
+    "smiles": null,
+    "category": "lipolytic",
+    "lipolytic": 0.5433333333333333,
+    "alpha2_antagonist": 0.0,
+    "thermogenic": 0.2,
+    "appetite_suppress": 0.0,
+    "diuretic": 0.0,
+    "insulin_sensitizer": 0.0,
+    "oral_home_feasible": true,
+    "notes": "Adenylate cyclase activator \u2192 cAMP \u2192 HSL cascade (in vitro strong).",
+    "molecular_weight": null,
+    "molecular_formula": null,
+    "iupac_name": null,
+    "source": "seed+trial_tuned+trial+trial+trial",
+    "tune_source": "seed+trial",
+    "trial_anchors": [
+      {
+        "trial": "Godard 2005 body composition (small-n)",
+        "citation": "Small RCT; treat as scaffold pending replication",
+        "measured": -4.0,
+        "unit": "percent_body_fat_points_approx"
+      }
+    ]
+  },
+  {
+    "id": "fucoxanthin",
+    "name": "Fucoxanthin",
+    "pubchem_cid": 5281239,
+    "chembl_id": null,
+    "smiles": null,
+    "category": "thermogenic",
+    "lipolytic": 0.2,
+    "alpha2_antagonist": 0.0,
+    "thermogenic": 0.28250000000000003,
+    "appetite_suppress": 0.0,
+    "diuretic": 0.0,
+    "insulin_sensitizer": 0.0,
+    "oral_home_feasible": true,
+    "notes": "Carotenoid; UCP1 browning literature (mostly preclinical).",
+    "molecular_weight": null,
+    "molecular_formula": null,
+    "iupac_name": null,
+    "source": "seed+trial_tuned+trial+trial+trial",
+    "tune_source": "seed+trial",
+    "trial_anchors": [
+      {
+        "trial": "Abidov 2010 Xanthigen (mixed formula)",
+        "citation": "Often multi-ingredient; treat scaffold",
+        "measured": -4.0,
+        "unit": "kg"
+      }
+    ]
+  },
+  {
+    "id": "furosemide",
+    "name": "Furosemide",
+    "pubchem_cid": 3440,
+    "chembl_id": "CHEMBL35",
+    "smiles": null,
+    "category": "diuretic",
+    "lipolytic": 0.0,
+    "alpha2_antagonist": 0.0,
+    "thermogenic": 0.0,
+    "appetite_suppress": 0.0,
+    "diuretic": 0.8443750000000001,
+    "insulin_sensitizer": 0.0,
+    "oral_home_feasible": true,
+    "notes": "Loop diuretic \u2014 water only; not adipose TAG loss.",
+    "molecular_weight": null,
+    "molecular_formula": null,
+    "iupac_name": null,
+    "source": "seed+trial_tuned+trial+trial+trial",
+    "tune_source": "seed+trial",
+    "trial_anchors": [
+      {
+        "trial": "Loop diuretic water loss (not TAG)",
+        "citation": "ECF water; fat mass unchanged",
+        "measured": -1.5,
+        "unit": "kg_water"
+      }
+    ]
+  },
+  {
+    "id": "green_coffee_cga",
+    "name": "Chlorogenic acid (green coffee)",
+    "pubchem_cid": 1794427,
+    "chembl_id": null,
+    "smiles": null,
+    "category": "thermogenic",
+    "lipolytic": 0.15,
+    "alpha2_antagonist": 0.0,
+    "thermogenic": 0.15,
+    "appetite_suppress": 0.07437500000000001,
+    "diuretic": 0.0,
+    "insulin_sensitizer": 0.17515624999999999,
+    "oral_home_feasible": true,
+    "notes": "Carb absorption / modest weight literature.",
+    "molecular_weight": null,
+    "molecular_formula": null,
+    "iupac_name": null,
+    "source": "seed+trial_tuned+trial+trial+trial",
+    "tune_source": "seed+trial",
+    "trial_anchors": [
+      {
+        "trial": "Chlorogenic acid / green coffee reviews",
+        "citation": "Industry-influenced literature; modest",
+        "measured": -1.5,
+        "unit": "kg"
+      }
+    ]
+  },
+  {
+    "id": "l_carnitine",
+    "name": "L-Carnitine",
+    "pubchem_cid": 288,
+    "chembl_id": "CHEMBL1719",
+    "smiles": "C[N+](C)(C)CC(CC(=O)[O-])O",
+    "category": "nutrient",
+    "lipolytic": 0.106125,
+    "alpha2_antagonist": 0.0,
+    "thermogenic": 0.05,
+    "appetite_suppress": 0.0,
+    "diuretic": 0.0,
+    "insulin_sensitizer": 0.05,
+    "oral_home_feasible": true,
+    "notes": "FFA mitochondrial shuttle; evidence mixed for fat loss in replete adults.",
+    "molecular_weight": null,
+    "molecular_formula": null,
+    "iupac_name": null,
+    "source": "seed+trial_tuned+trial+trial+trial",
+    "tune_source": "seed+trial",
+    "trial_anchors": [
+      {
+        "trial": "Carnitine weight meta (Pooyandjoo 2016 class)",
+        "citation": "Mixed; larger effects in deficit contexts",
+        "measured": -1.3,
+        "unit": "kg"
+      }
+    ]
+  },
+  {
+    "id": "nicotine",
+    "name": "Nicotine",
+    "pubchem_cid": 89594,
+    "chembl_id": "CHEMBL3",
+    "smiles": null,
+    "category": "thermogenic",
+    "lipolytic": 0.2,
+    "alpha2_antagonist": 0.0,
+    "thermogenic": 0.6425,
+    "appetite_suppress": 0.46499999999999997,
+    "diuretic": 0.0,
+    "insulin_sensitizer": 0.0,
+    "oral_home_feasible": true,
+    "notes": "Appetite + EE effects; dependence/toxicity dominate risk profile.",
+    "molecular_weight": null,
+    "molecular_formula": null,
+    "iupac_name": null,
+    "source": "seed+trial_tuned+trial+trial+trial",
+    "tune_source": "seed+trial",
+    "trial_anchors": [
+      {
+        "trial": "Smoking cessation weight / EE literature",
+        "citation": "Strong effect size; dependence toxicity dominates",
+        "measured": 200,
+        "unit": "kcal_day"
+      }
+    ]
+  },
+  {
+    "id": "oleoylethanolamide",
+    "name": "Oleoylethanolamide (OEA)",
+    "pubchem_cid": 5283454,
+    "chembl_id": null,
+    "smiles": null,
+    "category": "appetite",
+    "lipolytic": 0.1,
+    "alpha2_antagonist": 0.0,
+    "thermogenic": 0.05,
+    "appetite_suppress": 0.31390625,
+    "diuretic": 0.0,
+    "insulin_sensitizer": 0.0,
+    "oral_home_feasible": true,
+    "notes": "PPAR-\u03b1 satiety lipid mediator.",
+    "molecular_weight": null,
+    "molecular_formula": null,
+    "iupac_name": null,
+    "source": "seed+trial_tuned+trial+trial+trial",
+    "tune_source": "seed+trial",
+    "trial_anchors": [
+      {
+        "trial": "OEA satiety clinical pilots",
+        "citation": "PPAR-\u03b1 satiety; smaller evidence base",
+        "measured": -2.0,
+        "unit": "kg"
+      }
+    ]
+  },
+  {
+    "id": "spironolactone",
+    "name": "Spironolactone",
+    "pubchem_cid": 5833,
+    "chembl_id": null,
+    "smiles": null,
+    "category": "diuretic",
+    "lipolytic": 0.0,
+    "alpha2_antagonist": 0.0,
+    "thermogenic": 0.0,
+    "appetite_suppress": 0.0,
+    "diuretic": 0.609,
+    "insulin_sensitizer": 0.0,
+    "oral_home_feasible": true,
+    "notes": "MRA; water/androgen-related retention contexts.",
+    "molecular_weight": null,
+    "molecular_formula": null,
+    "iupac_name": null,
+    "source": "seed+trial_tuned+trial+trial+trial",
+    "tune_source": "seed+trial",
+    "trial_anchors": [
+      {
+        "trial": "MRA fluid contexts",
+        "citation": "Fluid/androgen-related retention",
+        "measured": -0.8,
+        "unit": "kg_water"
+      }
+    ]
+  },
+  {
+    "id": "synephrine",
+    "name": "p-Synephrine",
+    "pubchem_cid": 7172,
+    "chembl_id": null,
+    "smiles": null,
+    "category": "thermogenic",
+    "lipolytic": 0.35,
+    "alpha2_antagonist": 0.1,
+    "thermogenic": 0.335375,
+    "appetite_suppress": 0.15,
+    "diuretic": 0.0,
+    "insulin_sensitizer": 0.0,
+    "oral_home_feasible": true,
+    "notes": "Citrus aurantium alkaloid; milder sympathomimetic.",
+    "molecular_weight": null,
+    "molecular_formula": null,
+    "iupac_name": null,
+    "source": "seed+trial_tuned+trial+trial+trial",
+    "tune_source": "seed+trial",
+    "trial_anchors": [
+      {
+        "trial": "p-Synephrine thermogenesis reviews",
+        "citation": "Mild sympathomimetic; product-dependent",
+        "measured": 65,
+        "unit": "kcal_day"
+      }
+    ]
+  },
+  {
+    "id": "yohimbine",
+    "name": "Yohimbine",
+    "pubchem_cid": 8969,
+    "chembl_id": "CHEMBL1242",
+    "smiles": null,
+    "category": "lipolytic",
+    "lipolytic": 0.485,
+    "alpha2_antagonist": 0.7091666666666667,
+    "thermogenic": 0.15,
+    "appetite_suppress": 0.1,
+    "diuretic": 0.0,
+    "insulin_sensitizer": 0.0,
+    "oral_home_feasible": true,
+    "notes": "\u03b12-antagonist; researched for stubborn \u03b12-rich depots (fasted context).",
+    "molecular_weight": null,
+    "molecular_formula": null,
+    "iupac_name": null,
+    "source": "seed+trial_tuned+trial+trial+trial",
+    "tune_source": "seed+trial",
+    "trial_anchors": [
+      {
+        "trial": "Fasted exercise / regional lipolysis literature",
+        "citation": "Ostojic 2006 athletes; small-n regional mobilization signal",
+        "measured": -2.0,
+        "unit": "kg"
+      }
+    ]
+  },
+  {
+    "id": "bupropion",
+    "name": "Bupropion",
+    "pubchem_cid": 444,
+    "chembl_id": "CHEMBL894",
+    "smiles": null,
+    "category": "appetite",
+    "lipolytic": 0.05,
+    "alpha2_antagonist": 0.0,
+    "thermogenic": 0.15,
+    "appetite_suppress": 0.4,
+    "diuretic": 0.0,
+    "insulin_sensitizer": 0.0,
+    "oral_home_feasible": true,
+    "notes": "NDRI; appetite/EE component of Contrave.",
+    "molecular_weight": null,
+    "molecular_formula": null,
+    "iupac_name": null,
+    "source": "openfda_curated",
+    "openfda": {
+      "label_count": 16,
+      "brands": [
+        "BUPROPION HYDROCHLORIDE",
+        "Bupropion Hydrochloride",
+        "Bupropion Hydrochloride (XL)",
+        "Bupropion Hydrochloride SR",
+        "Bupropion Hydrochloride XL",
+        "Bupropion hydrochloride",
+        "Contrave Extended-Release",
+        "buPropion Hydrochloride XL"
+      ],
+      "generic_names": [
+        "bupropion hydrochloride",
+        "naltrexone hydrochloride and bupropion hydrochloride"
+      ],
+      "epc_classes": [],
+      "routes": [
+        "ORAL"
+      ]
+    }
+  },
+  {
+    "id": "liraglutide",
+    "name": "Liraglutide",
+    "pubchem_cid": 16134956,
+    "chembl_id": "CHEMBL1200690",
+    "smiles": null,
+    "category": "hormone",
+    "lipolytic": 0.05,
+    "alpha2_antagonist": 0.0,
+    "thermogenic": 0.0,
+    "appetite_suppress": 0.85,
+    "diuretic": 0.0,
+    "insulin_sensitizer": 0.3,
+    "oral_home_feasible": false,
+    "notes": "GLP-1 RA (Saxenda); strong clinical weight loss; injectable.",
+    "molecular_weight": null,
+    "molecular_formula": null,
+    "iupac_name": null,
+    "source": "openfda_curated",
+    "openfda": {
+      "label_count": 16,
+      "brands": [
+        "Liraglutide",
+        "Saxenda",
+        "Victoza",
+        "Xultophy 100/3.6",
+        "liraglutide"
+      ],
+      "generic_names": [
+        "insulin degludec and liraglutide",
+        "liraglutide"
+      ],
+      "epc_classes": [
+        "GLP-1 Receptor Agonist [EPC]",
+        "Insulin Analog [EPC]"
+      ],
+      "routes": [
+        "SUBCUTANEOUS"
+      ]
+    }
+  },
+  {
+    "id": "naltrexone",
+    "name": "Naltrexone",
+    "pubchem_cid": 5360515,
+    "chembl_id": "CHEMBL190",
+    "smiles": null,
+    "category": "appetite",
+    "lipolytic": 0.0,
+    "alpha2_antagonist": 0.0,
+    "thermogenic": 0.0,
+    "appetite_suppress": 0.35,
+    "diuretic": 0.0,
+    "insulin_sensitizer": 0.0,
+    "oral_home_feasible": true,
+    "notes": "Opioid antagonist; used with bupropion (Contrave) for weight.",
+    "molecular_weight": null,
+    "molecular_formula": null,
+    "iupac_name": null,
+    "source": "openfda_curated",
+    "openfda": {
+      "label_count": 15,
+      "brands": [
+        "Contrave Extended-Release",
+        "NALTREXONE HYDROCHLORIDE",
+        "Naltrexone Hydrochloride"
+      ],
+      "generic_names": [
+        "naltrexone hydrochloride",
+        "naltrexone hydrochloride and bupropion hydrochloride"
+      ],
+      "epc_classes": [],
+      "routes": [
+        "ORAL"
+      ]
+    }
+  },
+  {
+    "id": "cholestyramine",
+    "name": "Cholestyramine",
+    "pubchem_cid": 70695641,
+    "chembl_id": null,
+    "smiles": null,
+    "category": "nutrient",
+    "lipolytic": 0.0,
+    "alpha2_antagonist": 0.0,
+    "thermogenic": 0.0,
+    "appetite_suppress": 0.05,
+    "diuretic": 0.0,
+    "insulin_sensitizer": 0.05,
+    "oral_home_feasible": true,
+    "notes": "Bile acid sequestrant; lipid, not primary fat-loss agent.",
+    "molecular_weight": null,
+    "molecular_formula": null,
+    "iupac_name": null,
+    "source": "openfda_curated",
+    "openfda": {
+      "label_count": 7,
+      "brands": [
+        "CHOLESTYRAMINE",
+        "CHOLESTYRAMINE LIGHT",
+        "Cholestyramine"
+      ],
+      "generic_names": [
+        "cholestyramine",
+        "cholestyramine light"
+      ],
+      "epc_classes": [
+        "Bile Acid Sequestrant [EPC]"
+      ],
+      "routes": [
+        "ORAL"
+      ]
+    }
+  },
+  {
+    "id": "phentermine_topiramate",
+    "name": "Phentermine + Topiramate (Qsymia-class)",
+    "pubchem_cid": null,
+    "chembl_id": null,
+    "smiles": null,
+    "category": "appetite",
+    "lipolytic": 0.2,
+    "alpha2_antagonist": 0.0,
+    "thermogenic": 0.3,
+    "appetite_suppress": 0.7,
+    "diuretic": 0.0,
+    "insulin_sensitizer": 0.0,
+    "oral_home_feasible": true,
+    "notes": "Fixed combo; strong clinical weight loss; Rx controlled.",
+    "molecular_weight": null,
+    "molecular_formula": null,
+    "iupac_name": null,
+    "source": "openfda_curated",
+    "openfda": {
+      "label_count": 2,
+      "brands": [
+        "Phentermine and Topiramate Extended-Release",
+        "Qsymia"
+      ],
+      "generic_names": [
+        "phentermine and topiramate",
+        "phentermine and topiramate extended-release"
+      ],
+      "epc_classes": [],
+      "routes": [
+        "ORAL"
+      ]
+    }
+  },
+  {
+    "id": "topiramate",
+    "name": "Topiramate",
+    "pubchem_cid": 5284627,
+    "chembl_id": "CHEMBL220492",
+    "smiles": null,
+    "category": "appetite",
+    "lipolytic": 0.05,
+    "alpha2_antagonist": 0.0,
+    "thermogenic": 0.05,
+    "appetite_suppress": 0.45,
+    "diuretic": 0.0,
+    "insulin_sensitizer": 0.0,
+    "oral_home_feasible": true,
+    "notes": "Anticonvulsant; Qsymia with phentermine.",
+    "molecular_weight": null,
+    "molecular_formula": null,
+    "iupac_name": null,
+    "source": "openfda_curated",
+    "openfda": {
+      "label_count": 2,
+      "brands": [
+        "Phentermine and Topiramate Extended-Release",
+        "Qsymia"
+      ],
+      "generic_names": [
+        "phentermine and topiramate",
+        "phentermine and topiramate extended-release"
+      ],
+      "epc_classes": [],
+      "routes": [
+        "ORAL"
+      ]
+    }
+  },
+  {
+    "id": "amphetamine",
+    "name": "Amphetamine",
+    "pubchem_cid": 3007,
+    "chembl_id": "CHEMBL405",
+    "smiles": null,
+    "category": "appetite",
+    "lipolytic": 0.25,
+    "alpha2_antagonist": 0.0,
+    "thermogenic": 0.45,
+    "appetite_suppress": 0.7,
+    "diuretic": 0.0,
+    "insulin_sensitizer": 0.0,
+    "oral_home_feasible": true,
+    "notes": "Strong sympathomimetic anorectic; controlled substance.",
+    "molecular_weight": null,
+    "molecular_formula": null,
+    "iupac_name": null,
+    "source": "openfda_curated",
+    "openfda": {
+      "label_count": 1,
+      "brands": [
+        "Amphetamine Sulfate"
+      ],
+      "generic_names": [
+        "amphetamine sulfate"
+      ],
+      "epc_classes": [],
+      "routes": [
+        "ORAL"
+      ]
+    }
+  },
+  {
+    "id": "glipizide",
+    "name": "Glipizide",
+    "pubchem_cid": 3478,
+    "chembl_id": "CHEMBL1071",
+    "smiles": null,
+    "category": "hormone",
+    "lipolytic": 0.0,
+    "alpha2_antagonist": 0.0,
+    "thermogenic": 0.0,
+    "appetite_suppress": 0.0,
+    "diuretic": 0.0,
+    "insulin_sensitizer": -0.1,
+    "oral_home_feasible": true,
+    "notes": "Sulfonylurea \u2014 insulin secretagogue; may promote weight gain.",
+    "molecular_weight": null,
+    "molecular_formula": null,
+    "iupac_name": null,
+    "source": "openfda_curated",
+    "openfda": {
+      "label_count": 1,
+      "brands": [
+        "Glipizide and Metformin Hydrochloride"
+      ],
+      "generic_names": [
+        "glipizide and metformin hydrochloride"
+      ],
+      "epc_classes": [
+        "Sulfonylurea [EPC]"
+      ],
+      "routes": [
+        "ORAL"
+      ]
+    }
+  },
+  {
+    "id": "insulin_degludec",
+    "name": "Insulin Degludec And Liraglutide",
+    "pubchem_cid": null,
+    "chembl_id": null,
+    "smiles": null,
+    "category": "hormone",
+    "lipolytic": 0.05,
+    "alpha2_antagonist": 0.0,
+    "thermogenic": 0.05,
+    "appetite_suppress": 0.85,
+    "diuretic": 0.0,
+    "insulin_sensitizer": 0.3,
+    "oral_home_feasible": false,
+    "notes": "Auto-expanded from OpenFDA (1 labels). Verify before use.",
+    "molecular_weight": null,
+    "molecular_formula": null,
+    "iupac_name": null,
+    "source": "openfda_auto",
+    "openfda": {
+      "label_count": 1,
+      "brands": [
+        "Xultophy 100/3.6"
+      ],
+      "generic_names": [
+        "insulin degludec and liraglutide"
+      ],
+      "epc_classes": [
+        "GLP-1 Receptor Agonist [EPC]",
+        "Insulin Analog [EPC]"
+      ],
+      "routes": [
+        "SUBCUTANEOUS"
+      ]
+    }
+  },
+  {
+    "id": "insulin_degludec_liraglutide",
+    "name": "Insulin degludec + Liraglutide",
+    "pubchem_cid": null,
+    "chembl_id": null,
+    "smiles": null,
+    "category": "hormone",
+    "lipolytic": 0.0,
+    "alpha2_antagonist": 0.0,
+    "thermogenic": 0.0,
+    "appetite_suppress": 0.85,
+    "diuretic": 0.0,
+    "insulin_sensitizer": 0.4,
+    "oral_home_feasible": false,
+    "notes": "Xultophy-class; diabetes; weight effect mixed vs pure GLP-1.",
+    "molecular_weight": null,
+    "molecular_formula": null,
+    "iupac_name": null,
+    "source": "openfda_curated",
+    "openfda": {
+      "label_count": 1,
+      "brands": [
+        "Xultophy 100/3.6"
+      ],
+      "generic_names": [
+        "insulin degludec and liraglutide"
+      ],
+      "epc_classes": [
+        "GLP-1 Receptor Agonist [EPC]",
+        "Insulin Analog [EPC]"
+      ],
+      "routes": [
+        "SUBCUTANEOUS"
+      ]
+    }
+  },
+  {
+    "id": "megestrol",
+    "name": "Megestrol acetate",
+    "pubchem_cid": 19090,
+    "chembl_id": null,
+    "smiles": null,
+    "category": "hormone",
+    "lipolytic": 0.0,
+    "alpha2_antagonist": 0.0,
+    "thermogenic": 0.0,
+    "appetite_suppress": -0.5,
+    "diuretic": 0.0,
+    "insulin_sensitizer": 0.0,
+    "oral_home_feasible": true,
+    "notes": "Appetite stimulant \u2014 opposite of fat-loss; tracked for completeness.",
+    "molecular_weight": null,
+    "molecular_formula": null,
+    "iupac_name": null,
+    "source": "openfda_curated",
+    "openfda": {
+      "label_count": 1,
+      "brands": [
+        "Megestrol Acetate"
+      ],
+      "generic_names": [
+        "megestrol acetate"
+      ],
+      "epc_classes": [],
+      "routes": [
+        "ORAL"
+      ]
+    }
+  },
+  {
+    "id": "naltrexone_bupropion",
+    "name": "Naltrexone + Bupropion (Contrave-class)",
+    "pubchem_cid": null,
+    "chembl_id": null,
+    "smiles": null,
+    "category": "appetite",
+    "lipolytic": 0.05,
+    "alpha2_antagonist": 0.0,
+    "thermogenic": 0.15,
+    "appetite_suppress": 0.65,
+    "diuretic": 0.0,
+    "insulin_sensitizer": 0.0,
+    "oral_home_feasible": true,
+    "notes": "Central appetite combo; Rx.",
+    "molecular_weight": null,
+    "molecular_formula": null,
+    "iupac_name": null,
+    "source": "openfda_curated",
+    "openfda": {
+      "label_count": 1,
+      "brands": [
+        "Contrave Extended-Release"
+      ],
+      "generic_names": [
+        "naltrexone hydrochloride and bupropion hydrochloride"
+      ],
+      "epc_classes": [],
+      "routes": [
+        "ORAL"
+      ]
+    }
+  },
+  {
+    "id": "sitagliptin",
+    "name": "Sitagliptin",
+    "pubchem_cid": 4369359,
+    "chembl_id": "CHEMBL1422",
+    "smiles": null,
+    "category": "hormone",
+    "lipolytic": 0.0,
+    "alpha2_antagonist": 0.0,
+    "thermogenic": 0.0,
+    "appetite_suppress": 0.05,
+    "diuretic": 0.0,
+    "insulin_sensitizer": 0.35,
+    "oral_home_feasible": true,
+    "notes": "DPP-4 inhibitor; glucose/insulin pathway; modest weight-neutral.",
+    "molecular_weight": null,
+    "molecular_formula": null,
+    "iupac_name": null,
+    "source": "openfda_curated",
+    "openfda": {
+      "label_count": 1,
+      "brands": [
+        "ZITUVIMET"
+      ],
+      "generic_names": [
+        "sitagliptin and metformin hydrochloride"
+      ],
+      "epc_classes": [
+        "Dipeptidyl Peptidase 4 Inhibitor [EPC]"
+      ],
+      "routes": [
+        "ORAL"
+      ]
+    }
+  }
+]

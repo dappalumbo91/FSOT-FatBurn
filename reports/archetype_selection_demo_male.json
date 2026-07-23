@@ -1,0 +1,581 @@
+{
+  "user": {
+    "sex": "male",
+    "height_cm": 178.0,
+    "weight_kg": 95.0,
+    "waist_cm": 102.0,
+    "hip_cm": 108.0,
+    "neck_cm": 40.0,
+    "age_y": 35.0,
+    "bmi": 29.98,
+    "whr": 0.944,
+    "whtr": 0.573,
+    "navy_bf_pct": 26.837152211323804,
+    "waist_band_nearest_label": "elevated"
+  },
+  "matches": [
+    {
+      "distance": 0.0613,
+      "id": "M_atp3_102",
+      "label": "Male \u00b7 ATP-III waist 102 cm",
+      "seed": {
+        "id": "M_atp3_102",
+        "label": "Male \u00b7 ATP-III waist 102 cm",
+        "sex": "male",
+        "age_y": 45,
+        "height_cm": 178,
+        "weight_kg": 98,
+        "waist_cm": 102,
+        "hip_cm": 106,
+        "neck_cm": 41,
+        "shape": "android",
+        "scale": "medium",
+        "adiposity_band": "elevated",
+        "literature_anchor": "NCEP/ATP III metabolic syndrome waist cut-point men >102 cm"
+      },
+      "derived": {
+        "bmi": 30.93,
+        "whr": 0.962,
+        "whtr": 0.573,
+        "body_fat_pct": 26.22976210685504,
+        "somatotype": "meso_endo",
+        "fat_mass_kg": 25.70516686471794,
+        "lean_mass_kg": 72.29483313528206,
+        "depot_fractions": {
+          "visceral_omental": 0.21650568837628814,
+          "subq_abdominal": 0.4334915243691553,
+          "subq_chest": 0.0505854619932759,
+          "subq_back_flanks": 0.08372966595964508,
+          "subq_gluteofemoral": 0.10551904109499151,
+          "subq_arms": 0.05207326969896049,
+          "subq_face_neck": 0.01912895621594466,
+          "im_ectopic": 0.038966392291739135
+        }
+      },
+      "bands": {
+        "shape": "android",
+        "scale": "medium",
+        "adiposity_band": "elevated",
+        "literature_anchor": "NCEP/ATP III metabolic syndrome waist cut-point men >102 cm"
+      },
+      "deltas_user_minus_archetype": {
+        "height_cm": 0.0,
+        "weight_kg": -3.0,
+        "waist_cm": 0.0,
+        "hip_cm": 2.0,
+        "neck_cm": -1.0,
+        "whr": -0.018,
+        "whtr": 0.0,
+        "bmi": -0.95
+      },
+      "critique": [
+        "Very close match across waist/hip/neck/height/weight."
+      ],
+      "sim_probe": {
+        "days": 14,
+        "fat_lost_kg": 1.6481714588950602,
+        "scale_delta_kg": 2.087204527159926,
+        "mean_fat_burn_index": 0.8280234904193415,
+        "mean_daily_deficit_kcal": 906.4943023922827,
+        "depot_delta_kg": {
+          "visceral_omental": -0.7704514821513007,
+          "subq_abdominal": -0.557910122623948,
+          "subq_chest": -0.060719494661396034,
+          "subq_back_flanks": -0.061839242208943546,
+          "subq_gluteofemoral": -0.03920929460225464,
+          "subq_arms": -0.043927507104966956,
+          "subq_face_neck": -0.021831372137341043,
+          "im_ectopic": -0.09228294340490872
+        },
+        "protocol": {
+          "diet": "moderate_deficit_balanced",
+          "exercise": [
+            "resistance_full_45",
+            "zone2_bike_40",
+            "steps_10k"
+          ],
+          "compounds": [
+            "caffeine",
+            "egcg"
+          ]
+        }
+      },
+      "subject_path_hint": "data/derived/population_subjects/M_atp3_102.json"
+    },
+    {
+      "distance": 0.1266,
+      "id": "M_waist_height_risk",
+      "label": "Male \u00b7 waist-to-height \u2248 0.6 risk class",
+      "seed": {
+        "id": "M_waist_height_risk",
+        "label": "Male \u00b7 waist-to-height \u2248 0.6 risk class",
+        "sex": "male",
+        "age_y": 41,
+        "height_cm": 175,
+        "weight_kg": 100,
+        "waist_cm": 105,
+        "hip_cm": 108,
+        "neck_cm": 41,
+        "shape": "android",
+        "scale": "medium_heavy",
+        "adiposity_band": "elevated",
+        "literature_anchor": "WHtR \u22650.5 risk often cited; 0.6 marks higher band"
+      },
+      "derived": {
+        "bmi": 32.65,
+        "whr": 0.972,
+        "whtr": 0.6,
+        "body_fat_pct": 28.540121973613616,
+        "somatotype": "endomorph",
+        "fat_mass_kg": 28.540121973613612,
+        "lean_mass_kg": 71.45987802638639,
+        "depot_fractions": {
+          "visceral_omental": 0.1739729923090681,
+          "subq_abdominal": 0.328314632643733,
+          "subq_chest": 0.06081201931675907,
+          "subq_back_flanks": 0.12774596077028555,
+          "subq_gluteofemoral": 0.1723273514974463,
+          "subq_arms": 0.06260060812019318,
+          "subq_face_neck": 0.02951171525666249,
+          "im_ectopic": 0.044714720085852255
+        }
+      },
+      "bands": {
+        "shape": "android",
+        "scale": "medium_heavy",
+        "adiposity_band": "elevated",
+        "literature_anchor": "WHtR \u22650.5 risk often cited; 0.6 marks higher band"
+      },
+      "deltas_user_minus_archetype": {
+        "height_cm": 3.0,
+        "weight_kg": -5.0,
+        "waist_cm": -3.0,
+        "hip_cm": 0.0,
+        "neck_cm": -1.0,
+        "whr": -0.028,
+        "whtr": -0.027,
+        "bmi": -2.67
+      },
+      "critique": [
+        "Your waist is 3 cm smaller than this archetype.",
+        "Mass offset -5.0 kg vs archetype \u2014 scale protocols to your TDEE."
+      ],
+      "sim_probe": {
+        "days": 14,
+        "fat_lost_kg": 1.830967032752838,
+        "scale_delta_kg": 2.0565757244513776,
+        "mean_fat_burn_index": 0.8310395299877386,
+        "mean_daily_deficit_kcal": 1007.031868014057,
+        "depot_delta_kg": {
+          "visceral_omental": -0.7723214202908464,
+          "subq_abdominal": -0.5282251370657498,
+          "subq_chest": -0.09135872570817183,
+          "subq_back_flanks": -0.11797649666970056,
+          "subq_gluteofemoral": -0.07996762810883773,
+          "subq_arms": -0.06608591898113536,
+          "subq_face_neck": -0.04216041174977181,
+          "im_ectopic": -0.1328712941786232
+        },
+        "protocol": {
+          "diet": "moderate_deficit_balanced",
+          "exercise": [
+            "resistance_full_45",
+            "zone2_bike_40",
+            "steps_10k"
+          ],
+          "compounds": [
+            "caffeine",
+            "egcg"
+          ]
+        }
+      },
+      "subject_path_hint": "data/derived/population_subjects/M_waist_height_risk.json"
+    },
+    {
+      "distance": 0.1614,
+      "id": "M_elderly_central",
+      "label": "Male \u00b7 older adult central adiposity",
+      "seed": {
+        "id": "M_elderly_central",
+        "label": "Male \u00b7 older adult central adiposity",
+        "sex": "male",
+        "age_y": 68,
+        "height_cm": 173,
+        "weight_kg": 92,
+        "waist_cm": 108,
+        "hip_cm": 106,
+        "neck_cm": 40,
+        "shape": "android_age",
+        "scale": "medium",
+        "adiposity_band": "elevated",
+        "literature_anchor": "Age-related central fat redistribution pattern"
+      },
+      "derived": {
+        "bmi": 30.74,
+        "whr": 1.019,
+        "whtr": 0.624,
+        "body_fat_pct": 31.15431485191565,
+        "somatotype": "endomorph",
+        "fat_mass_kg": 28.6619696637624,
+        "lean_mass_kg": 63.3380303362376,
+        "depot_fractions": {
+          "visceral_omental": 0.18236921872416245,
+          "subq_abdominal": 0.33577794501270575,
+          "subq_chest": 0.06081201931675907,
+          "subq_back_flanks": 0.1305447029086503,
+          "subq_gluteofemoral": 0.15366907057501444,
+          "subq_arms": 0.06260060812019318,
+          "subq_face_neck": 0.02951171525666249,
+          "im_ectopic": 0.044714720085852255
+        }
+      },
+      "bands": {
+        "shape": "android_age",
+        "scale": "medium",
+        "adiposity_band": "elevated",
+        "literature_anchor": "Age-related central fat redistribution pattern"
+      },
+      "deltas_user_minus_archetype": {
+        "height_cm": 5.0,
+        "weight_kg": 3.0,
+        "waist_cm": -6.0,
+        "hip_cm": 2.0,
+        "neck_cm": 0.0,
+        "whr": -0.074,
+        "whtr": -0.051,
+        "bmi": -0.76
+      },
+      "critique": [
+        "Your waist is 6 cm smaller than this archetype.",
+        "Lower WHR than archetype \u2192 more gynoid/pear bias than template."
+      ],
+      "sim_probe": {
+        "days": 14,
+        "fat_lost_kg": 1.8126983009732314,
+        "scale_delta_kg": 2.234270983905489,
+        "mean_fat_burn_index": 0.8309636419085156,
+        "mean_daily_deficit_kcal": 996.984065535277,
+        "depot_delta_kg": {
+          "visceral_omental": -0.7839062142968851,
+          "subq_abdominal": -0.5220821000620273,
+          "subq_chest": -0.08828308770566684,
+          "subq_back_flanks": -0.11645866934327298,
+          "subq_gluteofemoral": -0.06886251288227285,
+          "subq_arms": -0.06384255169953934,
+          "subq_face_neck": -0.040739096952510545,
+          "im_ectopic": -0.12852406803105376
+        },
+        "protocol": {
+          "diet": "moderate_deficit_balanced",
+          "exercise": [
+            "resistance_full_45",
+            "zone2_bike_40",
+            "steps_10k"
+          ],
+          "compounds": [
+            "caffeine",
+            "egcg"
+          ]
+        }
+      },
+      "subject_path_hint": "data/derived/population_subjects/M_elderly_central.json"
+    },
+    {
+      "distance": 0.1839,
+      "id": "M_who_action1",
+      "label": "Male \u00b7 WHO waist action level 1 (94 cm)",
+      "seed": {
+        "id": "M_who_action1",
+        "label": "Male \u00b7 WHO waist action level 1 (94 cm)",
+        "sex": "male",
+        "age_y": 40,
+        "height_cm": 178,
+        "weight_kg": 88,
+        "waist_cm": 94,
+        "hip_cm": 102,
+        "neck_cm": 39,
+        "shape": "android_mild",
+        "scale": "medium",
+        "adiposity_band": "borderline",
+        "literature_anchor": "WHO waist 94 cm action level (men)"
+      },
+      "derived": {
+        "bmi": 27.77,
+        "whr": 0.922,
+        "whtr": 0.528,
+        "body_fat_pct": 22.362137920978903,
+        "somatotype": "meso_endo",
+        "fat_mass_kg": 19.678681370461433,
+        "lean_mass_kg": 68.32131862953857,
+        "depot_fractions": {
+          "visceral_omental": 0.20918049414765322,
+          "subq_abdominal": 0.42698024061036866,
+          "subq_chest": 0.05058546199327588,
+          "subq_back_flanks": 0.08128793455010011,
+          "subq_gluteofemoral": 0.12179725049195785,
+          "subq_arms": 0.05207326969896048,
+          "subq_face_neck": 0.019128956215944657,
+          "im_ectopic": 0.03896639229173913
+        }
+      },
+      "bands": {
+        "shape": "android_mild",
+        "scale": "medium",
+        "adiposity_band": "borderline",
+        "literature_anchor": "WHO waist 94 cm action level (men)"
+      },
+      "deltas_user_minus_archetype": {
+        "height_cm": 0.0,
+        "weight_kg": 7.0,
+        "waist_cm": 8.0,
+        "hip_cm": 6.0,
+        "neck_cm": 1.0,
+        "whr": 0.023,
+        "whtr": 0.045,
+        "bmi": 2.21
+      },
+      "critique": [
+        "Your waist is 8 cm larger than this archetype.",
+        "Your hips are 6 cm larger than this archetype.",
+        "Mass offset +7.0 kg vs archetype \u2014 scale protocols to your TDEE."
+      ],
+      "sim_probe": {
+        "days": 14,
+        "fat_lost_kg": 1.5944198772130491,
+        "scale_delta_kg": 2.0334529454779044,
+        "mean_fat_burn_index": 0.8278002070333764,
+        "mean_daily_deficit_kcal": 876.9309324671783,
+        "depot_delta_kg": {
+          "visceral_omental": -0.7282607097829801,
+          "subq_abdominal": -0.5448565399333507,
+          "subq_chest": -0.060232789901700445,
+          "subq_back_flanks": -0.05971007565424702,
+          "subq_gluteofemoral": -0.045104706760664026,
+          "subq_arms": -0.043663358257674645,
+          "subq_face_neck": -0.02166364016023764,
+          "im_ectopic": -0.09092805676219373
+        },
+        "protocol": {
+          "diet": "moderate_deficit_balanced",
+          "exercise": [
+            "resistance_full_45",
+            "zone2_bike_40",
+            "steps_10k"
+          ],
+          "compounds": [
+            "caffeine",
+            "egcg"
+          ]
+        }
+      },
+      "subject_path_hint": "data/derived/population_subjects/M_who_action1.json"
+    },
+    {
+      "distance": 0.2284,
+      "id": "M_pear_soft",
+      "label": "Male \u00b7 softer lower-body bias (lower WHR)",
+      "seed": {
+        "id": "M_pear_soft",
+        "label": "Male \u00b7 softer lower-body bias (lower WHR)",
+        "sex": "male",
+        "age_y": 35,
+        "height_cm": 178,
+        "weight_kg": 95,
+        "waist_cm": 92,
+        "hip_cm": 110,
+        "neck_cm": 38,
+        "shape": "gynoid_bias",
+        "scale": "medium",
+        "adiposity_band": "moderate",
+        "literature_anchor": "Lower WHR male pattern (less common android default)"
+      },
+      "derived": {
+        "bmi": 29.98,
+        "whr": 0.836,
+        "whtr": 0.517,
+        "body_fat_pct": 21.676730279952487,
+        "somatotype": "meso_endo",
+        "fat_mass_kg": 20.592893765954862,
+        "lean_mass_kg": 74.40710623404513,
+        "depot_fractions": {
+          "visceral_omental": 0.19257086847920402,
+          "subq_abdominal": 0.41589289658184814,
+          "subq_chest": 0.05058546199327588,
+          "subq_back_flanks": 0.07999381690304129,
+          "subq_gluteofemoral": 0.15078833783598636,
+          "subq_arms": 0.05207326969896048,
+          "subq_face_neck": 0.019128956215944657,
+          "im_ectopic": 0.03896639229173913
+        }
+      },
+      "bands": {
+        "shape": "gynoid_bias",
+        "scale": "medium",
+        "adiposity_band": "moderate",
+        "literature_anchor": "Lower WHR male pattern (less common android default)"
+      },
+      "deltas_user_minus_archetype": {
+        "height_cm": 0.0,
+        "weight_kg": 0.0,
+        "waist_cm": 10.0,
+        "hip_cm": -2.0,
+        "neck_cm": 2.0,
+        "whr": 0.108,
+        "whtr": 0.056,
+        "bmi": 0.0
+      },
+      "critique": [
+        "Your waist is 10 cm larger than this archetype.",
+        "Your neck is 2.0 cm larger than this archetype.",
+        "Higher WHR than archetype \u2192 more android/central pattern than template."
+      ],
+      "sim_probe": {
+        "days": 14,
+        "fat_lost_kg": 1.6187519517254607,
+        "scale_delta_kg": 2.057785019990334,
+        "mean_fat_burn_index": 0.8279012821611156,
+        "mean_daily_deficit_kcal": 890.3135734490033,
+        "depot_delta_kg": {
+          "visceral_omental": -0.7080605962639064,
+          "subq_abdominal": -0.5608168850734376,
+          "subq_chest": -0.06365132509473725,
+          "subq_back_flanks": -0.06210141850510076,
+          "subq_gluteofemoral": -0.05902205217813883,
+          "subq_arms": -0.046145524772593705,
+          "subq_face_neck": -0.022893501157733753,
+          "im_ectopic": -0.0960606486798119
+        },
+        "protocol": {
+          "diet": "moderate_deficit_balanced",
+          "exercise": [
+            "resistance_full_45",
+            "zone2_bike_40",
+            "steps_10k"
+          ],
+          "compounds": [
+            "caffeine",
+            "egcg"
+          ]
+        }
+      },
+      "subject_path_hint": "data/derived/population_subjects/M_pear_soft.json"
+    }
+  ],
+  "best": {
+    "distance": 0.0613,
+    "id": "M_atp3_102",
+    "label": "Male \u00b7 ATP-III waist 102 cm",
+    "seed": {
+      "id": "M_atp3_102",
+      "label": "Male \u00b7 ATP-III waist 102 cm",
+      "sex": "male",
+      "age_y": 45,
+      "height_cm": 178,
+      "weight_kg": 98,
+      "waist_cm": 102,
+      "hip_cm": 106,
+      "neck_cm": 41,
+      "shape": "android",
+      "scale": "medium",
+      "adiposity_band": "elevated",
+      "literature_anchor": "NCEP/ATP III metabolic syndrome waist cut-point men >102 cm"
+    },
+    "derived": {
+      "bmi": 30.93,
+      "whr": 0.962,
+      "whtr": 0.573,
+      "body_fat_pct": 26.22976210685504,
+      "somatotype": "meso_endo",
+      "fat_mass_kg": 25.70516686471794,
+      "lean_mass_kg": 72.29483313528206,
+      "depot_fractions": {
+        "visceral_omental": 0.21650568837628814,
+        "subq_abdominal": 0.4334915243691553,
+        "subq_chest": 0.0505854619932759,
+        "subq_back_flanks": 0.08372966595964508,
+        "subq_gluteofemoral": 0.10551904109499151,
+        "subq_arms": 0.05207326969896049,
+        "subq_face_neck": 0.01912895621594466,
+        "im_ectopic": 0.038966392291739135
+      }
+    },
+    "bands": {
+      "shape": "android",
+      "scale": "medium",
+      "adiposity_band": "elevated",
+      "literature_anchor": "NCEP/ATP III metabolic syndrome waist cut-point men >102 cm"
+    },
+    "deltas_user_minus_archetype": {
+      "height_cm": 0.0,
+      "weight_kg": -3.0,
+      "waist_cm": 0.0,
+      "hip_cm": 2.0,
+      "neck_cm": -1.0,
+      "whr": -0.018,
+      "whtr": 0.0,
+      "bmi": -0.95
+    },
+    "critique": [
+      "Very close match across waist/hip/neck/height/weight."
+    ],
+    "sim_probe": {
+      "days": 14,
+      "fat_lost_kg": 1.6481714588950602,
+      "scale_delta_kg": 2.087204527159926,
+      "mean_fat_burn_index": 0.8280234904193415,
+      "mean_daily_deficit_kcal": 906.4943023922827,
+      "depot_delta_kg": {
+        "visceral_omental": -0.7704514821513007,
+        "subq_abdominal": -0.557910122623948,
+        "subq_chest": -0.060719494661396034,
+        "subq_back_flanks": -0.061839242208943546,
+        "subq_gluteofemoral": -0.03920929460225464,
+        "subq_arms": -0.043927507104966956,
+        "subq_face_neck": -0.021831372137341043,
+        "im_ectopic": -0.09228294340490872
+      },
+      "protocol": {
+        "diet": "moderate_deficit_balanced",
+        "exercise": [
+          "resistance_full_45",
+          "zone2_bike_40",
+          "steps_10k"
+        ],
+        "compounds": [
+          "caffeine",
+          "egcg"
+        ]
+      }
+    },
+    "subject_path_hint": "data/derived/population_subjects/M_atp3_102.json"
+  },
+  "how_to_use": [
+    "Pick the closest archetype (or 2\u20133 neighbors) as your selection baseline.",
+    "Read critique deltas: positive waist_cm means you are larger-waisted than that template.",
+    "Run sims on the archetype subject JSON, then re-run calibrate_subject with YOUR exact measures to refine.",
+    "Do not treat archetype BF% as your diagnosis \u2014 it is a Navy-estimated composition scaffold.",
+    "Extremes exist so the selector has bounds; most people fall between mid-grid nodes."
+  ],
+  "grid_range": {
+    "waist_cm": {
+      "min": 56,
+      "max": 180
+    },
+    "hip_cm": {
+      "min": 82,
+      "max": 170
+    },
+    "neck_cm": {
+      "min": 29,
+      "max": 52
+    },
+    "body_fat_pct": {
+      "min": 3.0,
+      "max": 60.0
+    },
+    "sex_counts": {
+      "male": 22,
+      "female": 21
+    }
+  }
+}
