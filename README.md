@@ -2,8 +2,8 @@
 
 **Apply Fluid Spacetime Omni-Theory (FSOT) to human adipose physiology** — multi-depot fat-cell simulation, medical/SMILES compound profiles, exercise + diet + chemical protocol ranking.
 
-Project root: `I:\fsot fat burn`  
-FSOT authority: `I:\FSOT-Physical-Archive\02_FSOT-2.1-Lean-Full\vendor\fsot_compute.py`
+Project root: `.`  
+FSOT authority: `FSOT-2.1-Lean/vendor/fsot_compute.py`
 
 ---
 
@@ -23,7 +23,7 @@ A research simulator that:
 ## Quick start
 
 ```powershell
-cd "I:\fsot fat burn"
+cd "FSOT-FatBurn"
 pip install -r requirements.txt
 
 # Full bootstrap: archive + PubChem/ChEMBL + OpenFDA + ClinicalTrials + foods + trial-tune + Lean panel export
@@ -46,7 +46,7 @@ python scripts/compare_somatotypes.py
 Optional USDA live foods: set `$env:FDC_API_KEY = "..."`.
 
 Reports land in `reports/`. Derived data in `data/derived/`. Lean panel lands in  
-`I:\FSOT-Physical-Archive\02_FSOT-2.1-Lean-Full\data\adipose_lipolysis_panel_benchmark.json`.
+`<local file, not included in repo: adipose_lipolysis_panel_benchmark.json>`.
 
 ---
 
