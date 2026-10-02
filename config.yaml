@@ -1,20 +1,20 @@
 # FSOT Fat Burn — project configuration
-# Canonical FSOT hub is the physical archive on I:
+# Paths: relative to this folder, or ${VAR:-default} (env override with a repo-relative default).
 
 project:
   name: FSOT Fat Burn
-  root: "I:/fsot fat burn"
+  root: "."
   version: "0.1.0"
   epistemic_tier: scaffold_to_measured  # numeric claims re-verify against archive gates
 
 fsot:
-  archive_root: "I:/FSOT-Physical-Archive"
-  lean_hub: "I:/FSOT-Physical-Archive/02_FSOT-2.1-Lean-Full"
-  compute_module: "I:/FSOT-Physical-Archive/02_FSOT-2.1-Lean-Full/vendor/fsot_compute.py"
-  public_data: "I:/FSOT-Physical-Archive/03_FSOT-PublicData"
-  smiles_dataset: "I:/FSOT-Physical-Archive/02_FSOT-2.1-Lean-Full/vendor/smiles/FSOT_SMILES_Lab_Dataset.json"
-  pubchem_cache: "I:/FSOT-Physical-Archive/03_FSOT-PublicData/pubchem/pubchem_cache.json"
-  chembl_cache: "I:/FSOT-Physical-Archive/02_FSOT-2.1-Lean-Full/data/pharmacology_chembl_cache.json"
+  archive_root: "${FSOT_ARCHIVE_ROOT:-data_external/physical_archive}"
+  lean_hub: "${FSOT_2_1_LEAN_ROOT:-../FSOT-2.1-Lean}"
+  compute_module: "${FSOT_2_1_LEAN_ROOT:-../FSOT-2.1-Lean}/vendor/fsot_compute.py"
+  public_data: "${FSOT_ARCHIVE_ROOT:-data_external/physical_archive}/03_FSOT-PublicData"
+  smiles_dataset: "${FSOT_2_1_LEAN_ROOT:-../FSOT-2.1-Lean}/vendor/smiles/FSOT_SMILES_Lab_Dataset.json"
+  pubchem_cache: "${FSOT_ARCHIVE_ROOT:-data_external/physical_archive}/03_FSOT-PublicData/pubchem/pubchem_cache.json"
+  chembl_cache: "${FSOT_2_1_LEAN_ROOT:-../FSOT-2.1-Lean}/data/pharmacology_chembl_cache.json"
   # Domain folds from FSOT 2.1 (Biology / Biochemistry / Thermodynamics)
   domains:
     adipocyte_white: { D_eff: 12, delta_psi: 0.08, recent_hits: 0, observed: false, name: Biology }
