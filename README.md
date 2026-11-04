@@ -1,5 +1,7 @@
 # FSOT Fat Burn
 
+[![License: Apache-2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
+
 **Apply Fluid Spacetime Omni-Theory (FSOT) to human adipose physiology** — multi-depot fat-cell simulation, medical/SMILES compound profiles, exercise + diet + chemical protocol ranking.
 
 Project root: `I:\fsot fat burn`  
